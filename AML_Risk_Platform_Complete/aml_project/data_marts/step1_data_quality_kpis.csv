@@ -1,0 +1,2 @@
+data_completeness_pct,data_consistency_pct,orphan_transaction_bank_fk,orphan_transaction_customer_fk,amount_outliers_iqr,duplicate_transactions_removed,total_customers,total_banks,total_transactions,total_sanctions
+100.0,100.0,0,0,0,0,1000,1010,1000,1000

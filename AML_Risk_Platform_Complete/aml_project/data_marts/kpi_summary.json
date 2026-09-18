@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-09-02T07:39:17+00:00",
+  "data_completeness_pct": 100.0,
+  "data_consistency_pct": 100.0,
+  "total_transactions": 1000,
+  "flagged_transaction_count": 600,
+  "flagged_rate_pct": 60.0,
+  "critical_flags": 14,
+  "high_flags": 132,
+  "high_risk_customer_count": 101,
+  "segmentation_agreement_pct": 57.6,
+  "total_sanctioned_accounts": 1000,
+  "avg_bank_compliance_score": 0.751,
+  "compliance_gap_pct": 19.7,
+  "high_risk_bank_count": 113,
+  "avg_bank_risk_score": 29.17
+}

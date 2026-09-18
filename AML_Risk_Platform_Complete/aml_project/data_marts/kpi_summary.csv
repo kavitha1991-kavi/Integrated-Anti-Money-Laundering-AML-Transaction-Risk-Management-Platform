@@ -1,0 +1,2 @@
+generated_at_utc,data_completeness_pct,data_consistency_pct,total_transactions,flagged_transaction_count,flagged_rate_pct,critical_flags,high_flags,high_risk_customer_count,segmentation_agreement_pct,total_sanctioned_accounts,avg_bank_compliance_score,compliance_gap_pct,high_risk_bank_count,avg_bank_risk_score
+2026-09-02T07:39:17+00:00,100.0,100.0,1000,600,60.0,14,132,101,57.6,1000,0.751,19.7,113,29.17

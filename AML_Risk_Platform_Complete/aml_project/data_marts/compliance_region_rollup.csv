@@ -1,0 +1,5 @@
+region,bank_count,avg_compliance_score,total_sanctioned_accounts,banks_below_threshold
+West,247,0.737,257,62
+North,269,0.752,252,55
+South,263,0.757,263,46
+East,231,0.758,228,36

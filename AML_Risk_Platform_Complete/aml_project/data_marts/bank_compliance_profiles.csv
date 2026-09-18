@@ -1,0 +1,1011 @@
+bank_id,name,region,compliance_score,sanctioned_account_count,ml_sanction_count,fraud_sanction_count,compliance_violation_count,compliance_status
+1,Figueroa-Green,South,0.81,2,0,2,0,Adequate
+2,Saunders Ltd,West,0.78,0,0,0,0,Adequate
+3,"Morgan, Terry and Cortez",East,0.72,1,0,0,1,Watch
+4,Jones PLC,North,0.9,0,0,0,0,Adequate
+5,"Wilcox, Lynch and Weeks",South,0.51,1,0,0,1,Below Threshold
+6,Phillips Ltd,North,0.62,0,0,0,0,Watch
+7,"Garcia, Smith and Woods",West,0.81,0,0,0,0,Adequate
+8,Small Inc,North,0.95,3,1,0,2,Adequate
+9,"Brown, Lawrence and Chaney",West,0.62,0,0,0,0,Watch
+10,Hill-Thomas,West,0.69,1,1,0,0,Watch
+11,Bank 11,East,0.9,0,0,0,0,Adequate
+12,Bank 12,East,0.54,1,1,0,0,Below Threshold
+13,Bank 13,North,0.98,2,1,1,0,Adequate
+14,Bank 14,South,0.96,0,0,0,0,Adequate
+15,Bank 15,West,0.59,1,0,1,0,Below Threshold
+16,Bank 16,South,0.96,0,0,0,0,Adequate
+17,Bank 17,South,0.93,1,1,0,0,Adequate
+18,Bank 18,North,0.57,3,1,1,1,Below Threshold
+19,Bank 19,West,0.62,0,0,0,0,Watch
+20,Bank 20,West,0.71,1,1,0,0,Watch
+21,Bank 21,South,0.76,0,0,0,0,Adequate
+22,Bank 22,East,0.78,1,0,0,1,Adequate
+23,Bank 23,North,0.79,1,0,1,0,Adequate
+24,Bank 24,East,0.57,0,0,0,0,Below Threshold
+25,Bank 25,North,0.63,0,0,0,0,Watch
+26,Bank 26,South,0.68,2,0,2,0,Watch
+27,Bank 27,East,0.97,1,1,0,0,Adequate
+28,Bank 28,East,0.65,0,0,0,0,Watch
+29,Bank 29,North,0.52,1,1,0,0,Below Threshold
+30,Bank 30,East,0.92,4,1,1,2,Adequate
+31,Bank 31,East,0.58,1,0,0,1,Below Threshold
+32,Bank 32,North,0.57,0,0,0,0,Below Threshold
+33,Bank 33,East,0.61,1,0,0,1,Watch
+34,Bank 34,North,0.64,0,0,0,0,Watch
+35,Bank 35,West,0.81,0,0,0,0,Adequate
+36,Bank 36,South,0.81,0,0,0,0,Adequate
+37,Bank 37,South,0.75,0,0,0,0,Adequate
+38,Bank 38,West,0.6,0,0,0,0,Watch
+39,Bank 39,North,0.65,0,0,0,0,Watch
+40,Bank 40,East,0.63,1,1,0,0,Watch
+41,Bank 41,West,0.55,0,0,0,0,Below Threshold
+42,Bank 42,North,0.51,1,0,1,0,Below Threshold
+43,Bank 43,North,0.85,0,0,0,0,Adequate
+44,Bank 44,East,0.95,1,0,0,1,Adequate
+45,Bank 45,North,0.57,0,0,0,0,Below Threshold
+46,Bank 46,West,0.97,1,1,0,0,Adequate
+47,Bank 47,East,0.69,4,0,4,0,Watch
+48,Bank 48,East,0.7,1,0,1,0,Watch
+49,Bank 49,South,0.89,1,0,0,1,Adequate
+50,Bank 50,East,0.84,0,0,0,0,Adequate
+51,Bank 51,West,0.76,3,0,1,2,Adequate
+52,Bank 52,North,0.79,3,1,2,0,Adequate
+53,Bank 53,North,0.83,0,0,0,0,Adequate
+54,Bank 54,West,0.81,1,0,0,1,Adequate
+55,Bank 55,East,0.55,2,1,0,1,Below Threshold
+56,Bank 56,South,0.96,2,0,0,2,Adequate
+57,Bank 57,West,0.55,2,0,1,1,Below Threshold
+58,Bank 58,North,0.66,1,1,0,0,Watch
+59,Bank 59,North,0.53,0,0,0,0,Below Threshold
+60,Bank 60,South,0.95,1,0,0,1,Adequate
+61,Bank 61,East,0.52,1,0,0,1,Below Threshold
+62,Bank 62,West,0.8,0,0,0,0,Adequate
+63,Bank 63,North,0.84,1,1,0,0,Adequate
+64,Bank 64,West,0.87,1,0,0,1,Adequate
+65,Bank 65,North,0.88,1,0,1,0,Adequate
+66,Bank 66,East,0.62,0,0,0,0,Watch
+67,Bank 67,East,0.82,1,0,0,1,Adequate
+68,Bank 68,North,0.99,0,0,0,0,Adequate
+69,Bank 69,East,0.7,0,0,0,0,Watch
+70,Bank 70,East,0.74,1,0,1,0,Watch
+71,Bank 71,South,0.78,1,1,0,0,Adequate
+72,Bank 72,South,0.55,0,0,0,0,Below Threshold
+73,Bank 73,South,0.62,2,0,1,1,Watch
+74,Bank 74,West,0.55,0,0,0,0,Below Threshold
+75,Bank 75,East,0.55,0,0,0,0,Below Threshold
+76,Bank 76,South,1.0,2,1,1,0,Adequate
+77,Bank 77,West,0.86,0,0,0,0,Adequate
+78,Bank 78,West,0.75,0,0,0,0,Adequate
+79,Bank 79,North,0.56,2,1,0,1,Below Threshold
+80,Bank 80,West,0.87,0,0,0,0,Adequate
+81,Bank 81,South,0.86,1,1,0,0,Adequate
+82,Bank 82,North,0.63,0,0,0,0,Watch
+83,Bank 83,South,0.95,2,1,1,0,Adequate
+84,Bank 84,West,0.7,2,0,2,0,Watch
+85,Bank 85,North,0.86,1,0,0,1,Adequate
+86,Bank 86,North,0.74,0,0,0,0,Watch
+87,Bank 87,West,0.72,0,0,0,0,Watch
+88,Bank 88,West,0.52,3,1,0,2,Below Threshold
+89,Bank 89,East,0.75,2,0,0,2,Adequate
+90,Bank 90,South,0.66,1,0,0,1,Watch
+91,Bank 91,East,0.67,1,0,1,0,Watch
+92,Bank 92,North,0.75,1,0,0,1,Adequate
+93,Bank 93,North,0.79,2,1,1,0,Adequate
+94,Bank 94,West,0.52,1,0,0,1,Below Threshold
+95,Bank 95,East,0.62,2,0,2,0,Watch
+96,Bank 96,East,0.99,0,0,0,0,Adequate
+97,Bank 97,South,0.59,2,2,0,0,Below Threshold
+98,Bank 98,West,0.51,1,0,0,1,Below Threshold
+99,Bank 99,West,0.86,0,0,0,0,Adequate
+100,Bank 100,West,0.55,3,2,0,1,Below Threshold
+101,Bank 101,West,1.0,0,0,0,0,Adequate
+102,Bank 102,East,0.77,1,0,1,0,Adequate
+103,Bank 103,North,0.97,2,0,0,2,Adequate
+104,Bank 104,North,0.52,1,1,0,0,Below Threshold
+105,Bank 105,South,0.9,0,0,0,0,Adequate
+106,Bank 106,North,0.95,2,1,0,1,Adequate
+107,Bank 107,North,0.6,0,0,0,0,Watch
+108,Bank 108,South,0.5,1,0,1,0,Below Threshold
+109,Bank 109,West,0.98,3,2,1,0,Adequate
+110,Bank 110,North,0.65,1,0,1,0,Watch
+111,Bank 111,West,0.68,0,0,0,0,Watch
+112,Bank 112,South,0.91,0,0,0,0,Adequate
+113,Bank 113,North,0.73,1,0,1,0,Watch
+114,Bank 114,South,0.64,0,0,0,0,Watch
+115,Bank 115,East,0.58,0,0,0,0,Below Threshold
+116,Bank 116,East,0.79,1,1,0,0,Adequate
+117,Bank 117,East,0.81,2,0,1,1,Adequate
+118,Bank 118,South,0.58,0,0,0,0,Below Threshold
+119,Bank 119,East,0.8,1,0,1,0,Adequate
+120,Bank 120,North,0.5,0,0,0,0,Below Threshold
+121,Bank 121,West,0.9,0,0,0,0,Adequate
+122,Bank 122,West,0.55,1,1,0,0,Below Threshold
+123,Bank 123,South,0.8,1,1,0,0,Adequate
+124,Bank 124,North,0.68,1,1,0,0,Watch
+125,Bank 125,West,0.65,1,1,0,0,Watch
+126,Bank 126,North,0.86,0,0,0,0,Adequate
+127,Bank 127,East,0.84,0,0,0,0,Adequate
+128,Bank 128,East,0.75,2,1,1,0,Adequate
+129,Bank 129,South,0.85,0,0,0,0,Adequate
+130,Bank 130,North,0.6,0,0,0,0,Watch
+131,Bank 131,South,0.93,0,0,0,0,Adequate
+132,Bank 132,East,0.85,1,1,0,0,Adequate
+133,Bank 133,South,0.85,3,1,1,1,Adequate
+134,Bank 134,North,0.59,1,1,0,0,Below Threshold
+135,Bank 135,North,0.81,1,0,1,0,Adequate
+136,Bank 136,West,0.67,2,1,1,0,Watch
+137,Bank 137,East,0.81,1,0,1,0,Adequate
+138,Bank 138,West,0.6,2,2,0,0,Watch
+139,Bank 139,South,0.61,1,1,0,0,Watch
+140,Bank 140,North,0.69,1,0,1,0,Watch
+141,Bank 141,West,0.88,2,0,0,2,Adequate
+142,Bank 142,West,0.69,0,0,0,0,Watch
+143,Bank 143,South,0.71,2,0,2,0,Watch
+144,Bank 144,South,0.66,0,0,0,0,Watch
+145,Bank 145,South,0.71,5,3,0,2,Watch
+146,Bank 146,West,0.6,1,1,0,0,Watch
+147,Bank 147,West,0.59,2,1,0,1,Below Threshold
+148,Bank 148,South,0.88,1,1,0,0,Adequate
+149,Bank 149,East,0.91,2,1,0,1,Adequate
+150,Bank 150,West,0.53,0,0,0,0,Below Threshold
+151,Bank 151,North,0.64,2,1,1,0,Watch
+152,Bank 152,South,0.64,1,0,0,1,Watch
+153,Bank 153,West,0.65,0,0,0,0,Watch
+154,Bank 154,South,0.79,1,1,0,0,Adequate
+155,Bank 155,North,0.76,2,2,0,0,Adequate
+156,Bank 156,West,0.57,1,0,1,0,Below Threshold
+157,Bank 157,North,0.62,1,0,1,0,Watch
+158,Bank 158,North,0.69,3,2,1,0,Watch
+159,Bank 159,West,0.86,0,0,0,0,Adequate
+160,Bank 160,South,0.95,0,0,0,0,Adequate
+161,Bank 161,East,0.58,0,0,0,0,Below Threshold
+162,Bank 162,West,0.91,1,0,1,0,Adequate
+163,Bank 163,East,0.52,2,0,1,1,Below Threshold
+164,Bank 164,North,0.64,0,0,0,0,Watch
+165,Bank 165,South,0.75,2,1,0,1,Adequate
+166,Bank 166,South,0.54,0,0,0,0,Below Threshold
+167,Bank 167,West,0.87,1,0,1,0,Adequate
+168,Bank 168,South,0.53,2,1,0,1,Below Threshold
+169,Bank 169,North,0.86,1,1,0,0,Adequate
+170,Bank 170,West,0.94,3,1,0,2,Adequate
+171,Bank 171,East,0.75,1,0,1,0,Adequate
+172,Bank 172,West,0.99,1,1,0,0,Adequate
+173,Bank 173,East,0.78,0,0,0,0,Adequate
+174,Bank 174,East,0.78,1,0,1,0,Adequate
+175,Bank 175,North,0.6,1,0,0,1,Watch
+176,Bank 176,West,0.54,1,1,0,0,Below Threshold
+177,Bank 177,West,0.72,0,0,0,0,Watch
+178,Bank 178,North,0.73,0,0,0,0,Watch
+179,Bank 179,East,0.65,0,0,0,0,Watch
+180,Bank 180,West,0.72,0,0,0,0,Watch
+181,Bank 181,West,0.69,2,0,0,2,Watch
+182,Bank 182,North,0.55,0,0,0,0,Below Threshold
+183,Bank 183,East,0.86,0,0,0,0,Adequate
+184,Bank 184,East,1.0,0,0,0,0,Adequate
+185,Bank 185,South,0.76,1,0,1,0,Adequate
+186,Bank 186,North,0.7,0,0,0,0,Watch
+187,Bank 187,East,0.77,3,1,1,1,Adequate
+188,Bank 188,East,0.5,2,0,2,0,Below Threshold
+189,Bank 189,West,0.86,2,1,0,1,Adequate
+190,Bank 190,North,0.9,2,1,0,1,Adequate
+191,Bank 191,East,0.89,2,0,1,1,Adequate
+192,Bank 192,North,0.94,1,0,1,0,Adequate
+193,Bank 193,East,0.93,0,0,0,0,Adequate
+194,Bank 194,South,0.85,2,0,1,1,Adequate
+195,Bank 195,North,0.81,1,1,0,0,Adequate
+196,Bank 196,North,0.58,0,0,0,0,Below Threshold
+197,Bank 197,West,0.57,0,0,0,0,Below Threshold
+198,Bank 198,South,0.86,1,0,0,1,Adequate
+199,Bank 199,North,0.63,1,1,0,0,Watch
+200,Bank 200,West,0.86,0,0,0,0,Adequate
+201,Bank 201,South,0.95,1,0,1,0,Adequate
+202,Bank 202,West,0.83,0,0,0,0,Adequate
+203,Bank 203,West,0.66,1,1,0,0,Watch
+204,Bank 204,South,1.0,1,0,1,0,Adequate
+205,Bank 205,West,0.53,0,0,0,0,Below Threshold
+206,Bank 206,East,0.84,1,0,1,0,Adequate
+207,Bank 207,South,0.89,0,0,0,0,Adequate
+208,Bank 208,West,0.8,0,0,0,0,Adequate
+209,Bank 209,West,0.73,4,2,2,0,Watch
+210,Bank 210,North,0.56,3,2,0,1,Below Threshold
+211,Bank 211,South,0.72,0,0,0,0,Watch
+212,Bank 212,West,0.92,2,0,1,1,Adequate
+213,Bank 213,West,0.52,0,0,0,0,Below Threshold
+214,Bank 214,East,0.86,2,0,1,1,Adequate
+215,Bank 215,North,0.94,0,0,0,0,Adequate
+216,Bank 216,North,0.58,2,2,0,0,Below Threshold
+217,Bank 217,South,0.56,0,0,0,0,Below Threshold
+218,Bank 218,East,0.81,0,0,0,0,Adequate
+219,Bank 219,South,0.79,1,1,0,0,Adequate
+220,Bank 220,East,0.76,1,0,1,0,Adequate
+221,Bank 221,East,0.59,1,1,0,0,Below Threshold
+222,Bank 222,South,0.64,2,0,1,1,Watch
+223,Bank 223,East,0.51,2,0,2,0,Below Threshold
+224,Bank 224,South,0.91,0,0,0,0,Adequate
+225,Bank 225,West,0.73,4,3,1,0,Watch
+226,Bank 226,West,0.79,0,0,0,0,Adequate
+227,Bank 227,East,0.7,2,2,0,0,Watch
+228,Bank 228,North,0.64,2,0,1,1,Watch
+229,Bank 229,South,0.66,0,0,0,0,Watch
+230,Bank 230,North,0.56,1,0,1,0,Below Threshold
+231,Bank 231,South,0.96,0,0,0,0,Adequate
+232,Bank 232,East,0.53,0,0,0,0,Below Threshold
+233,Bank 233,North,0.78,2,0,1,1,Adequate
+234,Bank 234,North,0.75,0,0,0,0,Adequate
+235,Bank 235,East,0.79,0,0,0,0,Adequate
+236,Bank 236,South,0.52,0,0,0,0,Below Threshold
+237,Bank 237,North,0.88,0,0,0,0,Adequate
+238,Bank 238,South,0.5,1,0,0,1,Below Threshold
+239,Bank 239,North,0.79,1,1,0,0,Adequate
+240,Bank 240,East,0.73,0,0,0,0,Watch
+241,Bank 241,North,0.95,0,0,0,0,Adequate
+242,Bank 242,West,0.89,4,1,2,1,Adequate
+243,Bank 243,West,0.55,2,2,0,0,Below Threshold
+244,Bank 244,West,0.73,0,0,0,0,Watch
+245,Bank 245,East,0.56,3,2,1,0,Below Threshold
+246,Bank 246,South,0.72,1,0,1,0,Watch
+247,Bank 247,East,0.95,0,0,0,0,Adequate
+248,Bank 248,North,0.97,1,0,1,0,Adequate
+249,Bank 249,South,0.58,1,0,0,1,Below Threshold
+250,Bank 250,West,0.83,0,0,0,0,Adequate
+251,Bank 251,West,0.72,2,0,0,2,Watch
+252,Bank 252,South,0.9,0,0,0,0,Adequate
+253,Bank 253,South,0.73,4,2,1,1,Watch
+254,Bank 254,South,0.75,2,0,1,1,Adequate
+255,Bank 255,East,0.99,0,0,0,0,Adequate
+256,Bank 256,East,0.75,0,0,0,0,Adequate
+257,Bank 257,North,0.5,1,0,0,1,Below Threshold
+258,Bank 258,West,0.57,3,1,0,2,Below Threshold
+259,Bank 259,East,0.78,1,1,0,0,Adequate
+260,Bank 260,East,0.8,3,0,2,1,Adequate
+261,Bank 261,North,0.99,1,0,0,1,Adequate
+262,Bank 262,East,0.69,1,0,1,0,Watch
+263,Bank 263,West,0.91,0,0,0,0,Adequate
+264,Bank 264,West,0.86,2,0,2,0,Adequate
+265,Bank 265,South,0.53,0,0,0,0,Below Threshold
+266,Bank 266,South,0.62,1,0,1,0,Watch
+267,Bank 267,South,0.8,0,0,0,0,Adequate
+268,Bank 268,South,0.65,2,1,1,0,Watch
+269,Bank 269,North,0.9,0,0,0,0,Adequate
+270,Bank 270,North,0.64,0,0,0,0,Watch
+271,Bank 271,North,0.69,1,0,0,1,Watch
+272,Bank 272,West,0.67,1,1,0,0,Watch
+273,Bank 273,West,0.79,1,0,0,1,Adequate
+274,Bank 274,West,0.97,0,0,0,0,Adequate
+275,Bank 275,South,0.74,3,2,0,1,Watch
+276,Bank 276,North,0.93,0,0,0,0,Adequate
+277,Bank 277,North,0.93,0,0,0,0,Adequate
+278,Bank 278,North,0.57,1,1,0,0,Below Threshold
+279,Bank 279,West,0.93,0,0,0,0,Adequate
+280,Bank 280,South,0.97,0,0,0,0,Adequate
+281,Bank 281,North,0.61,0,0,0,0,Watch
+282,Bank 282,East,0.82,0,0,0,0,Adequate
+283,Bank 283,East,0.71,2,1,1,0,Watch
+284,Bank 284,East,0.83,1,0,1,0,Adequate
+285,Bank 285,West,0.54,0,0,0,0,Below Threshold
+286,Bank 286,North,0.76,2,0,0,2,Adequate
+287,Bank 287,North,0.7,1,0,0,1,Watch
+288,Bank 288,North,0.55,3,0,1,2,Below Threshold
+289,Bank 289,South,0.79,3,1,2,0,Adequate
+290,Bank 290,East,0.87,3,3,0,0,Adequate
+291,Bank 291,North,0.89,1,0,1,0,Adequate
+292,Bank 292,South,0.69,1,0,0,1,Watch
+293,Bank 293,West,0.67,2,2,0,0,Watch
+294,Bank 294,South,0.54,0,0,0,0,Below Threshold
+295,Bank 295,East,0.69,0,0,0,0,Watch
+296,Bank 296,East,0.84,1,0,1,0,Adequate
+297,Bank 297,South,0.72,3,0,2,1,Watch
+298,Bank 298,West,0.7,3,1,1,1,Watch
+299,Bank 299,South,0.97,1,1,0,0,Adequate
+300,Bank 300,West,0.69,1,0,0,1,Watch
+301,Bank 301,South,0.93,0,0,0,0,Adequate
+302,Bank 302,East,0.95,0,0,0,0,Adequate
+303,Bank 303,South,0.63,2,2,0,0,Watch
+304,Bank 304,North,0.86,0,0,0,0,Adequate
+305,Bank 305,East,0.98,0,0,0,0,Adequate
+306,Bank 306,South,0.64,0,0,0,0,Watch
+307,Bank 307,North,0.81,0,0,0,0,Adequate
+308,Bank 308,West,0.99,1,1,0,0,Adequate
+309,Bank 309,West,0.51,0,0,0,0,Below Threshold
+310,Bank 310,South,0.76,0,0,0,0,Adequate
+311,Bank 311,North,0.92,0,0,0,0,Adequate
+312,Bank 312,West,0.8,1,0,0,1,Adequate
+313,Bank 313,South,0.75,3,2,1,0,Adequate
+314,Bank 314,East,1.0,1,1,0,0,Adequate
+315,Bank 315,East,0.99,0,0,0,0,Adequate
+316,Bank 316,South,0.57,1,0,1,0,Below Threshold
+317,Bank 317,South,0.82,0,0,0,0,Adequate
+318,Bank 318,South,0.93,0,0,0,0,Adequate
+319,Bank 319,West,0.55,4,1,2,1,Below Threshold
+320,Bank 320,North,0.9,2,2,0,0,Adequate
+321,Bank 321,West,0.73,3,2,1,0,Watch
+322,Bank 322,West,0.91,1,0,0,1,Adequate
+323,Bank 323,North,0.72,1,0,0,1,Watch
+324,Bank 324,West,0.71,1,1,0,0,Watch
+325,Bank 325,East,0.86,0,0,0,0,Adequate
+326,Bank 326,North,0.51,2,1,1,0,Below Threshold
+327,Bank 327,West,0.77,0,0,0,0,Adequate
+328,Bank 328,West,0.74,1,0,0,1,Watch
+329,Bank 329,West,0.64,1,1,0,0,Watch
+330,Bank 330,North,0.54,0,0,0,0,Below Threshold
+331,Bank 331,South,0.79,3,0,3,0,Adequate
+332,Bank 332,East,0.73,1,1,0,0,Watch
+333,Bank 333,South,0.99,3,1,0,2,Adequate
+334,Bank 334,East,0.59,0,0,0,0,Below Threshold
+335,Bank 335,West,0.97,1,1,0,0,Adequate
+336,Bank 336,South,0.93,2,1,0,1,Adequate
+337,Bank 337,West,0.6,0,0,0,0,Watch
+338,Bank 338,West,0.93,2,0,2,0,Adequate
+339,Bank 339,North,0.65,0,0,0,0,Watch
+340,Bank 340,West,0.78,1,1,0,0,Adequate
+341,Bank 341,West,0.63,2,1,1,0,Watch
+342,Bank 342,North,0.55,1,0,1,0,Below Threshold
+343,Bank 343,North,0.79,0,0,0,0,Adequate
+344,Bank 344,West,0.83,1,1,0,0,Adequate
+345,Bank 345,East,0.59,5,2,1,2,Below Threshold
+346,Bank 346,West,0.68,1,0,0,1,Watch
+347,Bank 347,East,0.96,2,1,0,1,Adequate
+348,Bank 348,West,0.99,2,1,1,0,Adequate
+349,Bank 349,North,0.79,0,0,0,0,Adequate
+350,Bank 350,West,0.72,0,0,0,0,Watch
+351,Bank 351,North,0.5,1,1,0,0,Below Threshold
+352,Bank 352,North,0.54,0,0,0,0,Below Threshold
+353,Bank 353,South,0.84,0,0,0,0,Adequate
+354,Bank 354,East,0.85,1,1,0,0,Adequate
+355,Bank 355,East,0.99,0,0,0,0,Adequate
+356,Bank 356,North,0.9,1,0,0,1,Adequate
+357,Bank 357,West,0.51,1,1,0,0,Below Threshold
+358,Bank 358,South,0.89,1,0,1,0,Adequate
+359,Bank 359,North,0.55,0,0,0,0,Below Threshold
+360,Bank 360,North,0.81,3,0,2,1,Adequate
+361,Bank 361,East,0.83,1,0,1,0,Adequate
+362,Bank 362,West,0.51,0,0,0,0,Below Threshold
+363,Bank 363,East,0.63,1,1,0,0,Watch
+364,Bank 364,West,0.62,2,1,1,0,Watch
+365,Bank 365,West,0.76,2,0,0,2,Adequate
+366,Bank 366,South,0.98,1,0,1,0,Adequate
+367,Bank 367,West,0.92,0,0,0,0,Adequate
+368,Bank 368,West,0.98,0,0,0,0,Adequate
+369,Bank 369,East,0.71,2,0,0,2,Watch
+370,Bank 370,North,0.77,0,0,0,0,Adequate
+371,Bank 371,North,0.96,1,0,1,0,Adequate
+372,Bank 372,North,0.71,0,0,0,0,Watch
+373,Bank 373,East,0.82,1,0,1,0,Adequate
+374,Bank 374,South,0.88,1,0,1,0,Adequate
+375,Bank 375,South,0.77,1,0,1,0,Adequate
+376,Bank 376,North,0.97,2,2,0,0,Adequate
+377,Bank 377,West,0.59,1,1,0,0,Below Threshold
+378,Bank 378,West,0.78,0,0,0,0,Adequate
+379,Bank 379,South,0.84,1,1,0,0,Adequate
+380,Bank 380,South,0.52,1,0,1,0,Below Threshold
+381,Bank 381,North,0.66,1,0,0,1,Watch
+382,Bank 382,South,0.74,0,0,0,0,Watch
+383,Bank 383,West,0.77,2,0,2,0,Adequate
+384,Bank 384,North,0.99,1,0,0,1,Adequate
+385,Bank 385,North,0.86,1,0,0,1,Adequate
+386,Bank 386,West,0.56,4,1,1,2,Below Threshold
+387,Bank 387,East,0.78,0,0,0,0,Adequate
+388,Bank 388,East,0.95,2,0,1,1,Adequate
+389,Bank 389,West,0.79,2,2,0,0,Adequate
+390,Bank 390,South,0.77,0,0,0,0,Adequate
+391,Bank 391,North,0.53,1,0,1,0,Below Threshold
+392,Bank 392,South,0.92,1,0,1,0,Adequate
+393,Bank 393,West,0.82,3,1,0,2,Adequate
+394,Bank 394,East,0.64,0,0,0,0,Watch
+395,Bank 395,South,0.55,0,0,0,0,Below Threshold
+396,Bank 396,West,0.59,2,1,1,0,Below Threshold
+397,Bank 397,West,0.91,3,3,0,0,Adequate
+398,Bank 398,East,0.87,1,0,1,0,Adequate
+399,Bank 399,West,0.58,0,0,0,0,Below Threshold
+400,Bank 400,North,0.77,1,0,1,0,Adequate
+401,Bank 401,West,0.78,0,0,0,0,Adequate
+402,Bank 402,North,0.95,2,2,0,0,Adequate
+403,Bank 403,South,0.95,0,0,0,0,Adequate
+404,Bank 404,West,0.5,1,0,1,0,Below Threshold
+405,Bank 405,East,0.82,0,0,0,0,Adequate
+406,Bank 406,West,0.97,1,0,0,1,Adequate
+407,Bank 407,North,0.97,2,0,2,0,Adequate
+408,Bank 408,South,0.73,0,0,0,0,Watch
+409,Bank 409,West,0.79,1,1,0,0,Adequate
+410,Bank 410,North,0.95,1,0,1,0,Adequate
+411,Bank 411,East,0.56,1,0,1,0,Below Threshold
+412,Bank 412,East,0.51,0,0,0,0,Below Threshold
+413,Bank 413,West,0.87,0,0,0,0,Adequate
+414,Bank 414,South,0.69,0,0,0,0,Watch
+415,Bank 415,East,0.96,3,1,2,0,Adequate
+416,Bank 416,North,0.73,1,1,0,0,Watch
+417,Bank 417,South,0.69,1,0,0,1,Watch
+418,Bank 418,East,0.92,1,1,0,0,Adequate
+419,Bank 419,South,0.99,1,0,0,1,Adequate
+420,Bank 420,South,0.77,2,1,0,1,Adequate
+421,Bank 421,South,0.58,1,0,1,0,Below Threshold
+422,Bank 422,East,0.61,1,0,0,1,Watch
+423,Bank 423,South,0.79,0,0,0,0,Adequate
+424,Bank 424,East,0.51,1,1,0,0,Below Threshold
+425,Bank 425,North,0.87,0,0,0,0,Adequate
+426,Bank 426,West,0.88,0,0,0,0,Adequate
+427,Bank 427,South,0.98,0,0,0,0,Adequate
+428,Bank 428,West,0.73,0,0,0,0,Watch
+429,Bank 429,South,0.75,1,1,0,0,Adequate
+430,Bank 430,East,0.88,1,0,1,0,Adequate
+431,Bank 431,North,0.68,1,1,0,0,Watch
+432,Bank 432,West,0.59,1,0,1,0,Below Threshold
+433,Bank 433,East,0.84,1,1,0,0,Adequate
+434,Bank 434,North,0.65,0,0,0,0,Watch
+435,Bank 435,North,0.9,0,0,0,0,Adequate
+436,Bank 436,South,0.62,1,0,1,0,Watch
+437,Bank 437,South,0.82,0,0,0,0,Adequate
+438,Bank 438,West,0.86,0,0,0,0,Adequate
+439,Bank 439,West,0.59,0,0,0,0,Below Threshold
+440,Bank 440,North,0.88,2,0,1,1,Adequate
+441,Bank 441,South,0.57,0,0,0,0,Below Threshold
+442,Bank 442,North,0.66,2,0,0,2,Watch
+443,Bank 443,North,0.89,1,1,0,0,Adequate
+444,Bank 444,North,0.89,0,0,0,0,Adequate
+445,Bank 445,West,0.86,0,0,0,0,Adequate
+446,Bank 446,East,0.56,1,0,1,0,Below Threshold
+447,Bank 447,South,0.77,1,0,0,1,Adequate
+448,Bank 448,East,0.79,0,0,0,0,Adequate
+449,Bank 449,West,0.55,0,0,0,0,Below Threshold
+450,Bank 450,South,0.62,1,0,1,0,Watch
+451,Bank 451,South,0.73,1,0,1,0,Watch
+452,Bank 452,East,0.6,0,0,0,0,Watch
+453,Bank 453,East,0.59,0,0,0,0,Below Threshold
+454,Bank 454,North,0.52,2,2,0,0,Below Threshold
+455,Bank 455,South,0.86,1,0,0,1,Adequate
+456,Bank 456,North,0.55,2,2,0,0,Below Threshold
+457,Bank 457,West,0.98,0,0,0,0,Adequate
+458,Bank 458,East,0.8,2,1,1,0,Adequate
+459,Bank 459,North,1.0,1,0,0,1,Adequate
+460,Bank 460,North,0.5,1,0,0,1,Below Threshold
+461,Bank 461,North,0.78,2,2,0,0,Adequate
+462,Bank 462,North,0.98,1,0,0,1,Adequate
+463,Bank 463,West,0.93,1,0,1,0,Adequate
+464,Bank 464,North,0.93,1,0,1,0,Adequate
+465,Bank 465,South,0.64,1,0,0,1,Watch
+466,Bank 466,South,0.58,3,2,1,0,Below Threshold
+467,Bank 467,South,0.5,1,0,1,0,Below Threshold
+468,Bank 468,East,0.81,1,0,1,0,Adequate
+469,Bank 469,South,0.85,3,1,1,1,Adequate
+470,Bank 470,South,0.56,3,2,1,0,Below Threshold
+471,Bank 471,South,0.97,3,0,1,2,Adequate
+472,Bank 472,West,0.78,1,0,1,0,Adequate
+473,Bank 473,East,0.79,3,1,2,0,Adequate
+474,Bank 474,South,0.84,0,0,0,0,Adequate
+475,Bank 475,West,0.53,0,0,0,0,Below Threshold
+476,Bank 476,North,0.91,1,1,0,0,Adequate
+477,Bank 477,North,0.92,0,0,0,0,Adequate
+478,Bank 478,South,0.83,1,0,1,0,Adequate
+479,Bank 479,South,0.67,0,0,0,0,Watch
+480,Bank 480,North,0.77,1,0,1,0,Adequate
+481,Bank 481,South,0.77,1,0,0,1,Adequate
+482,Bank 482,South,0.71,0,0,0,0,Watch
+483,Bank 483,South,0.6,0,0,0,0,Watch
+484,Bank 484,South,0.63,0,0,0,0,Watch
+485,Bank 485,East,0.61,0,0,0,0,Watch
+486,Bank 486,North,0.58,0,0,0,0,Below Threshold
+487,Bank 487,North,0.8,0,0,0,0,Adequate
+488,Bank 488,West,0.81,1,1,0,0,Adequate
+489,Bank 489,West,0.57,0,0,0,0,Below Threshold
+490,Bank 490,East,0.99,2,0,1,1,Adequate
+491,Bank 491,South,0.81,0,0,0,0,Adequate
+492,Bank 492,West,0.77,1,0,0,1,Adequate
+493,Bank 493,South,0.97,1,0,1,0,Adequate
+494,Bank 494,North,0.85,1,0,0,1,Adequate
+495,Bank 495,North,0.53,0,0,0,0,Below Threshold
+496,Bank 496,West,0.59,2,1,0,1,Below Threshold
+497,Bank 497,North,0.65,2,0,0,2,Watch
+498,Bank 498,South,0.75,0,0,0,0,Adequate
+499,Bank 499,West,0.54,0,0,0,0,Below Threshold
+500,Bank 500,South,0.88,1,0,0,1,Adequate
+501,Bank 501,North,0.95,1,0,0,1,Adequate
+502,Bank 502,East,0.66,0,0,0,0,Watch
+503,Bank 503,North,0.72,0,0,0,0,Watch
+504,Bank 504,North,0.6,3,1,1,1,Watch
+505,Bank 505,East,0.7,0,0,0,0,Watch
+506,Bank 506,South,0.92,0,0,0,0,Adequate
+507,Bank 507,East,0.82,0,0,0,0,Adequate
+508,Bank 508,West,0.54,4,1,2,1,Below Threshold
+509,Bank 509,North,0.74,2,1,0,1,Watch
+510,Bank 510,West,0.67,0,0,0,0,Watch
+511,Bank 511,East,0.53,0,0,0,0,Below Threshold
+512,Bank 512,East,0.77,2,0,1,1,Adequate
+513,Bank 513,South,0.96,0,0,0,0,Adequate
+514,Bank 514,North,0.53,1,0,1,0,Below Threshold
+515,Bank 515,North,0.81,0,0,0,0,Adequate
+516,Bank 516,West,0.73,2,1,0,1,Watch
+517,Bank 517,West,0.91,1,0,1,0,Adequate
+518,Bank 518,North,0.58,1,1,0,0,Below Threshold
+519,Bank 519,East,0.82,1,0,1,0,Adequate
+520,Bank 520,West,0.82,0,0,0,0,Adequate
+521,Bank 521,South,0.84,3,1,1,1,Adequate
+522,Bank 522,East,0.76,0,0,0,0,Adequate
+523,Bank 523,North,0.59,0,0,0,0,Below Threshold
+524,Bank 524,South,0.66,0,0,0,0,Watch
+525,Bank 525,South,0.67,2,1,0,1,Watch
+526,Bank 526,West,0.66,0,0,0,0,Watch
+527,Bank 527,West,0.59,1,0,0,1,Below Threshold
+528,Bank 528,South,0.62,1,0,0,1,Watch
+529,Bank 529,North,0.63,0,0,0,0,Watch
+530,Bank 530,East,0.5,2,1,1,0,Below Threshold
+531,Bank 531,West,0.51,1,0,1,0,Below Threshold
+532,Bank 532,North,0.6,2,0,1,1,Watch
+533,Bank 533,East,0.52,0,0,0,0,Below Threshold
+534,Bank 534,West,0.6,1,1,0,0,Watch
+535,Bank 535,East,0.55,1,1,0,0,Below Threshold
+536,Bank 536,South,0.99,0,0,0,0,Adequate
+537,Bank 537,North,0.55,0,0,0,0,Below Threshold
+538,Bank 538,North,0.97,1,0,0,1,Adequate
+539,Bank 539,South,0.99,1,1,0,0,Adequate
+540,Bank 540,North,0.87,3,1,1,1,Adequate
+541,Bank 541,East,0.76,0,0,0,0,Adequate
+542,Bank 542,West,0.96,1,1,0,0,Adequate
+543,Bank 543,South,0.56,1,1,0,0,Below Threshold
+544,Bank 544,North,0.71,0,0,0,0,Watch
+545,Bank 545,South,0.8,1,0,1,0,Adequate
+546,Bank 546,West,0.54,0,0,0,0,Below Threshold
+547,Bank 547,North,0.92,1,1,0,0,Adequate
+548,Bank 548,North,0.88,0,0,0,0,Adequate
+549,Bank 549,South,0.77,1,1,0,0,Adequate
+550,Bank 550,North,0.99,0,0,0,0,Adequate
+551,Bank 551,West,0.68,1,1,0,0,Watch
+552,Bank 552,South,0.78,1,1,0,0,Adequate
+553,Bank 553,West,0.97,1,0,1,0,Adequate
+554,Bank 554,South,0.67,1,1,0,0,Watch
+555,Bank 555,North,0.53,2,0,1,1,Below Threshold
+556,Bank 556,South,0.88,0,0,0,0,Adequate
+557,Bank 557,West,0.58,1,1,0,0,Below Threshold
+558,Bank 558,East,0.64,1,0,0,1,Watch
+559,Bank 559,East,0.82,4,3,1,0,Adequate
+560,Bank 560,South,0.81,0,0,0,0,Adequate
+561,Bank 561,North,0.76,1,0,1,0,Adequate
+562,Bank 562,East,0.81,2,1,1,0,Adequate
+563,Bank 563,North,0.78,1,0,1,0,Adequate
+564,Bank 564,North,0.75,2,0,1,1,Adequate
+565,Bank 565,East,0.72,2,0,1,1,Watch
+566,Bank 566,North,0.89,0,0,0,0,Adequate
+567,Bank 567,East,0.98,1,1,0,0,Adequate
+568,Bank 568,West,0.72,1,1,0,0,Watch
+569,Bank 569,South,0.8,1,0,0,1,Adequate
+570,Bank 570,East,0.95,2,0,1,1,Adequate
+571,Bank 571,East,0.83,2,1,1,0,Adequate
+572,Bank 572,East,0.58,0,0,0,0,Below Threshold
+573,Bank 573,East,0.71,0,0,0,0,Watch
+574,Bank 574,West,0.82,1,0,0,1,Adequate
+575,Bank 575,West,0.55,1,0,0,1,Below Threshold
+576,Bank 576,West,0.97,1,0,0,1,Adequate
+577,Bank 577,East,0.94,1,1,0,0,Adequate
+578,Bank 578,South,0.53,1,0,0,1,Below Threshold
+579,Bank 579,East,0.53,0,0,0,0,Below Threshold
+580,Bank 580,West,0.52,2,1,1,0,Below Threshold
+581,Bank 581,South,0.9,2,0,1,1,Adequate
+582,Bank 582,South,0.68,2,0,0,2,Watch
+583,Bank 583,East,0.76,1,0,0,1,Adequate
+584,Bank 584,North,0.5,0,0,0,0,Below Threshold
+585,Bank 585,South,0.88,0,0,0,0,Adequate
+586,Bank 586,East,0.6,2,0,0,2,Watch
+587,Bank 587,North,0.68,1,1,0,0,Watch
+588,Bank 588,North,0.85,1,0,0,1,Adequate
+589,Bank 589,East,0.68,0,0,0,0,Watch
+590,Bank 590,North,0.78,2,1,0,1,Adequate
+591,Bank 591,South,0.93,0,0,0,0,Adequate
+592,Bank 592,North,0.54,2,1,1,0,Below Threshold
+593,Bank 593,West,0.94,1,0,1,0,Adequate
+594,Bank 594,East,0.7,1,0,0,1,Watch
+595,Bank 595,South,0.8,0,0,0,0,Adequate
+596,Bank 596,North,0.88,0,0,0,0,Adequate
+597,Bank 597,North,0.96,2,0,1,1,Adequate
+598,Bank 598,South,0.57,2,0,2,0,Below Threshold
+599,Bank 599,East,0.8,1,1,0,0,Adequate
+600,Bank 600,North,0.66,1,0,1,0,Watch
+601,Bank 601,East,0.67,3,1,2,0,Watch
+602,Bank 602,East,0.9,1,0,1,0,Adequate
+603,Bank 603,West,0.56,0,0,0,0,Below Threshold
+604,Bank 604,East,0.78,1,0,0,1,Adequate
+605,Bank 605,East,0.74,1,0,0,1,Watch
+606,Bank 606,East,0.62,0,0,0,0,Watch
+607,Bank 607,North,0.52,1,1,0,0,Below Threshold
+608,Bank 608,West,0.76,2,0,1,1,Adequate
+609,Bank 609,East,0.63,0,0,0,0,Watch
+610,Bank 610,South,0.97,2,1,0,1,Adequate
+611,Bank 611,South,0.7,0,0,0,0,Watch
+612,Bank 612,East,0.9,1,0,0,1,Adequate
+613,Bank 613,East,0.74,1,0,1,0,Watch
+614,Bank 614,West,0.53,1,1,0,0,Below Threshold
+615,Bank 615,North,0.52,0,0,0,0,Below Threshold
+616,Bank 616,East,0.66,2,1,1,0,Watch
+617,Bank 617,North,0.75,0,0,0,0,Adequate
+618,Bank 618,West,0.76,0,0,0,0,Adequate
+619,Bank 619,South,0.89,1,0,1,0,Adequate
+620,Bank 620,West,0.95,0,0,0,0,Adequate
+621,Bank 621,East,0.89,1,0,1,0,Adequate
+622,Bank 622,West,0.92,2,0,2,0,Adequate
+623,Bank 623,West,0.96,0,0,0,0,Adequate
+624,Bank 624,East,0.71,0,0,0,0,Watch
+625,Bank 625,South,0.62,1,0,1,0,Watch
+626,Bank 626,North,0.93,1,0,0,1,Adequate
+627,Bank 627,North,0.59,1,1,0,0,Below Threshold
+628,Bank 628,North,0.86,0,0,0,0,Adequate
+629,Bank 629,West,0.64,0,0,0,0,Watch
+630,Bank 630,East,0.74,3,1,1,1,Watch
+631,Bank 631,East,0.86,3,3,0,0,Adequate
+632,Bank 632,East,1.0,1,1,0,0,Adequate
+633,Bank 633,West,0.7,1,0,1,0,Watch
+634,Bank 634,South,0.95,1,1,0,0,Adequate
+635,Bank 635,East,0.74,1,0,1,0,Watch
+636,Bank 636,South,0.65,1,1,0,0,Watch
+637,Bank 637,East,0.93,4,2,1,1,Adequate
+638,Bank 638,North,0.87,1,0,1,0,Adequate
+639,Bank 639,South,0.58,1,0,1,0,Below Threshold
+640,Bank 640,West,0.96,3,1,2,0,Adequate
+641,Bank 641,West,0.61,0,0,0,0,Watch
+642,Bank 642,North,0.73,0,0,0,0,Watch
+643,Bank 643,South,0.63,0,0,0,0,Watch
+644,Bank 644,East,0.68,0,0,0,0,Watch
+645,Bank 645,South,0.69,1,0,1,0,Watch
+646,Bank 646,North,0.95,0,0,0,0,Adequate
+647,Bank 647,South,0.74,3,2,0,1,Watch
+648,Bank 648,North,0.6,0,0,0,0,Watch
+649,Bank 649,North,0.65,1,0,1,0,Watch
+650,Bank 650,South,0.57,2,1,1,0,Below Threshold
+651,Bank 651,North,0.54,3,2,0,1,Below Threshold
+652,Bank 652,North,0.84,2,0,2,0,Adequate
+653,Bank 653,South,0.71,1,0,1,0,Watch
+654,Bank 654,South,0.58,3,1,2,0,Below Threshold
+655,Bank 655,East,0.84,1,1,0,0,Adequate
+656,Bank 656,North,0.81,3,1,2,0,Adequate
+657,Bank 657,West,0.58,1,1,0,0,Below Threshold
+658,Bank 658,West,0.78,1,1,0,0,Adequate
+659,Bank 659,South,0.52,0,0,0,0,Below Threshold
+660,Bank 660,East,0.71,0,0,0,0,Watch
+661,Bank 661,South,0.81,0,0,0,0,Adequate
+662,Bank 662,East,0.85,1,0,1,0,Adequate
+663,Bank 663,North,0.97,1,1,0,0,Adequate
+664,Bank 664,West,0.77,3,1,0,2,Adequate
+665,Bank 665,South,0.79,2,0,0,2,Adequate
+666,Bank 666,East,0.79,1,1,0,0,Adequate
+667,Bank 667,West,0.99,1,1,0,0,Adequate
+668,Bank 668,North,0.8,0,0,0,0,Adequate
+669,Bank 669,South,0.58,0,0,0,0,Below Threshold
+670,Bank 670,North,0.72,1,0,1,0,Watch
+671,Bank 671,South,0.54,0,0,0,0,Below Threshold
+672,Bank 672,West,0.93,0,0,0,0,Adequate
+673,Bank 673,West,0.54,0,0,0,0,Below Threshold
+674,Bank 674,North,0.75,0,0,0,0,Adequate
+675,Bank 675,North,0.97,1,0,1,0,Adequate
+676,Bank 676,West,1.0,1,0,1,0,Adequate
+677,Bank 677,North,0.58,2,0,2,0,Below Threshold
+678,Bank 678,North,0.89,0,0,0,0,Adequate
+679,Bank 679,North,0.98,1,0,0,1,Adequate
+680,Bank 680,West,0.95,0,0,0,0,Adequate
+681,Bank 681,South,0.86,1,0,0,1,Adequate
+682,Bank 682,West,0.82,2,2,0,0,Adequate
+683,Bank 683,West,0.78,0,0,0,0,Adequate
+684,Bank 684,West,0.62,0,0,0,0,Watch
+685,Bank 685,North,0.96,1,0,0,1,Adequate
+686,Bank 686,East,0.67,2,0,0,2,Watch
+687,Bank 687,South,0.81,2,1,1,0,Adequate
+688,Bank 688,West,0.81,2,1,1,0,Adequate
+689,Bank 689,South,0.91,5,3,2,0,Adequate
+690,Bank 690,West,0.69,0,0,0,0,Watch
+691,Bank 691,East,0.89,1,0,1,0,Adequate
+692,Bank 692,North,0.98,1,0,0,1,Adequate
+693,Bank 693,South,0.9,3,2,0,1,Adequate
+694,Bank 694,South,0.56,3,0,1,2,Below Threshold
+695,Bank 695,South,0.57,1,1,0,0,Below Threshold
+696,Bank 696,West,0.95,1,1,0,0,Adequate
+697,Bank 697,North,0.61,0,0,0,0,Watch
+698,Bank 698,East,0.88,1,0,1,0,Adequate
+699,Bank 699,North,0.66,0,0,0,0,Watch
+700,Bank 700,West,0.59,0,0,0,0,Below Threshold
+701,Bank 701,South,0.52,1,0,1,0,Below Threshold
+702,Bank 702,North,0.63,1,1,0,0,Watch
+703,Bank 703,West,0.78,1,0,0,1,Adequate
+704,Bank 704,North,0.92,1,1,0,0,Adequate
+705,Bank 705,South,0.67,2,1,1,0,Watch
+706,Bank 706,East,0.9,0,0,0,0,Adequate
+707,Bank 707,North,0.81,2,1,1,0,Adequate
+708,Bank 708,West,0.69,2,0,1,1,Watch
+709,Bank 709,East,0.94,2,0,2,0,Adequate
+710,Bank 710,South,0.71,1,1,0,0,Watch
+711,Bank 711,South,0.7,1,0,0,1,Watch
+712,Bank 712,West,0.62,1,0,0,1,Watch
+713,Bank 713,South,0.94,3,2,1,0,Adequate
+714,Bank 714,East,0.98,0,0,0,0,Adequate
+715,Bank 715,West,0.79,2,0,0,2,Adequate
+716,Bank 716,South,0.89,3,1,2,0,Adequate
+717,Bank 717,West,0.93,2,0,0,2,Adequate
+718,Bank 718,East,0.66,0,0,0,0,Watch
+719,Bank 719,North,0.72,0,0,0,0,Watch
+720,Bank 720,North,0.89,1,0,0,1,Adequate
+721,Bank 721,East,0.69,1,0,1,0,Watch
+722,Bank 722,West,0.51,1,0,1,0,Below Threshold
+723,Bank 723,South,0.75,0,0,0,0,Adequate
+724,Bank 724,South,0.98,3,1,1,1,Adequate
+725,Bank 725,North,0.83,1,1,0,0,Adequate
+726,Bank 726,North,0.95,1,0,1,0,Adequate
+727,Bank 727,North,0.7,3,0,2,1,Watch
+728,Bank 728,South,0.79,1,1,0,0,Adequate
+729,Bank 729,East,0.63,1,1,0,0,Watch
+730,Bank 730,North,0.89,2,1,1,0,Adequate
+731,Bank 731,North,0.52,0,0,0,0,Below Threshold
+732,Bank 732,West,0.94,4,4,0,0,Adequate
+733,Bank 733,South,0.58,0,0,0,0,Below Threshold
+734,Bank 734,West,0.7,3,1,1,1,Watch
+735,Bank 735,East,0.93,1,0,1,0,Adequate
+736,Bank 736,South,0.63,1,1,0,0,Watch
+737,Bank 737,South,0.76,1,1,0,0,Adequate
+738,Bank 738,East,0.81,0,0,0,0,Adequate
+739,Bank 739,East,0.77,0,0,0,0,Adequate
+740,Bank 740,North,0.82,0,0,0,0,Adequate
+741,Bank 741,North,0.97,2,2,0,0,Adequate
+742,Bank 742,East,0.88,0,0,0,0,Adequate
+743,Bank 743,North,0.53,0,0,0,0,Below Threshold
+744,Bank 744,North,0.75,1,0,1,0,Adequate
+745,Bank 745,West,0.89,0,0,0,0,Adequate
+746,Bank 746,North,0.53,1,0,1,0,Below Threshold
+747,Bank 747,North,0.88,1,0,0,1,Adequate
+748,Bank 748,South,0.8,2,0,0,2,Adequate
+749,Bank 749,North,0.85,0,0,0,0,Adequate
+750,Bank 750,South,0.63,1,0,0,1,Watch
+751,Bank 751,West,0.5,0,0,0,0,Below Threshold
+752,Bank 752,East,0.75,0,0,0,0,Adequate
+753,Bank 753,North,0.81,1,1,0,0,Adequate
+754,Bank 754,South,0.78,0,0,0,0,Adequate
+755,Bank 755,West,0.84,0,0,0,0,Adequate
+756,Bank 756,South,0.72,1,0,0,1,Watch
+757,Bank 757,East,0.86,0,0,0,0,Adequate
+758,Bank 758,West,1.0,0,0,0,0,Adequate
+759,Bank 759,North,0.58,1,0,1,0,Below Threshold
+760,Bank 760,East,0.71,2,0,2,0,Watch
+761,Bank 761,East,0.7,0,0,0,0,Watch
+762,Bank 762,South,0.73,2,0,1,1,Watch
+763,Bank 763,North,0.86,0,0,0,0,Adequate
+764,Bank 764,North,0.61,1,0,1,0,Watch
+765,Bank 765,South,0.79,0,0,0,0,Adequate
+766,Bank 766,East,0.67,0,0,0,0,Watch
+767,Bank 767,East,0.87,0,0,0,0,Adequate
+768,Bank 768,North,0.77,1,0,0,1,Adequate
+769,Bank 769,South,0.52,2,1,0,1,Below Threshold
+770,Bank 770,South,0.68,0,0,0,0,Watch
+771,Bank 771,South,0.81,2,0,1,1,Adequate
+772,Bank 772,East,0.67,1,0,1,0,Watch
+773,Bank 773,West,0.92,1,1,0,0,Adequate
+774,Bank 774,North,0.61,1,0,0,1,Watch
+775,Bank 775,South,0.93,0,0,0,0,Adequate
+776,Bank 776,West,0.54,0,0,0,0,Below Threshold
+777,Bank 777,West,0.51,0,0,0,0,Below Threshold
+778,Bank 778,East,0.79,0,0,0,0,Adequate
+779,Bank 779,South,0.75,2,2,0,0,Adequate
+780,Bank 780,West,0.97,0,0,0,0,Adequate
+781,Bank 781,North,0.79,1,0,0,1,Adequate
+782,Bank 782,East,0.65,2,1,0,1,Watch
+783,Bank 783,South,0.88,1,0,1,0,Adequate
+784,Bank 784,West,0.66,1,0,0,1,Watch
+785,Bank 785,East,0.95,1,0,0,1,Adequate
+786,Bank 786,South,0.75,0,0,0,0,Adequate
+787,Bank 787,West,0.54,1,0,0,1,Below Threshold
+788,Bank 788,West,0.91,2,0,1,1,Adequate
+789,Bank 789,West,0.61,1,1,0,0,Watch
+790,Bank 790,South,0.57,1,0,1,0,Below Threshold
+791,Bank 791,West,0.83,0,0,0,0,Adequate
+792,Bank 792,West,0.53,1,0,1,0,Below Threshold
+793,Bank 793,South,0.82,2,2,0,0,Adequate
+794,Bank 794,South,0.79,1,0,1,0,Adequate
+795,Bank 795,North,0.88,2,1,1,0,Adequate
+796,Bank 796,East,0.71,0,0,0,0,Watch
+797,Bank 797,West,0.64,1,1,0,0,Watch
+798,Bank 798,East,0.96,0,0,0,0,Adequate
+799,Bank 799,West,0.97,1,0,0,1,Adequate
+800,Bank 800,East,0.88,2,0,0,2,Adequate
+801,Bank 801,South,0.92,1,0,1,0,Adequate
+802,Bank 802,East,0.72,0,0,0,0,Watch
+803,Bank 803,South,0.82,0,0,0,0,Adequate
+804,Bank 804,South,0.67,0,0,0,0,Watch
+805,Bank 805,North,0.75,0,0,0,0,Adequate
+806,Bank 806,East,0.54,0,0,0,0,Below Threshold
+807,Bank 807,South,0.86,2,0,2,0,Adequate
+808,Bank 808,East,0.92,0,0,0,0,Adequate
+809,Bank 809,North,0.59,2,0,0,2,Below Threshold
+810,Bank 810,North,0.59,0,0,0,0,Below Threshold
+811,Bank 811,West,0.73,0,0,0,0,Watch
+812,Bank 812,South,0.94,0,0,0,0,Adequate
+813,Bank 813,South,0.72,0,0,0,0,Watch
+814,Bank 814,South,1.0,0,0,0,0,Adequate
+815,Bank 815,South,0.73,0,0,0,0,Watch
+816,Bank 816,West,0.63,2,1,1,0,Watch
+817,Bank 817,North,0.69,1,0,1,0,Watch
+818,Bank 818,West,0.61,2,0,1,1,Watch
+819,Bank 819,North,0.9,1,0,0,1,Adequate
+820,Bank 820,South,0.9,1,0,1,0,Adequate
+821,Bank 821,North,0.89,1,0,1,0,Adequate
+822,Bank 822,West,0.53,2,1,1,0,Below Threshold
+823,Bank 823,East,0.69,2,1,1,0,Watch
+824,Bank 824,North,0.6,1,0,1,0,Watch
+825,Bank 825,North,0.8,1,0,0,1,Adequate
+826,Bank 826,East,0.71,3,0,1,2,Watch
+827,Bank 827,West,0.9,0,0,0,0,Adequate
+828,Bank 828,South,0.97,1,0,0,1,Adequate
+829,Bank 829,North,0.59,1,0,0,1,Below Threshold
+830,Bank 830,East,0.93,0,0,0,0,Adequate
+831,Bank 831,South,0.77,1,0,1,0,Adequate
+832,Bank 832,South,0.75,0,0,0,0,Adequate
+833,Bank 833,West,0.79,1,0,1,0,Adequate
+834,Bank 834,South,0.71,0,0,0,0,Watch
+835,Bank 835,North,0.83,1,0,1,0,Adequate
+836,Bank 836,East,0.98,0,0,0,0,Adequate
+837,Bank 837,West,0.54,1,0,1,0,Below Threshold
+838,Bank 838,East,0.51,1,1,0,0,Below Threshold
+839,Bank 839,West,0.72,0,0,0,0,Watch
+840,Bank 840,South,0.93,1,0,0,1,Adequate
+841,Bank 841,East,0.63,0,0,0,0,Watch
+842,Bank 842,East,0.71,1,0,1,0,Watch
+843,Bank 843,South,0.95,3,3,0,0,Adequate
+844,Bank 844,North,0.75,2,1,1,0,Adequate
+845,Bank 845,North,0.53,0,0,0,0,Below Threshold
+846,Bank 846,East,0.93,1,0,0,1,Adequate
+847,Bank 847,West,0.57,5,1,1,3,Below Threshold
+848,Bank 848,North,0.58,1,1,0,0,Below Threshold
+849,Bank 849,West,0.8,3,0,0,3,Adequate
+850,Bank 850,West,0.88,2,1,1,0,Adequate
+851,Bank 851,East,0.71,1,0,1,0,Watch
+852,Bank 852,North,0.53,1,1,0,0,Below Threshold
+853,Bank 853,East,0.77,2,0,1,1,Adequate
+854,Bank 854,East,0.52,1,1,0,0,Below Threshold
+855,Bank 855,West,0.98,0,0,0,0,Adequate
+856,Bank 856,East,0.54,0,0,0,0,Below Threshold
+857,Bank 857,West,0.61,1,1,0,0,Watch
+858,Bank 858,West,0.56,1,1,0,0,Below Threshold
+859,Bank 859,North,0.9,1,0,1,0,Adequate
+860,Bank 860,North,0.77,0,0,0,0,Adequate
+861,Bank 861,North,0.75,0,0,0,0,Adequate
+862,Bank 862,West,0.77,1,0,1,0,Adequate
+863,Bank 863,South,0.72,0,0,0,0,Watch
+864,Bank 864,South,0.55,1,0,1,0,Below Threshold
+865,Bank 865,East,0.62,4,1,3,0,Watch
+866,Bank 866,North,0.64,1,0,0,1,Watch
+867,Bank 867,East,0.57,0,0,0,0,Below Threshold
+868,Bank 868,West,0.72,3,2,0,1,Watch
+869,Bank 869,East,0.82,1,0,0,1,Adequate
+870,Bank 870,North,0.58,1,0,0,1,Below Threshold
+871,Bank 871,West,0.7,2,0,0,2,Watch
+872,Bank 872,West,0.93,1,1,0,0,Adequate
+873,Bank 873,North,0.68,1,0,0,1,Watch
+874,Bank 874,West,0.77,1,1,0,0,Adequate
+875,Bank 875,South,0.58,1,0,0,1,Below Threshold
+876,Bank 876,South,0.55,0,0,0,0,Below Threshold
+877,Bank 877,South,0.73,3,1,1,1,Watch
+878,Bank 878,North,0.76,0,0,0,0,Adequate
+879,Bank 879,East,0.67,1,0,0,1,Watch
+880,Bank 880,West,0.96,0,0,0,0,Adequate
+881,Bank 881,North,1.0,1,1,0,0,Adequate
+882,Bank 882,East,0.65,2,0,1,1,Watch
+883,Bank 883,North,0.79,1,0,0,1,Adequate
+884,Bank 884,South,0.56,0,0,0,0,Below Threshold
+885,Bank 885,North,0.7,1,1,0,0,Watch
+886,Bank 886,North,0.88,0,0,0,0,Adequate
+887,Bank 887,North,0.85,1,0,0,1,Adequate
+888,Bank 888,East,0.87,3,2,0,1,Adequate
+889,Bank 889,North,0.69,0,0,0,0,Watch
+890,Bank 890,North,0.67,5,1,1,3,Watch
+891,Bank 891,South,0.81,0,0,0,0,Adequate
+892,Bank 892,North,0.84,1,0,0,1,Adequate
+893,Bank 893,North,0.93,1,1,0,0,Adequate
+894,Bank 894,North,0.67,0,0,0,0,Watch
+895,Bank 895,North,0.91,1,0,1,0,Adequate
+896,Bank 896,South,0.69,1,1,0,0,Watch
+897,Bank 897,North,0.8,0,0,0,0,Adequate
+898,Bank 898,North,0.72,1,1,0,0,Watch
+899,Bank 899,South,0.67,2,1,0,1,Watch
+900,Bank 900,South,0.62,1,1,0,0,Watch
+901,Bank 901,South,0.66,1,1,0,0,Watch
+902,Bank 902,West,0.76,3,1,1,1,Adequate
+903,Bank 903,South,0.76,2,1,0,1,Adequate
+904,Bank 904,West,0.75,0,0,0,0,Adequate
+905,Bank 905,East,0.73,0,0,0,0,Watch
+906,Bank 906,South,0.72,2,2,0,0,Watch
+907,Bank 907,West,0.65,2,0,2,0,Watch
+908,Bank 908,South,0.77,1,1,0,0,Adequate
+909,Bank 909,South,0.55,2,1,1,0,Below Threshold
+910,Bank 910,South,0.52,1,0,0,1,Below Threshold
+911,Bank 911,East,0.97,1,0,1,0,Adequate
+912,Bank 912,South,0.81,1,0,0,1,Adequate
+913,Bank 913,West,0.51,3,2,0,1,Below Threshold
+914,Bank 914,South,0.82,3,0,1,2,Adequate
+915,Bank 915,North,0.89,2,1,0,1,Adequate
+916,Bank 916,South,0.83,1,1,0,0,Adequate
+917,Bank 917,South,0.65,0,0,0,0,Watch
+918,Bank 918,South,0.52,0,0,0,0,Below Threshold
+919,Bank 919,West,0.84,1,1,0,0,Adequate
+920,Bank 920,East,0.71,2,1,0,1,Watch
+921,Bank 921,North,0.61,2,0,1,1,Watch
+922,Bank 922,East,0.95,0,0,0,0,Adequate
+923,Bank 923,North,0.84,0,0,0,0,Adequate
+924,Bank 924,South,0.59,2,0,1,1,Below Threshold
+925,Bank 925,North,0.87,2,2,0,0,Adequate
+926,Bank 926,South,0.77,0,0,0,0,Adequate
+927,Bank 927,East,0.71,1,0,0,1,Watch
+928,Bank 928,North,0.66,1,1,0,0,Watch
+929,Bank 929,West,0.51,0,0,0,0,Below Threshold
+930,Bank 930,West,0.74,2,0,1,1,Watch
+931,Bank 931,West,0.79,0,0,0,0,Adequate
+932,Bank 932,South,0.52,0,0,0,0,Below Threshold
+933,Bank 933,East,0.53,0,0,0,0,Below Threshold
+934,Bank 934,East,0.58,0,0,0,0,Below Threshold
+935,Bank 935,East,0.86,1,1,0,0,Adequate
+936,Bank 936,North,0.62,0,0,0,0,Watch
+937,Bank 937,South,0.54,0,0,0,0,Below Threshold
+938,Bank 938,East,0.93,1,1,0,0,Adequate
+939,Bank 939,West,0.55,1,0,0,1,Below Threshold
+940,Bank 940,South,0.63,2,0,0,2,Watch
+941,Bank 941,West,0.78,2,1,0,1,Adequate
+942,Bank 942,East,0.84,0,0,0,0,Adequate
+943,Bank 943,North,1.0,1,1,0,0,Adequate
+944,Bank 944,North,0.76,1,0,0,1,Adequate
+945,Bank 945,East,0.53,0,0,0,0,Below Threshold
+946,Bank 946,East,0.81,0,0,0,0,Adequate
+947,Bank 947,South,0.66,0,0,0,0,Watch
+948,Bank 948,South,0.6,0,0,0,0,Watch
+949,Bank 949,South,0.92,1,0,0,1,Adequate
+950,Bank 950,East,0.52,0,0,0,0,Below Threshold
+951,Bank 951,North,0.59,1,1,0,0,Below Threshold
+952,Bank 952,South,0.63,2,1,0,1,Watch
+953,Bank 953,East,0.91,1,1,0,0,Adequate
+954,Bank 954,South,0.98,0,0,0,0,Adequate
+955,Bank 955,North,0.54,1,0,1,0,Below Threshold
+956,Bank 956,East,0.95,1,0,1,0,Adequate
+957,Bank 957,East,0.86,2,2,0,0,Adequate
+958,Bank 958,North,0.84,1,1,0,0,Adequate
+959,Bank 959,North,0.69,2,1,0,1,Watch
+960,Bank 960,East,0.75,1,1,0,0,Adequate
+961,Bank 961,South,0.87,0,0,0,0,Adequate
+962,Bank 962,South,0.9,1,0,1,0,Adequate
+963,Bank 963,North,0.84,2,1,1,0,Adequate
+964,Bank 964,South,0.63,0,0,0,0,Watch
+965,Bank 965,South,0.95,0,0,0,0,Adequate
+966,Bank 966,East,0.69,4,2,1,1,Watch
+967,Bank 967,West,0.98,3,1,1,1,Adequate
+968,Bank 968,North,0.83,0,0,0,0,Adequate
+969,Bank 969,East,0.97,0,0,0,0,Adequate
+970,Bank 970,East,0.74,2,1,0,1,Watch
+971,Bank 971,South,0.83,1,0,1,0,Adequate
+972,Bank 972,South,0.68,0,0,0,0,Watch
+973,Bank 973,East,0.8,1,1,0,0,Adequate
+974,Bank 974,West,0.72,2,0,2,0,Watch
+975,Bank 975,East,0.68,2,1,0,1,Watch
+976,Bank 976,West,0.89,0,0,0,0,Adequate
+977,Bank 977,South,0.63,1,1,0,0,Watch
+978,Bank 978,South,0.97,0,0,0,0,Adequate
+979,Bank 979,East,0.6,1,1,0,0,Watch
+980,Bank 980,West,0.72,2,0,1,1,Watch
+981,Bank 981,West,0.83,2,1,1,0,Adequate
+982,Bank 982,South,0.88,1,1,0,0,Adequate
+983,Bank 983,North,0.74,1,0,1,0,Watch
+984,Bank 984,East,0.96,0,0,0,0,Adequate
+985,Bank 985,South,0.91,2,0,1,1,Adequate
+986,Bank 986,West,0.92,0,0,0,0,Adequate
+987,Bank 987,North,0.61,0,0,0,0,Watch
+988,Bank 988,North,0.97,2,1,1,0,Adequate
+989,Bank 989,West,0.83,0,0,0,0,Adequate
+990,Bank 990,North,1.0,2,1,1,0,Adequate
+991,Bank 991,North,0.88,3,1,1,1,Adequate
+992,Bank 992,West,0.91,2,1,1,0,Adequate
+993,Bank 993,South,0.97,1,0,0,1,Adequate
+994,Bank 994,South,0.99,0,0,0,0,Adequate
+995,Bank 995,North,0.94,2,0,1,1,Adequate
+996,Bank 996,East,0.77,2,0,1,1,Adequate
+997,Bank 997,South,0.7,4,2,2,0,Watch
+998,Bank 998,East,0.73,0,0,0,0,Watch
+999,Bank 999,East,0.76,4,1,2,1,Adequate
+1000,Bank 1000,East,0.96,0,0,0,0,Adequate
+1001,Bank 1001,South,0.66,0,0,0,0,Watch
+1002,Bank 1002,West,0.79,0,0,0,0,Adequate
+1003,Bank 1003,West,0.59,0,0,0,0,Below Threshold
+1004,Bank 1004,South,0.94,1,0,0,1,Adequate
+1005,Bank 1005,North,0.98,0,0,0,0,Adequate
+1006,Bank 1006,West,0.5,1,0,0,1,Below Threshold
+1007,Bank 1007,North,0.92,0,0,0,0,Adequate
+1008,Bank 1008,West,0.71,2,1,1,0,Watch
+1009,Bank 1009,West,0.71,0,0,0,0,Watch
+1010,Bank 1010,North,0.8,2,0,0,2,Adequate

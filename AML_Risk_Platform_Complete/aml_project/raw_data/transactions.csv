@@ -1,0 +1,1001 @@
+transaction_id,customer_id,bank_id,amount,currency,date,location,is_high_risk,is_valid_bank_id
+1,734,20,2059.49,USD,2024-07-01,Helentown,True,True
+2,962,234,4228.66,USD,2024-07-22,West Jasonberg,True,True
+3,143,598,9223.78,USD,2024-04-27,Brendanberg,True,True
+4,760,34,3063.09,USD,2024-05-31,Lake Davidville,False,True
+5,175,562,587.11,USD,2024-09-01,East Katherine,False,True
+6,252,740,6815.88,USD,2024-04-15,Valerieton,True,True
+7,743,95,5402.65,USD,2024-03-12,North Taylorton,False,True
+8,884,779,878.54,USD,2024-10-12,Williamsview,False,True
+9,54,268,6794.4,USD,2024-08-04,Smithbury,False,True
+10,715,1002,1055.99,USD,2024-03-28,Paulchester,True,True
+11,339,902,6276.0,USD,2024-08-29,Freemanview,False,True
+12,710,567,610.86,USD,2024-03-21,Hannatown,False,True
+13,346,898,3929.07,USD,2024-02-06,Joshuamouth,False,True
+14,315,510,8734.12,USD,2024-04-17,East Dianatown,True,True
+15,835,482,7263.75,USD,2024-02-04,Amychester,True,True
+16,659,673,6688.2,USD,2024-08-24,Jenniferton,False,True
+17,687,759,9417.45,USD,2024-04-28,South Angelastad,True,True
+18,47,934,3910.84,USD,2023-12-26,South Ashley,False,True
+19,775,573,2411.67,USD,2024-06-21,West Sheila,True,True
+20,638,167,7310.24,USD,2024-02-12,Brownchester,False,True
+21,25,434,7610.93,USD,2024-04-19,Port Robertstad,True,True
+22,256,360,3059.82,USD,2024-05-27,West Christopher,True,True
+23,579,485,5891.62,USD,2024-02-23,Brianburgh,True,True
+24,355,18,1707.44,USD,2024-01-28,Port Julie,False,True
+25,220,715,7549.93,USD,2024-09-21,South Teresamouth,False,True
+26,308,243,7711.75,USD,2024-11-18,West Philipstad,False,True
+27,958,465,875.61,USD,2024-02-18,East Ashley,True,True
+28,742,686,4510.92,USD,2024-02-26,Shawland,True,True
+29,763,412,317.98,USD,2024-09-01,New Teresaburgh,False,True
+30,87,50,1529.63,USD,2024-06-21,Port Anthony,True,True
+31,142,330,3992.58,USD,2024-04-02,Lake Rebecca,False,True
+32,982,561,6043.12,USD,2024-01-18,North Kathyborough,False,True
+33,460,471,4787.91,USD,2024-06-21,North Lisabury,True,True
+34,599,166,8244.88,USD,2024-05-15,Lake Kim,True,True
+35,786,958,9716.82,USD,2024-04-24,West Christine,True,True
+36,556,974,1536.46,USD,2024-10-06,Jamesshire,True,True
+37,321,704,6578.16,USD,2024-01-16,West Jose,False,True
+38,792,534,8929.57,USD,2023-12-10,Dawnberg,False,True
+39,987,98,972.24,USD,2024-02-29,Rodgersport,True,True
+40,68,270,3178.73,USD,2023-12-11,East Johnview,False,True
+41,255,153,6382.82,USD,2024-03-01,Lake Dianaton,True,True
+42,876,744,7334.72,USD,2023-12-16,Lake Kennethland,True,True
+43,706,51,4871.09,USD,2024-06-30,Littleview,True,True
+44,358,465,103.07,USD,2023-11-24,West Christina,False,True
+45,719,308,2346.95,USD,2023-11-24,Sawyerhaven,True,True
+46,886,803,2446.46,USD,2024-09-09,Tracyburgh,False,True
+47,998,626,6332.92,USD,2024-11-01,Jacobside,False,True
+48,453,10,5942.18,USD,2024-05-03,Masonville,False,True
+49,817,869,5989.25,USD,2024-08-05,Port Dawnmouth,True,True
+50,830,232,4156.85,USD,2024-10-03,West Hectorside,True,True
+51,185,501,5131.22,USD,2024-01-31,North Brittneychester,False,True
+52,513,363,2767.09,USD,2024-03-17,Port Lisa,True,True
+53,147,988,9322.58,USD,2023-12-12,Lake Ronaldbury,True,True
+54,28,707,375.34,USD,2024-03-11,Crossside,True,True
+55,786,885,2108.26,USD,2024-10-25,Hillland,True,True
+56,878,530,4374.64,USD,2024-10-08,South Troyview,False,True
+57,169,629,7767.43,USD,2024-11-19,West John,True,True
+58,853,487,297.33,USD,2024-03-19,North Brian,True,True
+59,323,147,4873.85,USD,2024-10-08,South Charles,True,True
+60,381,1002,1108.76,USD,2024-02-24,Sherrymouth,False,True
+61,806,866,1686.19,USD,2024-10-08,Karenshire,True,True
+62,79,537,1885.15,USD,2024-08-16,New Jack,True,True
+63,996,749,6192.07,USD,2024-11-19,New Jesse,False,True
+64,937,912,270.54,USD,2024-06-11,Port Ian,False,True
+65,833,261,8205.8,USD,2024-10-05,West Eric,False,True
+66,750,880,9815.99,USD,2023-12-20,East Diana,True,True
+67,369,868,179.78,USD,2024-07-10,South Richard,False,True
+68,292,240,6766.39,USD,2024-08-11,Port Stephenland,True,True
+69,423,582,2330.49,USD,2024-08-08,Coxshire,True,True
+70,387,243,7462.16,USD,2024-09-09,Leborough,False,True
+71,290,703,6512.11,USD,2024-06-23,Johnfort,False,True
+72,107,794,3894.03,USD,2024-01-07,Silvaside,True,True
+73,350,431,3514.6,USD,2024-02-21,Alanstad,False,True
+74,613,953,9265.02,USD,2023-12-19,New Courtney,True,True
+75,268,316,6210.56,USD,2023-12-14,Port Shane,False,True
+76,319,330,7633.46,USD,2024-02-10,New Nicholas,True,True
+77,642,606,357.36,USD,2024-05-10,Christinaton,True,True
+78,678,301,204.06,USD,2024-08-10,Carpenterland,True,True
+79,800,92,7900.33,USD,2024-01-12,Tracybury,False,True
+80,857,578,862.82,USD,2024-06-07,Jeffreyburgh,False,True
+81,819,947,8982.05,USD,2024-04-29,Lake Shawnfort,False,True
+82,643,781,4822.18,USD,2024-09-18,Port Nancy,True,True
+83,9,537,5831.24,USD,2024-08-02,Baileyport,True,True
+84,712,383,5724.24,USD,2024-03-08,Ianstad,False,True
+85,685,90,6794.99,USD,2024-02-16,West Anthony,False,True
+86,431,101,5795.6,USD,2024-02-19,Colleenburgh,False,True
+87,715,766,4835.44,USD,2024-05-12,Davidhaven,True,True
+88,966,52,8320.39,USD,2024-01-15,North Sheila,True,True
+89,161,381,7020.76,USD,2024-08-02,Port Brent,True,True
+90,193,803,625.95,USD,2024-07-21,Wrightmouth,False,True
+91,152,739,582.94,USD,2024-08-19,Youngville,False,True
+92,438,985,2511.98,USD,2024-07-31,West Jamesside,False,True
+93,955,201,3331.77,USD,2024-11-19,Garzafurt,True,True
+94,493,872,7730.8,USD,2024-09-17,Foxmouth,False,True
+95,252,519,5938.74,USD,2024-01-23,North Kristen,True,True
+96,611,812,6738.35,USD,2024-10-28,Julianbury,True,True
+97,67,560,2719.25,USD,2024-01-23,Waltersshire,False,True
+98,239,760,2630.61,USD,2024-05-26,Lawrencemouth,True,True
+99,34,355,9074.28,USD,2024-04-14,Samuelton,False,True
+100,552,697,9805.83,USD,2023-12-04,Harrisontown,False,True
+101,150,793,9183.25,USD,2024-02-25,South Alexa,True,True
+102,85,950,3786.84,USD,2024-05-01,Port Clinton,True,True
+103,437,520,4144.91,USD,2024-08-30,East James,False,True
+104,793,804,8028.85,USD,2023-12-01,Sarahport,False,True
+105,115,356,2313.52,USD,2024-04-05,East Marcborough,True,True
+106,173,750,9735.81,USD,2023-11-23,Solischester,False,True
+107,939,622,520.42,USD,2024-11-19,Morganville,True,True
+108,669,113,3150.06,USD,2024-11-14,New Timothy,True,True
+109,545,388,2273.83,USD,2024-07-09,Christopherhaven,True,True
+110,622,497,3261.11,USD,2024-09-21,Port Jessicaville,False,True
+111,636,93,8907.32,USD,2024-03-04,New Mary,False,True
+112,175,715,2991.98,USD,2024-01-31,Jimenezchester,False,True
+113,503,849,6850.81,USD,2024-06-16,Danielmouth,True,True
+114,645,924,7054.76,USD,2023-11-26,Salazarfort,False,True
+115,547,802,1138.43,USD,2024-04-09,Morrisstad,False,True
+116,916,749,4305.09,USD,2024-09-04,Ryanberg,True,True
+117,271,919,6545.82,USD,2024-01-15,South Vanessa,False,True
+118,665,255,3322.32,USD,2023-12-23,West William,False,True
+119,978,675,5689.5,USD,2024-05-06,West Christine,True,True
+120,11,502,5631.9,USD,2024-10-11,South Derek,False,True
+121,343,1003,903.03,USD,2024-11-07,Mariamouth,False,True
+122,196,684,9020.73,USD,2024-11-04,Pamelamouth,True,True
+123,54,990,6669.07,USD,2024-06-12,North Robert,False,True
+124,268,254,8579.15,USD,2024-08-25,West Amandaborough,False,True
+125,952,605,663.35,USD,2024-03-15,West Benjaminside,True,True
+126,314,775,4543.01,USD,2023-12-03,New Cristinafurt,False,True
+127,851,397,6121.95,USD,2024-10-29,New Tylerstad,False,True
+128,143,441,9480.34,USD,2024-10-06,Lake Ashley,False,True
+129,849,788,5801.69,USD,2024-10-30,New Christy,True,True
+130,536,244,1289.07,USD,2024-11-04,New Mollyland,True,True
+131,616,843,9411.5,USD,2024-01-30,Walkerstad,False,True
+132,562,922,3690.23,USD,2024-09-23,New Johnborough,False,True
+133,75,87,6931.67,USD,2024-03-06,Owenburgh,False,True
+134,802,812,6790.96,USD,2024-07-13,Robertview,False,True
+135,839,299,700.83,USD,2023-12-07,East Priscillaville,False,True
+136,549,74,5899.61,USD,2024-04-09,New Yeseniaville,True,True
+137,60,614,2136.09,USD,2024-05-12,East Douglasshire,False,True
+138,7,968,4133.14,USD,2024-06-10,East Nicoleland,True,True
+139,671,309,2862.95,USD,2024-09-02,New Michael,True,True
+140,899,1007,4093.14,USD,2024-04-21,South Colton,True,True
+141,199,547,7797.02,USD,2024-05-08,Smithshire,True,True
+142,298,991,7764.82,USD,2024-09-22,Walshton,False,True
+143,356,58,9319.83,USD,2024-10-25,Fosterville,False,True
+144,248,765,6183.03,USD,2024-02-29,Johnsonhaven,True,True
+145,867,483,1524.59,USD,2023-12-01,Port Charles,False,True
+146,965,961,26.65,USD,2024-04-01,Lake Hannah,False,True
+147,930,986,1591.87,USD,2024-06-06,Mcdanielland,True,True
+148,431,525,6655.74,USD,2024-05-28,Lake Amandaside,True,True
+149,93,680,9593.95,USD,2024-11-05,Jamesshire,False,True
+150,841,328,7183.23,USD,2024-01-13,New Elijahfurt,False,True
+151,585,871,8389.31,USD,2024-04-19,Michaelhaven,True,True
+152,174,134,1884.82,USD,2024-11-18,Kimton,True,True
+153,424,485,9019.9,USD,2024-01-16,North Shawnmouth,False,True
+154,809,751,8457.56,USD,2024-10-31,Holtberg,True,True
+155,785,167,4329.02,USD,2024-07-17,Josephfurt,True,True
+156,559,49,8011.53,USD,2024-04-12,Josephton,True,True
+157,201,87,2103.3,USD,2024-08-23,Steelemouth,True,True
+158,136,60,5139.22,USD,2024-07-07,North Charlesburgh,False,True
+159,120,654,4025.26,USD,2024-04-29,New Cristian,True,True
+160,822,955,251.09,USD,2024-11-07,Matthewville,True,True
+161,118,237,9383.67,USD,2024-07-31,South Johnnyton,False,True
+162,958,393,1077.9,USD,2024-08-16,Port Heatherton,False,True
+163,169,215,1995.04,USD,2024-01-22,Christinahaven,False,True
+164,1,10,5185.75,USD,2024-02-18,Port Danielshire,False,True
+165,625,230,8845.4,USD,2024-06-17,South Ryan,True,True
+166,208,999,4210.36,USD,2023-12-24,Gordonfort,False,True
+167,776,308,2158.33,USD,2024-10-02,West Aaronchester,False,True
+168,626,1003,4136.61,USD,2024-07-02,Port Johnmouth,True,True
+169,748,39,1556.59,USD,2024-01-15,New Sarah,True,True
+170,816,999,1015.55,USD,2024-04-30,North Michael,True,True
+171,442,875,7084.1,USD,2024-01-18,East Emilyview,True,True
+172,350,600,6001.63,USD,2024-11-08,Larryside,True,True
+173,752,819,4676.44,USD,2024-05-06,Jillmouth,False,True
+174,457,546,3302.83,USD,2024-10-08,Hillside,True,True
+175,19,399,3355.63,USD,2024-02-16,Francesstad,True,True
+176,72,995,6493.33,USD,2024-03-29,Perryhaven,True,True
+177,139,48,5452.55,USD,2024-06-19,Lake Stevenberg,False,True
+178,357,898,9995.9,USD,2024-11-16,Hudsonborough,True,True
+179,294,49,8710.94,USD,2024-09-21,Scottbury,True,True
+180,540,19,31.68,USD,2024-03-15,North Suzanne,False,True
+181,537,982,3131.17,USD,2024-02-18,East Sarafurt,True,True
+182,798,393,7436.33,USD,2024-07-07,West Travis,True,True
+183,784,807,7294.25,USD,2024-04-05,Forbesmouth,True,True
+184,850,528,7931.63,USD,2024-04-24,Garrettchester,False,True
+185,481,713,9104.14,USD,2024-02-21,Goodwinfurt,True,True
+186,926,301,784.93,USD,2024-05-27,Lake Natashaport,False,True
+187,488,58,1585.55,USD,2024-04-14,Emilyfort,True,True
+188,930,5,9855.67,USD,2024-07-12,Brianville,False,True
+189,789,649,2872.43,USD,2024-03-30,Mitchellview,False,True
+190,466,330,2515.53,USD,2024-04-24,Brianville,False,True
+191,169,1007,3017.12,USD,2024-04-04,South Brianland,True,True
+192,608,933,831.12,USD,2023-12-30,North Kaitlynhaven,True,True
+193,667,670,1497.7,USD,2024-03-14,Lewisbury,False,True
+194,376,736,7312.29,USD,2024-08-31,Sandratown,False,True
+195,831,138,592.82,USD,2024-01-22,North Thomas,True,True
+196,553,789,6954.15,USD,2023-12-18,Barrettmouth,True,True
+197,394,107,9172.74,USD,2024-04-11,Nicholasland,False,True
+198,31,721,8488.58,USD,2024-08-18,Rachelstad,False,True
+199,431,54,1932.25,USD,2024-08-30,Evanstown,True,True
+200,224,854,6821.33,USD,2024-03-05,Port Michele,True,True
+201,429,294,682.06,USD,2024-09-18,West Denise,False,True
+202,53,410,823.07,USD,2024-04-08,North Matthewchester,True,True
+203,47,765,2714.18,USD,2024-02-15,Sharontown,True,True
+204,800,164,6004.44,USD,2024-05-18,New Jenniferbury,True,True
+205,941,147,3343.46,USD,2024-09-02,New Christine,False,True
+206,887,499,7506.58,USD,2024-05-14,Port Nicholasshire,True,True
+207,806,666,1190.01,USD,2024-04-15,Lake Stacey,True,True
+208,433,110,6391.3,USD,2024-02-16,East Heather,False,True
+209,681,545,8462.91,USD,2023-11-28,New Robert,False,True
+210,156,218,14.37,USD,2024-05-30,South Gabriela,True,True
+211,980,111,8721.51,USD,2023-12-11,West Faith,True,True
+212,414,938,3554.49,USD,2024-10-01,Gonzalezfurt,False,True
+213,956,939,8857.61,USD,2024-10-22,Patriciaport,False,True
+214,400,746,4037.01,USD,2024-06-07,South Elizabethside,True,True
+215,39,846,6524.94,USD,2024-08-05,Coxtown,False,True
+216,989,879,6409.55,USD,2024-06-18,West Lisaborough,True,True
+217,777,297,5067.72,USD,2024-07-13,South Shannonton,False,True
+218,853,850,6649.57,USD,2024-11-03,Coleland,False,True
+219,881,324,9397.79,USD,2024-05-18,Freemanhaven,False,True
+220,268,554,1806.41,USD,2024-04-11,Haleyville,True,True
+221,400,962,1070.63,USD,2024-10-28,Lake Nicoleburgh,False,True
+222,536,739,2692.99,USD,2024-09-06,Hardyborough,True,True
+223,534,666,8269.02,USD,2023-11-23,East Laurie,True,True
+224,464,123,4875.58,USD,2024-09-18,Lake Patrickside,True,True
+225,850,341,894.85,USD,2024-10-15,North Frankside,False,True
+226,834,199,6060.93,USD,2024-11-01,South Tyler,True,True
+227,4,873,6185.55,USD,2024-11-19,West Elizabethchester,False,True
+228,268,314,8119.76,USD,2024-03-09,Port Jonathan,False,True
+229,941,588,9505.54,USD,2024-09-19,Browntown,True,True
+230,79,808,2103.46,USD,2024-07-16,Christopherhaven,False,True
+231,117,162,1472.6,USD,2024-10-05,Lopezshire,True,True
+232,176,123,7954.56,USD,2024-02-05,Briannahaven,True,True
+233,614,386,6886.38,USD,2024-08-06,Lake Michael,False,True
+234,348,44,4915.54,USD,2024-10-15,West Diane,True,True
+235,159,804,9831.19,USD,2024-05-13,New Stephanie,False,True
+236,447,128,8230.38,USD,2024-06-08,North Autumnburgh,False,True
+237,134,1,3790.68,USD,2024-01-05,North Ronald,False,True
+238,611,677,4561.89,USD,2024-10-04,New Richardview,True,True
+239,10,500,3298.52,USD,2024-08-30,East Scott,True,True
+240,434,594,2428.29,USD,2024-08-28,Reyesberg,False,True
+241,739,704,8464.68,USD,2024-07-12,Port Stevenberg,False,True
+242,177,875,7309.8,USD,2023-12-26,Brandonland,True,True
+243,639,508,4805.8,USD,2024-08-05,Joeshire,True,True
+244,212,66,7005.88,USD,2024-09-17,Williamfort,True,True
+245,249,30,2555.26,USD,2024-10-22,New Jonathan,True,True
+246,687,250,5164.46,USD,2024-05-22,New Andrew,True,True
+247,445,956,1549.96,USD,2024-05-01,New Zachary,False,True
+248,670,223,2428.46,USD,2024-05-16,Lake Andrewton,False,True
+249,911,997,3963.45,USD,2024-09-02,New Danielle,True,True
+250,913,601,5122.28,USD,2024-01-09,Wilsonview,False,True
+251,707,196,1822.57,USD,2024-01-27,South Breannafurt,True,True
+252,468,267,4613.5,USD,2024-05-06,Rebeccabury,False,True
+253,542,125,4914.22,USD,2024-11-17,Kyleville,False,True
+254,580,322,460.83,USD,2024-04-14,Mathewsstad,False,True
+255,245,164,4948.03,USD,2024-07-07,East Paigefurt,True,True
+256,458,479,8445.78,USD,2024-05-07,Port Markmouth,True,True
+257,146,748,1571.33,USD,2024-09-21,North John,True,True
+258,46,976,177.53,USD,2024-06-20,East Matthew,False,True
+259,713,265,5561.8,USD,2023-12-01,South Rickeyville,False,True
+260,987,355,2042.59,USD,2024-05-15,South Briannaport,False,True
+261,841,900,349.8,USD,2024-06-16,Maldonadobury,False,True
+262,199,767,1280.33,USD,2024-08-27,Brucefort,True,True
+263,299,627,8088.19,USD,2024-02-14,Danielsside,False,True
+264,263,960,4503.43,USD,2024-05-29,East Richardville,True,True
+265,390,279,715.49,USD,2024-07-11,New Anna,False,True
+266,924,176,6913.32,USD,2024-05-20,North Douglas,False,True
+267,815,615,231.34,USD,2024-04-22,Lake Danielfort,True,True
+268,155,3,4323.75,USD,2024-08-22,Bernardtown,False,True
+269,190,766,2147.56,USD,2024-09-21,Lake Andrewborough,True,True
+270,593,414,8046.96,USD,2024-11-10,Jonesville,True,True
+271,961,944,9821.71,USD,2024-03-12,Jacksontown,False,True
+272,732,557,5719.44,USD,2024-11-19,Lake James,False,True
+273,28,723,7010.93,USD,2024-07-08,Fisherfort,False,True
+274,267,936,5501.76,USD,2024-07-25,Hessport,False,True
+275,429,433,8542.36,USD,2024-08-02,East Barbaramouth,True,True
+276,505,81,5835.83,USD,2024-07-22,Robertfort,False,True
+277,981,146,2569.61,USD,2024-07-09,New Josephborough,False,True
+278,44,144,6793.69,USD,2024-10-09,Lake Coryhaven,False,True
+279,309,202,6343.65,USD,2023-12-24,Port Robert,True,True
+280,223,552,6647.48,USD,2024-03-15,Taylorville,True,True
+281,826,730,2299.1,USD,2024-08-01,South Taylorton,False,True
+282,691,621,2657.98,USD,2023-12-02,Dianebury,True,True
+283,419,137,8953.74,USD,2024-06-23,South Jennifer,False,True
+284,525,235,9476.66,USD,2024-02-18,Robinsonland,False,True
+285,454,868,291.24,USD,2024-05-19,Port Kenneth,False,True
+286,838,511,5490.4,USD,2024-03-08,Jamesborough,True,True
+287,301,974,7056.83,USD,2024-03-07,Port Lesliefurt,True,True
+288,4,450,3109.66,USD,2024-08-21,Russellland,False,True
+289,72,405,7190.82,USD,2024-03-17,North Shannon,True,True
+290,127,523,4988.87,USD,2023-12-12,Jonesstad,False,True
+291,247,285,5667.24,USD,2024-05-01,New Luishaven,False,True
+292,126,395,5438.63,USD,2024-09-30,Williamsborough,True,True
+293,400,985,7321.32,USD,2024-02-20,Roytown,False,True
+294,551,617,4183.5,USD,2024-04-10,Hunterport,False,True
+295,484,533,6888.92,USD,2024-08-24,Lake Jorgefurt,True,True
+296,717,260,6939.09,USD,2024-07-06,Lake Amy,False,True
+297,351,776,8329.63,USD,2024-07-20,Brendaport,False,True
+298,747,787,1804.21,USD,2024-07-09,West Ryan,True,True
+299,458,437,5069.65,USD,2024-09-23,Jessicaport,True,True
+300,216,848,8480.02,USD,2024-02-24,North Carlosport,False,True
+301,439,790,2480.82,USD,2024-11-02,Nathanport,True,True
+302,475,610,7181.1,USD,2024-07-16,Stephanieshire,True,True
+303,290,545,1095.79,USD,2023-12-09,Bakerside,False,True
+304,965,278,5483.55,USD,2024-06-19,Taylorberg,True,True
+305,802,947,6191.57,USD,2024-01-03,Ryanton,True,True
+306,503,882,3971.53,USD,2024-09-05,Robertborough,False,True
+307,586,805,3364.09,USD,2023-11-29,Yodermouth,False,True
+308,187,927,5439.16,USD,2024-10-21,Kochville,True,True
+309,718,152,1432.47,USD,2024-11-20,New Colin,False,True
+310,780,844,1773.87,USD,2024-07-26,East Robert,True,True
+311,46,247,2503.9,USD,2024-10-28,West Aaronmouth,True,True
+312,267,255,3068.13,USD,2024-07-11,Terriberg,True,True
+313,680,612,5933.81,USD,2024-03-14,Scottshire,True,True
+314,145,876,8411.99,USD,2024-04-27,Aguirreborough,False,True
+315,990,120,2798.56,USD,2024-04-02,Hardinland,False,True
+316,56,237,9515.56,USD,2024-04-18,South Jesse,True,True
+317,714,202,7879.18,USD,2024-06-07,Mariastad,False,True
+318,646,850,6411.68,USD,2024-08-29,East Stacy,False,True
+319,222,697,9964.43,USD,2024-04-10,South Wesleyberg,False,True
+320,245,282,5498.1,USD,2024-11-17,West Michael,True,True
+321,866,575,7262.49,USD,2024-06-22,South Candace,True,True
+322,249,147,4906.96,USD,2023-11-28,South Sarahton,False,True
+323,429,514,9355.9,USD,2024-01-14,South Brittanychester,True,True
+324,594,992,1170.48,USD,2024-11-11,Port Crystalberg,True,True
+325,714,602,5466.56,USD,2023-11-26,Hendersonbury,False,True
+326,527,463,1976.69,USD,2024-01-08,West Margaret,True,True
+327,522,336,2951.02,USD,2024-11-04,Alexistown,False,True
+328,592,365,8012.16,USD,2024-03-21,West Kathryn,False,True
+329,405,214,9663.3,USD,2024-06-26,North Jessicaberg,True,True
+330,714,651,5910.77,USD,2023-12-28,Priceside,True,True
+331,519,422,4016.15,USD,2024-02-16,Taylorfort,True,True
+332,369,17,9988.13,USD,2024-06-17,Carlosmouth,False,True
+333,994,65,1756.98,USD,2024-03-03,Lake Lindaside,False,True
+334,402,42,1423.22,USD,2024-10-31,Ellisonborough,False,True
+335,344,685,9525.79,USD,2024-08-13,Johnnyville,False,True
+336,537,971,5881.23,USD,2024-05-04,Henrytown,False,True
+337,343,189,6413.72,USD,2023-12-28,Lake Davidhaven,True,True
+338,242,64,2209.98,USD,2024-10-30,Lake Daniel,True,True
+339,929,439,9104.47,USD,2024-05-29,Michelleland,False,True
+340,295,565,7804.25,USD,2024-06-17,Walkerton,False,True
+341,364,884,5852.85,USD,2024-08-02,Jordanchester,False,True
+342,424,555,1810.19,USD,2024-08-19,Billyland,True,True
+343,963,550,1164.52,USD,2024-05-05,Devonside,True,True
+344,929,845,7643.69,USD,2024-08-29,North Clarence,False,True
+345,844,775,1439.14,USD,2024-06-20,Katrinamouth,True,True
+346,273,870,2024.4,USD,2024-10-10,Melindaland,False,True
+347,482,458,3150.25,USD,2023-12-30,Port Cindy,False,True
+348,220,25,8740.75,USD,2024-04-23,East Annafurt,False,True
+349,944,602,8195.84,USD,2024-06-20,North Bridget,False,True
+350,158,304,7536.55,USD,2024-08-05,East Tyler,True,True
+351,210,879,6094.4,USD,2024-10-22,Sampsonland,True,True
+352,633,500,5704.22,USD,2024-05-19,North Lisa,False,True
+353,141,620,4063.65,USD,2024-10-14,Trevorton,True,True
+354,667,415,154.93,USD,2023-12-04,New Ashleymouth,True,True
+355,664,738,6080.06,USD,2024-09-26,Powellshire,False,True
+356,291,789,5144.52,USD,2024-02-05,Stephenmouth,False,True
+357,167,306,2639.87,USD,2024-11-08,Kelseychester,True,True
+358,120,560,5904.57,USD,2024-05-20,East Christopher,False,True
+359,957,988,6103.91,USD,2024-05-24,New Angelaburgh,True,True
+360,789,327,3529.98,USD,2024-09-24,East Hannah,False,True
+361,683,453,8674.97,USD,2024-05-05,Myersmouth,True,True
+362,75,546,1225.22,USD,2024-02-23,East Shaneberg,True,True
+363,735,608,5704.01,USD,2024-01-04,Christophertown,True,True
+364,484,450,2261.85,USD,2024-07-28,North Edwardstad,True,True
+365,517,627,8868.4,USD,2024-05-12,Carterland,False,True
+366,178,408,602.48,USD,2024-05-15,Triciaville,True,True
+367,708,845,9514.35,USD,2024-09-30,Port Nicoleton,False,True
+368,392,36,7227.93,USD,2024-10-28,Farmerborough,False,True
+369,513,256,4342.14,USD,2024-01-30,Jasontown,False,True
+370,946,745,4449.37,USD,2024-10-09,East Scottmouth,False,True
+371,851,504,1372.39,USD,2024-05-17,Markchester,False,True
+372,679,185,3924.17,USD,2024-03-29,East Kristinshire,False,True
+373,284,906,6981.48,USD,2023-12-06,Kristinfort,True,True
+374,24,480,6825.12,USD,2024-08-20,South Gary,True,True
+375,771,655,2252.73,USD,2024-10-18,South Carl,False,True
+376,412,784,8796.84,USD,2024-11-17,Jamieton,False,True
+377,506,148,5776.99,USD,2024-01-30,Terriland,True,True
+378,246,943,3111.95,USD,2024-10-25,East Adrianmouth,False,True
+379,516,158,7233.76,USD,2024-05-08,Carlosborough,False,True
+380,868,48,9931.19,USD,2024-11-16,Rodriguezberg,True,True
+381,532,690,6212.61,USD,2024-04-23,West Patrickfurt,False,True
+382,4,322,4173.66,USD,2024-01-13,Louisland,False,True
+383,883,354,2330.52,USD,2024-11-06,New Andrewview,False,True
+384,706,481,6808.62,USD,2024-01-27,Lake Thomas,True,True
+385,822,469,6405.71,USD,2024-08-20,South Kyleburgh,True,True
+386,689,513,4390.82,USD,2024-07-31,Pattersonside,False,True
+387,458,776,7134.84,USD,2024-11-18,Michaelland,False,True
+388,650,227,3432.85,USD,2024-09-01,North Danielville,True,True
+389,437,235,5192.36,USD,2023-12-01,Jenniferview,True,True
+390,523,180,9261.44,USD,2024-05-16,North Joshuastad,False,True
+391,907,449,8743.29,USD,2024-09-17,New Kelly,False,True
+392,483,691,8077.89,USD,2024-11-13,New Manuelside,True,True
+393,819,539,2932.77,USD,2024-09-09,North Kristopherborough,False,True
+394,368,761,5704.79,USD,2024-03-01,New Anthony,False,True
+395,555,656,5857.3,USD,2024-03-23,Whiteborough,True,True
+396,119,518,3114.5,USD,2024-02-25,Lake Crystal,True,True
+397,957,720,5760.31,USD,2024-08-24,New Courtneyborough,True,True
+398,364,408,6032.56,USD,2024-05-31,Petersonhaven,True,True
+399,259,630,5586.2,USD,2024-08-03,New Markstad,True,True
+400,892,323,6753.55,USD,2024-06-09,Sarahland,True,True
+401,19,45,268.84,USD,2024-05-21,Johnstonmouth,False,True
+402,227,817,8394.68,USD,2024-09-14,South Edwin,False,True
+403,99,92,1644.99,USD,2024-08-25,Thomasside,False,True
+404,742,467,6655.1,USD,2024-09-02,Mindyfort,False,True
+405,285,444,6674.15,USD,2024-02-21,Davidmouth,False,True
+406,109,487,5939.23,USD,2024-02-28,North Vickishire,False,True
+407,475,52,4782.78,USD,2024-08-22,Kimview,True,True
+408,797,652,4704.76,USD,2024-08-20,West Sharonburgh,True,True
+409,626,941,7486.47,USD,2023-12-13,Atkinschester,True,True
+410,837,712,2593.23,USD,2024-08-28,Cruzberg,False,True
+411,870,211,3973.95,USD,2024-04-01,Mooremouth,False,True
+412,611,699,4150.01,USD,2024-07-10,Monroehaven,True,True
+413,713,368,9953.66,USD,2024-01-22,West Kathyhaven,False,True
+414,864,160,2697.79,USD,2024-10-25,Josephfurt,False,True
+415,804,730,6134.69,USD,2024-02-18,West Aaron,False,True
+416,821,556,905.28,USD,2024-10-14,Christineburgh,False,True
+417,156,802,1980.24,USD,2024-05-03,North Melissa,False,True
+418,760,311,6915.24,USD,2024-09-19,East Stevenhaven,False,True
+419,401,827,1815.27,USD,2023-12-29,East Juanberg,True,True
+420,100,704,2655.72,USD,2024-06-30,Lawsonton,False,True
+421,572,220,3145.99,USD,2024-02-07,Garciafurt,False,True
+422,519,50,5045.59,USD,2023-12-23,Wolfemouth,True,True
+423,670,373,5398.38,USD,2024-07-16,Colleenside,False,True
+424,826,119,1499.77,USD,2023-12-14,South Markbury,False,True
+425,744,915,1014.12,USD,2024-03-13,Evanburgh,False,True
+426,351,88,7167.22,USD,2024-07-06,Velasquezport,False,True
+427,469,318,2121.09,USD,2024-08-09,Port Ritatown,False,True
+428,707,132,9652.95,USD,2023-12-22,Rebeccamouth,False,True
+429,496,262,2188.08,USD,2023-12-29,Lake Lisaview,True,True
+430,655,634,4794.33,USD,2024-05-19,Deanberg,False,True
+431,350,230,9190.51,USD,2024-07-13,Schmidtmouth,False,True
+432,681,688,1896.96,USD,2024-10-04,South Brandonshire,True,True
+433,62,409,467.73,USD,2024-06-21,West Davidstad,False,True
+434,721,993,5626.44,USD,2024-11-06,Markmouth,True,True
+435,37,958,1887.27,USD,2024-02-12,Lake Jeffreyfort,True,True
+436,391,103,9751.56,USD,2024-11-03,New Brandonton,True,True
+437,218,747,1946.99,USD,2024-07-26,Elizabethburgh,False,True
+438,785,378,1877.07,USD,2024-01-10,Barbarastad,True,True
+439,407,671,578.19,USD,2024-08-11,Andrewsfort,True,True
+440,319,18,6503.59,USD,2024-03-14,Cooperborough,False,True
+441,488,622,1256.31,USD,2024-09-13,Hannahfurt,False,True
+442,520,246,678.11,USD,2024-03-05,Elizabethhaven,False,True
+443,8,60,6583.51,USD,2024-11-14,Lake Saraside,False,True
+444,177,475,6463.99,USD,2024-07-09,Baldwinport,False,True
+445,654,781,4055.84,USD,2024-08-05,Lawrencetown,False,True
+446,710,12,3854.41,USD,2024-06-28,West Samanthaview,False,True
+447,812,719,8165.41,USD,2023-11-26,Davidton,True,True
+448,155,768,5205.17,USD,2024-06-26,Mckinneyside,True,True
+449,867,776,6112.06,USD,2024-06-17,West Michaelside,False,True
+450,651,392,6032.62,USD,2024-06-16,North Austinfurt,False,True
+451,378,154,4558.89,USD,2024-07-20,Johnport,True,True
+452,655,797,3891.31,USD,2024-06-28,Shepherdland,True,True
+453,21,806,6445.35,USD,2024-05-28,Port Bonnie,False,True
+454,772,65,2349.21,USD,2024-04-17,Lake Henry,True,True
+455,788,838,6827.54,USD,2024-11-07,Port Kathyfort,False,True
+456,843,195,9673.62,USD,2024-08-26,West Christy,False,True
+457,108,507,7901.96,USD,2024-08-14,Burkemouth,False,True
+458,830,141,3517.29,USD,2024-10-10,Lake Brittanyfort,False,True
+459,381,136,9583.48,USD,2024-11-05,West Jamesside,True,True
+460,581,114,5406.76,USD,2024-08-28,New Randy,False,True
+461,842,859,2187.11,USD,2024-07-18,Nicolefurt,False,True
+462,158,535,5251.13,USD,2024-06-06,Samanthaport,False,True
+463,246,1001,4942.58,USD,2024-08-06,South Adamton,True,True
+464,19,527,3668.41,USD,2023-12-05,South Jose,True,True
+465,205,685,420.03,USD,2024-09-04,South Amberstad,False,True
+466,199,969,8385.43,USD,2024-06-04,Port Dana,True,True
+467,142,872,3546.9,USD,2024-06-19,Lake Edwardbury,True,True
+468,66,250,3439.5,USD,2024-09-27,Timothyside,True,True
+469,849,93,9442.85,USD,2024-01-10,Katherinetown,False,True
+470,926,212,6761.3,USD,2024-03-10,Shanebury,True,True
+471,416,308,7531.77,USD,2024-02-24,Richardchester,True,True
+472,423,965,7153.5,USD,2024-08-26,Aaronborough,True,True
+473,791,232,5298.63,USD,2024-02-23,Youngstad,False,True
+474,217,755,5426.31,USD,2024-10-17,Lake Anthonyshire,True,True
+475,95,963,4851.24,USD,2024-01-19,Lake Stacy,True,True
+476,751,73,4145.44,USD,2024-10-19,Powellland,True,True
+477,176,332,663.62,USD,2024-07-15,Port Matthewhaven,True,True
+478,68,918,3637.41,USD,2023-12-16,Chadland,True,True
+479,89,866,2133.82,USD,2024-02-26,Lake Benjaminhaven,False,True
+480,936,780,2237.84,USD,2024-08-02,Lake Ericborough,True,True
+481,846,144,3144.19,USD,2024-04-26,Smithchester,True,True
+482,478,313,7721.13,USD,2024-11-05,East Belindatown,True,True
+483,511,264,8287.55,USD,2024-02-08,Watsonmouth,True,True
+484,97,171,224.51,USD,2024-09-10,Andersonview,False,True
+485,453,125,5513.92,USD,2024-11-20,East Kim,False,True
+486,692,790,3884.58,USD,2024-06-08,Conwaymouth,True,True
+487,66,617,5844.37,USD,2024-01-01,East John,False,True
+488,335,103,4011.08,USD,2024-02-19,New Lynn,False,True
+489,524,23,5085.23,USD,2024-11-18,Lake Marissa,True,True
+490,81,866,8297.69,USD,2024-01-02,West Melissaside,False,True
+491,768,696,2312.17,USD,2024-03-10,Michellebury,True,True
+492,646,113,7133.35,USD,2024-04-09,North Kaylashire,False,True
+493,541,450,1330.59,USD,2024-06-21,Gregorybury,True,True
+494,307,669,1105.99,USD,2024-09-02,Lake Steven,True,True
+495,903,112,3955.59,USD,2023-12-09,Stevensontown,True,True
+496,793,442,1836.22,USD,2024-05-24,South Kimberlystad,True,True
+497,343,606,4332.86,USD,2023-11-23,Ortizhaven,False,True
+498,841,640,1120.76,USD,2024-09-04,Jonathanview,True,True
+499,288,254,7129.47,USD,2024-09-07,North Jamieborough,False,True
+500,271,732,9895.62,USD,2024-04-13,Lake Jasmineport,True,True
+501,958,809,9994.12,USD,2024-03-03,West Tara,True,True
+502,541,694,6935.92,USD,2024-09-20,Townsendport,False,True
+503,113,262,5553.1,USD,2023-11-28,Eugeneville,True,True
+504,343,401,8419.59,USD,2024-02-29,Garciabury,False,True
+505,315,398,8851.2,USD,2024-02-12,Port Zacharyview,False,True
+506,299,515,5916.62,USD,2024-10-03,South Mollybury,True,True
+507,877,919,2107.14,USD,2024-10-21,Taylorbury,False,True
+508,555,858,5600.47,USD,2024-02-02,Denisestad,True,True
+509,469,557,3176.45,USD,2024-05-21,Murphyview,False,True
+510,347,342,4713.35,USD,2024-10-10,Guerrerotown,True,True
+511,557,484,5909.94,USD,2024-01-18,Sherylborough,True,True
+512,583,630,211.71,USD,2024-10-09,East Josephtown,True,True
+513,93,788,1640.75,USD,2024-07-14,Lewisfurt,False,True
+514,671,999,7195.54,USD,2023-12-29,Port Gregory,True,True
+515,337,560,6501.27,USD,2024-06-13,Melindaborough,False,True
+516,18,617,7750.07,USD,2024-07-26,West Natalie,True,True
+517,331,32,1625.93,USD,2024-03-23,Hodgechester,False,True
+518,734,641,2355.94,USD,2024-03-15,Joshuahaven,False,True
+519,374,740,5678.63,USD,2024-06-30,West Lisa,True,True
+520,394,173,9432.86,USD,2024-02-15,North Philip,False,True
+521,340,341,4372.02,USD,2023-11-27,Grantview,False,True
+522,955,678,1472.49,USD,2024-01-07,North Victoria,True,True
+523,71,240,9138.89,USD,2024-04-14,New Jonathanmouth,True,True
+524,799,390,1638.54,USD,2024-05-23,Aaronland,False,True
+525,99,260,2723.7,USD,2024-04-15,Danielburgh,True,True
+526,27,814,6050.36,USD,2023-12-02,South Lisa,True,True
+527,88,1006,4131.0,USD,2024-04-23,Thompsonborough,False,True
+528,539,52,3952.29,USD,2024-04-21,Youngmouth,False,True
+529,160,616,7065.13,USD,2024-02-11,Andrealand,True,True
+530,391,1000,9679.24,USD,2024-04-01,Blackburgh,True,True
+531,763,529,3580.37,USD,2023-12-30,North Kellymouth,False,True
+532,757,563,459.49,USD,2023-12-01,Jonesburgh,False,True
+533,343,369,7388.8,USD,2023-11-24,Bradfordfurt,True,True
+534,462,1006,9750.32,USD,2023-12-22,West Kenneth,False,True
+535,829,143,4336.54,USD,2024-08-13,North Stephenmouth,True,True
+536,734,193,117.42,USD,2024-04-30,West Gregorytown,False,True
+537,501,867,9636.4,USD,2024-10-09,South Anthonyhaven,False,True
+538,167,888,6089.18,USD,2024-01-30,West Courtney,True,True
+539,132,609,2721.97,USD,2023-12-14,Mossberg,False,True
+540,507,499,8475.72,USD,2024-03-05,Conleyshire,False,True
+541,721,233,7831.37,USD,2024-09-28,North Randystad,True,True
+542,999,408,9429.64,USD,2024-09-11,Schultzbury,True,True
+543,436,976,2951.22,USD,2024-04-02,New Rachelland,True,True
+544,786,544,1561.0,USD,2024-04-10,New Christina,False,True
+545,780,808,9452.52,USD,2024-08-28,South Thomasstad,False,True
+546,492,233,9482.81,USD,2024-03-28,New Teresatown,False,True
+547,712,146,8086.58,USD,2024-06-30,Daniellemouth,True,True
+548,412,647,5494.18,USD,2024-05-15,Cassandrahaven,True,True
+549,553,905,7277.08,USD,2024-07-25,Laurenhaven,False,True
+550,296,1005,5113.55,USD,2024-02-19,Jessicamouth,False,True
+551,428,503,8825.2,USD,2024-07-16,New Kathryn,False,True
+552,810,311,146.95,USD,2024-05-28,South David,True,True
+553,402,907,4320.66,USD,2024-07-17,Andersonberg,False,True
+554,160,700,3828.55,USD,2024-10-26,Port Mariochester,True,True
+555,491,947,594.82,USD,2024-08-17,North Teresaton,True,True
+556,275,566,7354.65,USD,2024-09-16,East Todd,True,True
+557,514,108,136.69,USD,2024-05-19,Amandaport,False,True
+558,185,108,1211.27,USD,2024-10-09,New Joseph,True,True
+559,824,364,3637.94,USD,2024-03-11,Toddbury,False,True
+560,89,453,908.82,USD,2024-07-26,Port Emilyville,False,True
+561,498,137,9534.8,USD,2024-06-14,Port Destinyside,True,True
+562,852,648,8163.48,USD,2024-01-09,Haroldstad,False,True
+563,594,288,5050.63,USD,2023-12-15,North Brittany,True,True
+564,597,82,3918.43,USD,2024-04-10,Lake Benjamin,False,True
+565,915,395,4905.83,USD,2024-08-29,New Mollyburgh,False,True
+566,270,147,9934.56,USD,2024-09-16,Lake Teresaborough,True,True
+567,151,88,9509.48,USD,2024-02-17,Charlesborough,True,True
+568,955,128,5367.5,USD,2024-11-02,Reidmouth,False,True
+569,771,649,5545.83,USD,2024-04-21,South Jonathan,True,True
+570,94,215,9394.08,USD,2024-05-28,Oscarstad,True,True
+571,207,254,9851.24,USD,2024-02-20,Clementsfurt,True,True
+572,693,235,8122.23,USD,2024-04-22,North Julie,True,True
+573,753,704,6290.98,USD,2024-08-13,Vanessastad,True,True
+574,527,828,554.61,USD,2024-06-18,Smithmouth,False,True
+575,912,365,1732.45,USD,2024-01-07,North Ryan,True,True
+576,916,683,4826.96,USD,2024-04-22,West Scottborough,True,True
+577,160,524,5624.12,USD,2024-01-30,Ronnieville,True,True
+578,207,385,9118.16,USD,2023-11-23,Stacybury,True,True
+579,973,619,2296.82,USD,2024-11-01,Laurenton,True,True
+580,917,809,7548.75,USD,2024-09-05,Barajasville,True,True
+581,969,851,3273.65,USD,2023-12-04,North Cameron,False,True
+582,285,686,7300.91,USD,2024-09-29,Phillipsview,True,True
+583,773,521,6902.88,USD,2024-05-23,Port Ashley,False,True
+584,591,860,2903.38,USD,2024-09-01,Powersshire,False,True
+585,663,613,8685.31,USD,2024-11-18,New Amyshire,True,True
+586,395,483,8054.89,USD,2024-09-19,Port Charlesfort,True,True
+587,917,618,7964.42,USD,2024-10-01,East Debramouth,True,True
+588,153,992,9016.89,USD,2024-07-31,Samanthabury,False,True
+589,963,896,5682.56,USD,2024-01-28,Joannfurt,True,True
+590,190,567,1250.17,USD,2024-03-24,Port Terri,True,True
+591,573,65,3792.94,USD,2024-08-08,Lake Bonnie,True,True
+592,855,313,6540.42,USD,2024-11-04,Brewermouth,True,True
+593,769,122,5868.06,USD,2024-04-06,Stevensonstad,True,True
+594,804,964,3058.48,USD,2023-12-24,Rossfort,False,True
+595,861,470,7733.22,USD,2024-08-19,Philliphaven,True,True
+596,548,589,4662.69,USD,2024-03-13,East Teresabury,True,True
+597,674,325,1017.29,USD,2024-09-23,East Jamesshire,True,True
+598,280,433,4398.44,USD,2024-03-20,West Hunter,False,True
+599,930,891,5153.49,USD,2024-02-03,South Antonio,True,True
+600,585,282,1247.33,USD,2024-06-15,Andersonborough,True,True
+601,571,327,7332.16,USD,2024-09-11,Travisview,False,True
+602,162,278,8705.3,USD,2024-11-12,Parkermouth,False,True
+603,421,383,9815.7,USD,2024-11-17,Devinfurt,False,True
+604,618,688,2453.74,USD,2024-06-19,Nicoletown,False,True
+605,228,950,1910.4,USD,2024-05-04,Knightland,False,True
+606,288,556,8172.59,USD,2023-11-29,Port Austinport,False,True
+607,37,33,4022.74,USD,2024-04-21,Kyleport,False,True
+608,934,399,5625.84,USD,2023-11-30,North Shari,False,True
+609,784,709,4580.7,USD,2024-05-22,New Angieton,False,True
+610,381,930,732.28,USD,2023-12-13,North Johnland,True,True
+611,203,359,5797.25,USD,2024-06-04,North Jenniferland,False,True
+612,795,148,7837.58,USD,2024-09-17,Port Shannonhaven,True,True
+613,832,396,4102.58,USD,2024-07-29,North Scott,False,True
+614,835,185,6958.26,USD,2024-07-16,Cookport,False,True
+615,449,616,4974.08,USD,2024-05-26,Lake Paul,True,True
+616,115,694,8806.59,USD,2024-03-12,Laurenmouth,True,True
+617,212,255,7575.61,USD,2024-08-28,West Keith,False,True
+618,855,543,9829.68,USD,2024-08-10,South Kennethtown,False,True
+619,301,834,135.47,USD,2024-11-20,South James,True,True
+620,407,442,7128.07,USD,2024-05-30,Deborahside,True,True
+621,612,628,6390.85,USD,2024-01-20,South Nicholasport,False,True
+622,82,9,8910.06,USD,2024-06-18,Loriburgh,True,True
+623,76,801,5108.84,USD,2024-11-04,Susantown,True,True
+624,370,207,9045.09,USD,2024-01-04,Haneyshire,True,True
+625,471,838,5555.32,USD,2024-05-01,Grimesburgh,False,True
+626,803,615,8829.18,USD,2024-01-31,South Elizabethborough,True,True
+627,443,632,2841.25,USD,2023-12-17,Brendaport,False,True
+628,178,969,1895.34,USD,2024-07-01,Perezberg,False,True
+629,660,349,1246.47,USD,2024-08-12,Brandonberg,True,True
+630,815,78,6139.61,USD,2024-05-11,Edwardsburgh,False,True
+631,460,269,91.22,USD,2024-02-20,Ryanport,False,True
+632,779,517,4705.28,USD,2024-06-29,New Angelafurt,True,True
+633,897,938,7949.59,USD,2024-03-21,South Donald,False,True
+634,470,1006,3914.0,USD,2024-06-18,Michaelhaven,False,True
+635,10,943,1011.47,USD,2024-08-20,Edwardview,False,True
+636,382,440,3820.24,USD,2024-08-13,Stevenburgh,True,True
+637,10,90,3076.74,USD,2024-09-22,Richardfort,False,True
+638,974,980,3735.99,USD,2024-10-13,East Elizabeth,True,True
+639,301,535,9790.33,USD,2024-08-09,New Kristen,False,True
+640,888,320,9434.14,USD,2023-12-07,South Peter,True,True
+641,74,177,4176.01,USD,2024-08-15,West Francisco,True,True
+642,454,925,8919.97,USD,2024-08-31,Jenniferfurt,True,True
+643,674,516,101.03,USD,2024-11-22,East Mike,False,True
+644,784,413,5950.8,USD,2024-11-06,Floreston,False,True
+645,780,928,4610.14,USD,2024-03-16,Veronicaton,True,True
+646,4,402,2899.69,USD,2024-07-21,Cunninghamfurt,False,True
+647,72,993,7964.62,USD,2024-05-29,Jenniferview,False,True
+648,102,53,281.57,USD,2024-04-24,East Lindsayland,True,True
+649,149,244,9294.44,USD,2024-07-16,East Bridgetview,True,True
+650,415,988,3022.37,USD,2024-10-28,Kristinastad,True,True
+651,389,715,1555.02,USD,2024-11-04,East Manuelview,False,True
+652,139,110,420.89,USD,2024-08-09,Griffithview,False,True
+653,720,556,9391.38,USD,2024-05-15,Hallton,False,True
+654,265,23,5719.56,USD,2023-12-14,Schmidtview,False,True
+655,565,212,3433.1,USD,2024-03-08,Shafferville,True,True
+656,578,61,6709.07,USD,2023-12-30,South Stevenside,False,True
+657,846,631,4152.67,USD,2024-11-08,East David,False,True
+658,388,467,9746.91,USD,2024-02-16,South Dianeport,False,True
+659,564,191,5939.31,USD,2024-09-02,Boothport,True,True
+660,411,375,2965.41,USD,2024-05-11,New Rebeccaburgh,True,True
+661,593,16,657.35,USD,2024-10-30,Pittmanshire,False,True
+662,754,530,7283.99,USD,2024-09-10,Stephanieton,True,True
+663,374,727,5453.36,USD,2024-06-23,Melissaton,False,True
+664,917,235,7017.66,USD,2024-04-23,West Krista,True,True
+665,653,368,530.93,USD,2023-11-27,Micheleport,False,True
+666,385,168,8594.71,USD,2024-08-13,Port Dianeborough,True,True
+667,122,535,9387.23,USD,2023-12-22,Christianmouth,True,True
+668,479,591,2929.82,USD,2024-02-23,Princeborough,False,True
+669,325,403,2712.13,USD,2024-10-30,Erinport,True,True
+670,320,523,5609.28,USD,2024-08-29,Garciaview,False,True
+671,674,605,4700.21,USD,2024-02-22,Ramosborough,True,True
+672,965,33,6296.23,USD,2024-03-14,Michaelport,True,True
+673,866,485,3361.84,USD,2024-06-29,Wilsonton,False,True
+674,100,441,8986.67,USD,2024-02-17,Lake Ethanstad,True,True
+675,817,18,2078.07,USD,2024-07-12,New Carolbury,True,True
+676,857,865,1594.56,USD,2024-05-25,North Kaylatown,False,True
+677,755,301,3542.88,USD,2024-04-09,Edwardburgh,False,True
+678,83,538,8267.66,USD,2024-01-04,Ponceview,False,True
+679,162,488,6408.91,USD,2024-07-29,Kristenside,True,True
+680,784,978,2383.42,USD,2023-12-20,West Ryantown,True,True
+681,515,503,5873.63,USD,2024-02-13,Port Cathystad,True,True
+682,316,617,4120.22,USD,2024-03-19,Lake Charlesbury,True,True
+683,859,612,7303.01,USD,2024-08-25,Marvinchester,True,True
+684,371,879,5340.8,USD,2024-02-20,East Yolandafurt,False,True
+685,624,267,328.74,USD,2024-09-22,Pooleville,True,True
+686,701,36,2861.56,USD,2024-03-28,Lake Gavin,True,True
+687,531,273,2330.47,USD,2024-03-15,New Jonathanbury,True,True
+688,787,455,5671.71,USD,2023-12-31,Lake Erik,True,True
+689,551,351,1633.7,USD,2024-02-09,North Kevin,True,True
+690,137,164,2230.82,USD,2024-08-09,Moorefurt,True,True
+691,760,199,1611.88,USD,2023-12-23,Dalebury,False,True
+692,886,416,300.61,USD,2024-06-10,Ericaberg,False,True
+693,50,803,2713.01,USD,2024-06-05,New Michellefort,False,True
+694,196,72,5463.56,USD,2024-09-15,Dianestad,True,True
+695,909,133,6395.74,USD,2024-08-09,South Sharon,True,True
+696,580,538,9753.09,USD,2024-06-19,Robinhaven,True,True
+697,230,80,5550.32,USD,2024-04-11,Albertside,False,True
+698,537,800,6392.35,USD,2024-03-09,Turnerfort,True,True
+699,303,935,9376.8,USD,2024-07-27,Rosschester,True,True
+700,566,248,1295.05,USD,2024-01-07,Jodyborough,True,True
+701,574,450,433.13,USD,2024-10-18,Stephenmouth,False,True
+702,888,639,1081.23,USD,2023-12-22,East Sonia,True,True
+703,95,381,151.38,USD,2024-08-31,East Pamelaville,True,True
+704,911,336,3654.79,USD,2024-07-27,North Chrisport,True,True
+705,530,160,922.7,USD,2024-04-06,Heatherburgh,False,True
+706,528,256,1357.0,USD,2024-02-15,Heatherbury,False,True
+707,928,399,6768.72,USD,2024-01-23,New Erica,False,True
+708,77,441,6801.69,USD,2024-10-24,South Alexandria,False,True
+709,513,342,3349.05,USD,2024-06-04,Cortezborough,False,True
+710,609,412,1115.69,USD,2024-05-20,East Cindy,False,True
+711,675,615,58.63,USD,2024-01-20,Susanton,True,True
+712,561,464,9228.75,USD,2024-04-10,Scottton,True,True
+713,996,906,7318.22,USD,2024-04-27,Port David,True,True
+714,910,181,6176.08,USD,2024-08-14,Kathyborough,True,True
+715,249,98,6058.5,USD,2023-12-09,Austinview,False,True
+716,529,225,701.95,USD,2024-03-29,Petersonview,False,True
+717,34,630,7188.37,USD,2024-03-18,Yvonneville,False,True
+718,301,77,4104.49,USD,2024-09-02,Andersonland,True,True
+719,669,183,2827.94,USD,2024-11-05,Lake Terri,False,True
+720,247,895,1603.76,USD,2024-08-09,North Dustinstad,False,True
+721,923,863,882.71,USD,2024-09-28,Amybury,False,True
+722,835,973,6633.27,USD,2023-12-11,North Anna,False,True
+723,470,425,479.04,USD,2024-10-15,Melissaland,True,True
+724,911,996,6140.46,USD,2023-12-12,West Christopher,True,True
+725,23,759,5772.74,USD,2024-08-03,North Sergiohaven,False,True
+726,767,702,3982.78,USD,2024-02-02,Lake Andrew,False,True
+727,262,397,2398.96,USD,2024-03-21,Baileyburgh,True,True
+728,864,610,877.68,USD,2024-01-12,North Jeffrey,False,True
+729,876,1009,3094.83,USD,2024-08-04,North Courtneyview,False,True
+730,140,257,6809.58,USD,2024-06-12,East Matthew,False,True
+731,220,138,2664.15,USD,2024-06-10,Port Aaronmouth,False,True
+732,605,688,440.31,USD,2024-05-09,Tylerborough,True,True
+733,189,588,3272.73,USD,2024-05-05,Phillipsside,True,True
+734,45,58,9662.49,USD,2024-03-08,Hickmanport,True,True
+735,108,457,9337.53,USD,2024-09-22,Lake David,True,True
+736,230,496,7635.07,USD,2024-05-12,Ariasmouth,False,True
+737,729,25,9501.07,USD,2024-04-10,Adamfurt,False,True
+738,771,121,5734.31,USD,2024-10-03,East Jared,True,True
+739,460,101,6739.74,USD,2024-08-05,South Madisonside,True,True
+740,15,465,4809.83,USD,2024-09-30,Port Joshuamouth,True,True
+741,583,325,6397.02,USD,2024-06-26,North Michaelmouth,False,True
+742,481,733,7374.96,USD,2023-12-02,New Natalie,False,True
+743,153,330,4897.25,USD,2024-09-08,Timothystad,True,True
+744,30,571,980.92,USD,2024-03-10,West Donnaberg,True,True
+745,910,930,2575.72,USD,2024-10-10,East Miguel,True,True
+746,67,598,157.37,USD,2024-06-28,East Alexandra,False,True
+747,64,42,4907.27,USD,2023-12-24,Lake Amy,True,True
+748,493,678,2559.75,USD,2024-04-09,North Jamiehaven,False,True
+749,466,673,3927.74,USD,2024-07-04,Walkerside,True,True
+750,595,314,9443.32,USD,2024-06-27,Matthewton,True,True
+751,145,910,2280.84,USD,2023-12-16,East Jeffreyport,True,True
+752,838,743,6738.57,USD,2024-04-24,Port Lauren,True,True
+753,500,675,9240.92,USD,2023-12-27,Crystalfurt,True,True
+754,542,882,1534.08,USD,2024-02-07,Karichester,True,True
+755,872,255,8596.02,USD,2024-10-30,Frankville,False,True
+756,788,215,2240.69,USD,2023-12-14,Lake Dominique,True,True
+757,567,179,1789.34,USD,2024-07-21,West Tammychester,False,True
+758,9,375,7909.91,USD,2024-07-21,West Travis,False,True
+759,375,265,3321.99,USD,2024-10-19,Christianville,False,True
+760,753,646,7646.19,USD,2024-09-20,Donaldhaven,True,True
+761,995,821,3571.16,USD,2024-02-19,West Mark,True,True
+762,368,685,7292.38,USD,2024-07-26,Kimberlyton,False,True
+763,50,937,2723.36,USD,2024-08-10,Meyersfurt,True,True
+764,972,611,2334.6,USD,2024-03-31,Smithmouth,False,True
+765,696,697,2421.83,USD,2024-05-22,Yufort,False,True
+766,3,586,3151.21,USD,2023-12-25,Taylorbury,True,True
+767,288,527,1006.21,USD,2024-05-20,East Matthew,False,True
+768,924,486,1861.01,USD,2024-02-15,East Nicholasmouth,False,True
+769,849,198,6784.09,USD,2024-10-26,East Jessicaberg,False,True
+770,377,996,4709.74,USD,2024-11-04,Gilmoreburgh,True,True
+771,145,313,248.69,USD,2024-06-26,Jordanville,False,True
+772,786,199,8266.1,USD,2024-04-09,Lake Rodney,False,True
+773,387,698,2009.84,USD,2023-12-23,Tylerport,True,True
+774,621,776,2861.55,USD,2024-03-21,Lake Abigail,True,True
+775,372,715,9017.49,USD,2024-05-31,Juliestad,True,True
+776,754,157,3514.13,USD,2023-12-05,Mosleytown,False,True
+777,935,401,1234.38,USD,2024-07-10,Thomasberg,False,True
+778,896,629,2090.42,USD,2024-06-22,New Tami,True,True
+779,795,891,5145.84,USD,2024-09-21,Lake Sarah,False,True
+780,777,1001,1075.73,USD,2024-09-03,Elizabethhaven,False,True
+781,825,573,1914.77,USD,2024-09-08,Lake Jamesside,True,True
+782,833,622,1767.03,USD,2024-05-30,New Kelly,False,True
+783,943,631,8656.6,USD,2023-12-16,Rasmussenborough,False,True
+784,40,851,3597.19,USD,2023-12-25,Port Alexandraside,False,True
+785,886,231,6704.43,USD,2024-02-09,North David,False,True
+786,494,580,5585.25,USD,2023-12-09,Moorefort,False,True
+787,483,594,8637.82,USD,2024-02-12,Port Melanieburgh,False,True
+788,621,15,4419.37,USD,2024-10-28,Cohenside,False,True
+789,724,218,6789.75,USD,2024-07-02,Lake Christinaside,True,True
+790,611,670,567.52,USD,2023-11-25,Edwardchester,False,True
+791,119,128,4576.08,USD,2024-09-30,Hernandezside,True,True
+792,451,452,4123.7,USD,2024-09-22,Griffinfort,True,True
+793,250,198,684.09,USD,2024-09-12,New Marioton,True,True
+794,768,881,3383.69,USD,2024-09-15,Peterstad,True,True
+795,252,681,2658.78,USD,2024-09-06,North Timothyshire,True,True
+796,57,830,3548.93,USD,2024-04-20,Port Davidborough,True,True
+797,2,50,3078.17,USD,2024-07-15,Watsonmouth,True,True
+798,286,278,4247.92,USD,2024-07-09,Zacharyport,True,True
+799,561,507,4937.52,USD,2024-05-10,East Joanne,True,True
+800,120,171,8034.61,USD,2024-03-30,Michaelfort,True,True
+801,786,459,1412.78,USD,2024-04-27,Ramirezborough,False,True
+802,391,434,9763.79,USD,2024-09-10,North Robertfort,True,True
+803,524,622,4490.24,USD,2024-03-19,Kevintown,True,True
+804,694,330,7431.94,USD,2024-05-12,Lindsayland,True,True
+805,153,379,8706.3,USD,2024-05-20,New James,True,True
+806,763,520,723.1,USD,2024-11-09,Stevenborough,True,True
+807,649,317,2512.69,USD,2024-09-30,Gordonview,True,True
+808,937,616,4419.71,USD,2024-01-28,Jenniferport,False,True
+809,881,638,4560.93,USD,2024-02-24,Lake Nicolemouth,True,True
+810,252,752,2115.49,USD,2024-05-08,Kaylabury,False,True
+811,817,485,2050.93,USD,2023-11-29,West Anthonymouth,False,True
+812,505,924,4331.55,USD,2024-04-30,New Vanessamouth,False,True
+813,857,238,2708.88,USD,2024-06-19,Wesleystad,True,True
+814,718,608,9300.06,USD,2024-04-19,Scottview,False,True
+815,725,244,4214.53,USD,2024-02-23,Davidland,False,True
+816,738,830,3334.99,USD,2024-06-19,New Jeffrey,False,True
+817,408,952,4705.23,USD,2024-07-09,Port Christopherville,True,True
+818,310,415,3349.29,USD,2023-12-01,South Larryview,True,True
+819,300,7,3057.17,USD,2024-02-17,North Cheyenneside,True,True
+820,715,804,8229.96,USD,2024-10-15,Brandiberg,False,True
+821,95,930,9856.99,USD,2024-02-07,Manningchester,False,True
+822,597,433,8986.3,USD,2024-04-26,Joshuabury,True,True
+823,787,438,5000.76,USD,2024-05-22,Michaelburgh,True,True
+824,709,492,1782.42,USD,2023-12-02,New Arthurchester,False,True
+825,784,251,3601.2,USD,2024-11-22,Rogershaven,False,True
+826,196,840,2377.28,USD,2024-04-03,New Nicholas,True,True
+827,630,380,3262.58,USD,2023-11-28,Sawyerberg,False,True
+828,79,548,3956.41,USD,2024-02-18,Jesseshire,True,True
+829,13,48,4844.53,USD,2023-12-18,North Kimberlyhaven,False,True
+830,467,822,2126.21,USD,2024-05-24,Reyesfort,True,True
+831,171,32,3579.57,USD,2024-07-22,Rosariostad,False,True
+832,246,72,3371.53,USD,2024-11-05,Lake Caitlin,True,True
+833,59,885,6010.86,USD,2024-01-01,Watsonside,True,True
+834,423,433,4461.35,USD,2024-10-30,West Henryshire,True,True
+835,81,425,9420.27,USD,2024-06-26,Port Robert,True,True
+836,661,935,6536.11,USD,2024-08-28,South Dianehaven,True,True
+837,164,903,9203.33,USD,2024-11-05,Danielton,False,True
+838,551,112,412.07,USD,2024-01-21,South Lisa,True,True
+839,558,79,9730.33,USD,2024-03-25,East Stephaniebury,False,True
+840,512,1010,6572.08,USD,2024-08-25,Griffithville,True,True
+841,707,129,7936.13,USD,2024-03-29,Jasmineport,False,True
+842,725,610,8696.75,USD,2024-05-29,Arnoldborough,False,True
+843,209,182,9954.31,USD,2024-05-08,New Katietown,False,True
+844,175,502,4553.08,USD,2024-10-13,Lake Keithview,True,True
+845,448,442,4091.36,USD,2024-03-07,Orrville,True,True
+846,784,343,6969.96,USD,2024-09-06,South Adrian,True,True
+847,728,147,7081.95,USD,2024-11-13,New Lisastad,False,True
+848,778,992,6195.11,USD,2024-03-25,Leetown,False,True
+849,67,968,1313.72,USD,2024-05-11,Frazierfurt,True,True
+850,646,321,2005.85,USD,2024-06-10,Juliestad,True,True
+851,532,490,7157.74,USD,2024-05-31,Carlsonstad,False,True
+852,212,687,3372.46,USD,2024-04-25,West Brianmouth,False,True
+853,127,313,4648.43,USD,2024-02-25,East Victoriafort,True,True
+854,988,848,694.14,USD,2024-11-09,Port Mirandaside,True,True
+855,366,638,130.14,USD,2024-04-23,Vangtown,False,True
+856,587,286,529.14,USD,2024-03-30,Brianmouth,True,True
+857,493,926,2612.29,USD,2024-06-03,Port Emily,True,True
+858,450,958,4766.97,USD,2024-02-01,Tracyfort,False,True
+859,33,130,6234.57,USD,2024-07-04,North William,True,True
+860,608,449,1521.92,USD,2024-01-25,Reyestown,False,True
+861,48,502,4148.39,USD,2024-04-21,Garciamouth,True,True
+862,909,799,7158.82,USD,2024-05-25,North Markshire,False,True
+863,561,614,3337.21,USD,2024-06-17,Tamaramouth,True,True
+864,609,493,7579.24,USD,2023-12-28,Terristad,True,True
+865,871,416,922.06,USD,2024-05-27,Patrickland,False,True
+866,859,82,5390.74,USD,2023-12-09,West Matthew,True,True
+867,461,30,6353.24,USD,2024-08-17,New Mark,False,True
+868,234,629,6216.57,USD,2024-09-14,South Nancy,False,True
+869,831,290,4776.3,USD,2024-01-04,Suefurt,True,True
+870,170,720,2084.02,USD,2024-03-19,West Christopher,False,True
+871,955,406,1191.51,USD,2023-12-30,Cookshire,False,True
+872,595,660,5965.7,USD,2024-01-07,North Cynthia,False,True
+873,960,646,6711.31,USD,2024-11-07,North Laurenmouth,True,True
+874,714,27,2764.94,USD,2024-03-06,Port Bradleyview,False,True
+875,130,685,2965.15,USD,2024-05-03,West Kellyfurt,True,True
+876,136,548,360.92,USD,2023-12-12,Michelleshire,True,True
+877,408,984,7018.96,USD,2023-12-14,Bassville,True,True
+878,178,964,3463.89,USD,2023-12-06,Port Tracy,False,True
+879,740,831,8806.2,USD,2024-03-22,Pattersonview,False,True
+880,717,157,8022.0,USD,2024-03-30,Port Jeanette,True,True
+881,658,308,9912.62,USD,2024-08-20,Darrenborough,False,True
+882,533,855,2316.97,USD,2024-03-16,Haleyport,False,True
+883,371,867,5123.12,USD,2024-03-17,Port Brittany,False,True
+884,652,206,5504.76,USD,2024-10-04,Traceyville,False,True
+885,569,782,132.06,USD,2024-02-26,West Susan,False,True
+886,889,676,3445.8,USD,2024-09-20,Joseview,False,True
+887,695,941,5270.88,USD,2024-07-09,Benjaminstad,False,True
+888,923,631,6436.33,USD,2024-06-25,Port Kristy,False,True
+889,505,852,826.94,USD,2024-03-20,North Gregoryport,False,True
+890,143,602,6615.78,USD,2023-11-23,Bridgetmouth,False,True
+891,385,1008,5133.66,USD,2023-12-13,Marybury,False,True
+892,519,606,1632.37,USD,2024-09-09,Johnsonshire,False,True
+893,315,636,6686.31,USD,2024-02-01,New Jorgeborough,False,True
+894,251,1001,7046.31,USD,2024-07-06,West Susanburgh,True,True
+895,755,546,1825.81,USD,2024-05-19,Armstrongfurt,True,True
+896,766,835,6338.1,USD,2024-04-25,West Jeffreyhaven,True,True
+897,631,766,3153.81,USD,2024-05-09,Hernandezberg,True,True
+898,475,836,2886.41,USD,2024-08-16,Taylorport,True,True
+899,326,725,9293.79,USD,2024-05-16,New John,False,True
+900,2,122,9928.75,USD,2024-10-30,North Robert,False,True
+901,665,672,8014.13,USD,2024-03-24,Bakerberg,False,True
+902,29,43,6418.22,USD,2024-06-07,New Spencer,True,True
+903,14,852,8724.29,USD,2023-11-23,Shelbyshire,True,True
+904,765,779,3064.15,USD,2024-04-27,Holmesfurt,False,True
+905,878,54,5750.59,USD,2024-06-04,Lake Joseph,True,True
+906,254,967,4748.88,USD,2024-08-08,Robinsonhaven,False,True
+907,231,97,3729.47,USD,2024-09-14,Jacksonport,True,True
+908,966,286,4274.36,USD,2024-10-25,Jacobchester,True,True
+909,771,132,9648.45,USD,2024-03-22,New Dawn,True,True
+910,557,914,2752.02,USD,2024-07-07,Robertborough,False,True
+911,379,34,2697.21,USD,2024-08-19,Campbellland,True,True
+912,151,843,302.19,USD,2024-09-15,Port Matthewbury,True,True
+913,801,1009,9880.61,USD,2024-09-08,Smithfort,False,True
+914,749,225,6155.52,USD,2024-09-30,New Ethan,True,True
+915,670,482,6929.89,USD,2024-07-05,Douglasfurt,True,True
+916,187,18,6137.93,USD,2024-01-19,Lake Johnmouth,True,True
+917,102,394,6382.45,USD,2024-09-03,Stacychester,True,True
+918,778,184,5358.12,USD,2024-11-04,East Kristin,True,True
+919,966,704,9529.77,USD,2024-05-18,East Johnfurt,True,True
+920,579,733,5929.0,USD,2024-08-22,North Felicia,True,True
+921,568,876,5059.83,USD,2024-06-03,Lake Taylorside,False,True
+922,860,71,977.82,USD,2024-01-15,Lake Lindseyland,True,True
+923,369,689,4457.57,USD,2024-09-27,Brianburgh,False,True
+924,213,698,5013.57,USD,2024-01-07,New Brian,True,True
+925,197,744,3457.62,USD,2024-03-31,South Jessica,False,True
+926,296,753,8881.09,USD,2024-06-29,Danielhaven,True,True
+927,468,880,189.31,USD,2024-10-25,New Christy,True,True
+928,191,530,5402.23,USD,2024-04-26,South Debra,False,True
+929,558,774,6563.18,USD,2024-01-29,South Stephanie,False,True
+930,498,804,7340.07,USD,2023-12-27,Lynchland,True,True
+931,243,423,5006.46,USD,2024-07-28,Mariaview,False,True
+932,225,723,2861.53,USD,2024-04-09,Port Derrick,True,True
+933,953,760,9532.44,USD,2024-09-29,Allenmouth,False,True
+934,244,121,5153.8,USD,2024-04-27,North Jaredhaven,True,True
+935,989,619,7418.45,USD,2024-08-05,Juliehaven,False,True
+936,289,662,1075.12,USD,2024-08-31,West Michaelburgh,False,True
+937,541,565,2194.98,USD,2024-06-09,Doylechester,False,True
+938,9,508,40.42,USD,2024-11-18,Livingstonburgh,True,True
+939,846,103,5547.11,USD,2024-04-17,Williamsfort,True,True
+940,318,20,4020.19,USD,2024-05-04,Lake Nicholas,True,True
+941,436,897,5555.16,USD,2024-08-28,South Joseberg,True,True
+942,532,875,4365.61,USD,2024-10-14,Port Kimberly,False,True
+943,498,497,4512.23,USD,2024-10-17,Kingtown,True,True
+944,311,973,9571.68,USD,2024-09-04,East Ryan,False,True
+945,987,440,5040.11,USD,2024-03-21,New Cynthiafort,True,True
+946,273,177,5524.76,USD,2023-11-28,Edwardshire,False,True
+947,804,71,7698.37,USD,2024-04-17,Port Amanda,False,True
+948,948,696,688.99,USD,2023-12-25,West Bobby,False,True
+949,832,71,7498.01,USD,2024-03-15,Johnsonville,False,True
+950,89,567,4909.12,USD,2024-05-07,North Natasha,True,True
+951,316,46,604.57,USD,2023-12-20,East Mariahbury,True,True
+952,831,862,89.41,USD,2024-09-25,Careymouth,True,True
+953,154,754,9308.24,USD,2024-04-21,West Spencer,True,True
+954,314,557,9683.82,USD,2024-04-07,Stephanieberg,True,True
+955,21,318,5855.25,USD,2024-09-22,South Brianna,False,True
+956,352,167,5055.1,USD,2024-08-24,New Bryanhaven,False,True
+957,400,279,9209.03,USD,2024-09-20,Greenside,True,True
+958,507,622,9798.69,USD,2024-05-31,West Rayport,False,True
+959,13,925,6884.99,USD,2024-05-15,West Jessicaton,True,True
+960,732,511,6209.58,USD,2024-01-05,Stonehaven,False,True
+961,41,286,6712.87,USD,2024-07-12,Jamesstad,False,True
+962,785,501,9921.79,USD,2024-09-09,East Brendashire,False,True
+963,502,542,463.15,USD,2024-04-12,Mosleyside,False,True
+964,481,857,8964.11,USD,2023-12-01,Jonesberg,False,True
+965,649,590,9411.22,USD,2024-02-04,New Kyleberg,False,True
+966,174,682,8957.62,USD,2024-08-19,Pamelafort,True,True
+967,404,746,2618.9,USD,2024-02-18,North John,True,True
+968,149,312,1300.78,USD,2024-07-08,West Danielhaven,True,True
+969,376,655,2757.18,USD,2024-06-30,West Juan,False,True
+970,52,696,7025.51,USD,2024-01-30,Nancybury,True,True
+971,623,470,7631.71,USD,2024-10-10,Mcleanville,False,True
+972,813,859,2592.12,USD,2024-03-28,Kristenborough,True,True
+973,387,793,7653.14,USD,2024-02-16,New Angelicafurt,True,True
+974,349,17,3433.03,USD,2024-10-02,Salazarmouth,True,True
+975,496,392,5297.67,USD,2024-04-18,Mayobury,False,True
+976,723,455,5130.16,USD,2023-12-13,East Jeffreystad,True,True
+977,649,995,7141.02,USD,2024-10-20,Heathermouth,False,True
+978,898,376,7676.75,USD,2023-12-19,Ruizton,False,True
+979,907,874,8529.58,USD,2024-03-08,West Justinchester,True,True
+980,130,783,564.79,USD,2024-04-16,Monicaburgh,True,True
+981,240,539,3740.71,USD,2024-03-26,Mirandaville,True,True
+982,182,667,3084.57,USD,2024-07-24,Derekbury,True,True
+983,133,645,1808.53,USD,2023-11-24,Bryanhaven,False,True
+984,824,263,3953.74,USD,2024-03-03,Hamptonfort,True,True
+985,719,356,2649.06,USD,2024-09-25,West Jesushaven,False,True
+986,656,318,3289.64,USD,2024-01-26,South Charlesberg,True,True
+987,638,210,2198.71,USD,2024-03-10,Sethton,False,True
+988,211,584,1816.67,USD,2024-08-05,Lake Kevin,True,True
+989,731,381,854.38,USD,2024-02-29,Lake Jeffreytown,False,True
+990,909,311,6013.79,USD,2024-06-19,Tinaside,True,True
+991,781,978,5839.21,USD,2023-12-11,Greenchester,True,True
+992,474,536,8795.33,USD,2023-12-20,Quinnshire,True,True
+993,323,576,6208.19,USD,2024-02-17,West Thomas,False,True
+994,472,519,6168.77,USD,2024-09-24,Jordanland,True,True
+995,247,438,2185.82,USD,2024-07-05,Charlesmouth,True,True
+996,580,270,9657.76,USD,2023-12-25,Port Nicoleville,False,True
+997,906,532,3062.71,USD,2024-04-12,Brownfurt,True,True
+998,640,422,280.01,USD,2024-03-17,South Kimberlybury,True,True
+999,368,670,6974.08,USD,2024-06-28,Johnside,False,True
+1000,247,313,3488.39,USD,2024-01-18,East Robertburgh,True,True

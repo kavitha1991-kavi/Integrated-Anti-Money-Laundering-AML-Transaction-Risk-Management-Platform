@@ -1,0 +1,5 @@
+region,txn_count,avg_txn_amount,high_risk_txn_count,high_risk_txn_pct
+East,257,4975.57,140,54.47
+North,243,4925.47,130,53.5
+South,253,4796.4,119,47.04
+West,247,5054.42,118,47.77

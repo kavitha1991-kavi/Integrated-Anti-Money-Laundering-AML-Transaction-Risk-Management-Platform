@@ -1,0 +1,601 @@
+transaction_id,customer_id,customer_name,customer_region,customer_stated_risk,bank_id,bank_name,compliance_score,amount,txn_date,location,flag_large_amount,flag_high_frequency_customer,flag_high_risk_location,flag_low_compliance_bank,sanctions_flag,behavioural_score,fraud_score,severity,requires_analyst_review
+501,958,Marcus Little,North,Low,809,Bank 809,0.59,9994.12,2024-03-03,West Tara,1,0,1,1,1,3,4,Critical,1
+566,270,Daniel Mason,South,Low,147,Bank 147,0.59,9934.56,2024-09-16,Lake Teresaborough,1,0,1,1,1,3,4,Critical,1
+639,301,Timothy Contreras,North,Medium,535,Bank 535,0.55,9790.33,2024-08-09,New Kristen,1,1,0,1,1,3,4,Critical,1
+35,786,Deborah Reyes,East,High,958,Bank 958,0.84,9716.82,2024-04-24,West Christine,1,1,1,0,1,3,4,Critical,1
+954,314,Lisa Colon,West,Low,557,Bank 557,0.58,9683.82,2024-04-07,Stephanieberg,1,0,1,1,1,3,4,Critical,1
+909,771,Jennifer Jimenez,West,Medium,132,Bank 132,0.85,9648.45,2024-03-22,New Dawn,1,1,1,0,1,3,4,Critical,1
+567,151,Cory Collins,East,High,88,Bank 88,0.52,9509.48,2024-02-17,Charlesborough,1,0,1,1,1,3,4,Critical,1
+17,687,Anna Patterson,East,High,759,Bank 759,0.58,9417.45,2024-04-28,South Angelastad,1,0,1,1,1,3,4,Critical,1
+667,122,Angel Harper,East,Low,535,Bank 535,0.55,9387.23,2023-12-22,Christianmouth,1,0,1,1,1,3,4,Critical,1
+323,429,Matthew Patel,South,Medium,514,Bank 514,0.53,9355.9,2024-01-14,South Brittanychester,1,0,1,1,1,3,4,Critical,1
+3,143,Mark Taylor,East,Medium,598,Bank 598,0.57,9223.78,2024-04-27,Brendanberg,1,0,1,1,1,3,4,Critical,1
+330,714,Alexis Wilson,West,Medium,651,Bank 651,0.54,5910.77,2023-12-28,Priceside,0,1,1,1,1,3,4,Critical,1
+238,611,Sharon Crawford,East,Low,677,Bank 677,0.58,4561.89,2024-10-04,New Richardview,0,1,1,1,1,3,4,Critical,1
+214,400,Mary Brewer,South,Low,746,Bank 746,0.53,4037.01,2024-06-07,South Elizabethside,0,1,1,1,1,3,4,Critical,1
+178,357,Kathryn Shelton,West,High,898,Bank 898,0.72,9995.9,2024-11-16,Hudsonborough,1,0,1,0,1,2,3,High,1
+380,868,Douglas Martin,South,High,48,Bank 48,0.7,9931.19,2024-11-16,Rodriguezberg,1,0,1,0,1,2,3,High,1
+900,2,Brenda Johnson,South,Low,122,Bank 122,0.55,9928.75,2024-10-30,North Robert,1,0,0,1,1,2,3,High,1
+500,271,Valerie Robinson,East,Low,732,Bank 732,0.94,9895.62,2024-04-13,Lake Jasmineport,1,0,1,0,1,2,3,High,1
+188,930,Haley Harris,East,High,5,"Wilcox, Lynch and Weeks",0.51,9855.67,2024-07-12,Brianville,1,0,0,1,1,2,3,High,1
+571,207,Nathan Green,North,Medium,254,Bank 254,0.75,9851.24,2024-02-20,Clementsfurt,1,0,1,0,1,2,3,High,1
+618,855,Michael Hunt,North,Low,543,Bank 543,0.56,9829.68,2024-08-10,South Kennethtown,1,0,0,1,1,2,3,High,1
+66,750,Melinda Pope,East,Medium,880,Bank 880,0.96,9815.99,2023-12-20,East Diana,1,0,1,0,1,2,3,High,1
+696,580,Jeff Munoz,West,Low,538,Bank 538,0.97,9753.09,2024-06-19,Robinhaven,1,0,1,0,1,2,3,High,1
+436,391,Jonathan Spencer,North,High,103,Bank 103,0.97,9751.56,2024-11-03,New Brandonton,1,0,1,0,1,2,3,High,1
+534,462,Timothy Andrews,East,High,1006,Bank 1006,0.5,9750.32,2023-12-22,West Kenneth,1,0,0,1,1,2,3,High,1
+658,388,Michael Thompson,North,Medium,467,Bank 467,0.5,9746.91,2024-02-16,South Dianeport,1,0,0,1,1,2,3,High,1
+839,558,Amy Patel,West,High,79,Bank 79,0.56,9730.33,2024-03-25,East Stephaniebury,1,0,0,1,1,2,3,High,1
+329,405,Travis Hill,South,High,214,Bank 214,0.86,9663.3,2024-06-26,North Jessicaberg,1,0,1,0,1,2,3,High,1
+734,45,Nicholas Mccarthy,West,High,58,Bank 58,0.66,9662.49,2024-03-08,Hickmanport,1,0,1,0,1,2,3,High,1
+459,381,Amanda Newman,East,Low,136,Bank 136,0.67,9583.48,2024-11-05,West Jamesside,1,0,1,0,1,2,3,High,1
+561,498,Brian Thompson,South,Low,137,Bank 137,0.81,9534.8,2024-06-14,Port Destinyside,1,0,1,0,1,2,3,High,1
+919,966,Christopher Palmer,North,Low,704,Bank 704,0.92,9529.77,2024-05-18,East Johnfurt,1,0,1,0,1,2,3,High,1
+316,56,Joseph Vincent,South,Low,237,Bank 237,0.88,9515.56,2024-04-18,South Jesse,1,0,1,0,1,2,3,High,1
+367,708,Lisa Black,West,High,845,Bank 845,0.53,9514.35,2024-09-30,Port Nicoleton,1,0,0,1,1,2,3,High,1
+229,941,Gabriela Davis,South,High,588,Bank 588,0.85,9505.54,2024-09-19,Browntown,1,0,1,0,1,2,3,High,1
+128,143,Mark Taylor,East,Medium,441,Bank 441,0.57,9480.34,2024-10-06,Lake Ashley,1,0,0,1,1,2,3,High,1
+750,595,Sherry Brown,West,Low,314,Bank 314,1.0,9443.32,2024-06-27,Matthewton,1,0,1,0,1,2,3,High,1
+640,888,Shaun Howard,East,Medium,320,Bank 320,0.9,9434.14,2023-12-07,South Peter,1,0,1,0,1,2,3,High,1
+835,81,Cynthia Christensen,West,Low,425,Bank 425,0.87,9420.27,2024-06-26,Port Robert,1,0,1,0,1,2,3,High,1
+699,303,Jeffery Tran,North,High,935,Bank 935,0.86,9376.8,2024-07-27,Rosschester,1,0,1,0,1,2,3,High,1
+53,147,Amanda Gill,South,Low,988,Bank 988,0.97,9322.58,2023-12-12,Lake Ronaldbury,1,0,1,0,1,2,3,High,1
+953,154,Nancy Flowers,North,Medium,754,Bank 754,0.78,9308.24,2024-04-21,West Spencer,1,0,1,0,1,2,3,High,1
+649,149,Timothy Fox,South,Low,244,Bank 244,0.73,9294.44,2024-07-16,East Bridgetview,1,0,1,0,1,2,3,High,1
+74,613,Katelyn Farrell,East,Low,953,Bank 953,0.91,9265.02,2023-12-19,New Courtney,1,0,1,0,1,2,3,High,1
+753,500,Dawn Parrish,North,High,675,Bank 675,0.97,9240.92,2023-12-27,Crystalfurt,1,0,1,0,1,2,3,High,1
+712,561,Stacy Smith,East,High,464,Bank 464,0.93,9228.75,2024-04-10,Scottton,1,0,1,0,1,2,3,High,1
+957,400,Mary Brewer,South,Low,279,Bank 279,0.93,9209.03,2024-09-20,Greenside,1,1,1,0,0,3,3,High,1
+431,350,Linda Taylor,North,Low,230,Bank 230,0.56,9190.51,2024-07-13,Schmidtmouth,1,0,0,1,1,2,3,High,1
+101,150,Benjamin Robinson DVM,East,Medium,793,Bank 793,0.82,9183.25,2024-02-25,South Alexa,1,0,1,0,1,2,3,High,1
+523,71,John Preston,South,Medium,240,Bank 240,0.73,9138.89,2024-04-14,New Jonathanmouth,1,0,1,0,1,2,3,High,1
+578,207,Nathan Green,North,Medium,385,Bank 385,0.86,9118.16,2023-11-23,Stacybury,1,0,1,0,1,2,3,High,1
+339,929,Roger Larson,East,Low,439,Bank 439,0.59,9104.47,2024-05-29,Michelleland,1,0,0,1,1,2,3,High,1
+185,481,Jenna Payne,North,Low,713,Bank 713,0.94,9104.14,2024-02-21,Goodwinfurt,1,0,1,0,1,2,3,High,1
+624,370,Tyrone Peters,South,Low,207,Bank 207,0.89,9045.09,2024-01-04,Haneyshire,1,0,1,0,1,2,3,High,1
+122,196,Cristina Goodwin,North,High,684,Bank 684,0.62,9020.73,2024-11-04,Pamelamouth,1,0,1,0,1,2,3,High,1
+775,372,Michael Arnold,North,Medium,715,Bank 715,0.79,9017.49,2024-05-31,Juliestad,1,0,1,0,1,2,3,High,1
+165,625,Lindsey Clark,West,Medium,230,Bank 230,0.56,8845.4,2024-06-17,South Ryan,0,0,1,1,1,2,3,High,1
+626,803,Karen Carter,South,Medium,615,Bank 615,0.52,8829.18,2024-01-31,South Elizabethborough,0,0,1,1,1,2,3,High,1
+616,115,Amanda Webb,West,High,694,Bank 694,0.56,8806.59,2024-03-12,Laurenmouth,0,0,1,1,1,2,3,High,1
+903,14,April Brown,South,Low,852,Bank 852,0.53,8724.29,2023-11-23,Shelbyshire,0,0,1,1,1,2,3,High,1
+361,683,John Carney,East,Medium,453,Bank 453,0.59,8674.97,2024-05-05,Myersmouth,0,0,1,1,1,2,3,High,1
+666,385,Patricia Schwartz,East,High,168,Bank 168,0.53,8594.71,2024-08-13,Port Dianeborough,0,0,1,1,1,2,3,High,1
+154,809,Melissa Carroll,South,High,751,Bank 751,0.5,8457.56,2024-10-31,Holtberg,0,0,1,1,1,2,3,High,1
+34,599,Stephanie Miller,South,Low,166,Bank 166,0.54,8244.88,2024-05-15,Lake Kim,0,0,1,1,1,2,3,High,1
+595,861,Robert Alexander,East,Low,470,Bank 470,0.56,7733.22,2024-08-19,Philliphaven,0,0,1,1,1,2,3,High,1
+76,319,Shelia Carroll,North,High,330,Bank 330,0.54,7633.46,2024-02-10,New Nicholas,0,0,1,1,1,2,3,High,1
+580,917,James Clark,South,High,809,Bank 809,0.59,7548.75,2024-09-05,Barajasville,0,0,1,1,1,2,3,High,1
+804,694,Jeffrey Harding,South,Low,330,Bank 330,0.54,7431.94,2024-05-12,Lindsayland,0,0,1,1,1,2,3,High,1
+533,343,Christopher Anderson,North,Medium,369,Bank 369,0.71,7388.8,2023-11-24,Bradfordfurt,0,1,1,0,1,2,3,High,1
+242,177,Kimberly Martin,South,Low,875,Bank 875,0.58,7309.8,2023-12-26,Brandonland,0,0,1,1,1,2,3,High,1
+183,784,Jessica Rubio,East,High,807,Bank 807,0.86,7294.25,2024-04-05,Forbesmouth,0,1,1,0,1,2,3,High,1
+662,754,Jessica Farmer,East,High,530,Bank 530,0.5,7283.99,2024-09-10,Stephanieton,0,0,1,1,1,2,3,High,1
+321,866,Michelle Gray,West,Medium,575,Bank 575,0.55,7262.49,2024-06-22,South Candace,0,0,1,1,1,2,3,High,1
+171,442,Paul Owens,West,High,875,Bank 875,0.58,7084.1,2024-01-18,East Emilyview,0,0,1,1,1,2,3,High,1
+287,301,Timothy Contreras,North,Medium,974,Bank 974,0.72,7056.83,2024-03-07,Port Lesliefurt,0,1,1,0,1,2,3,High,1
+846,784,Jessica Rubio,East,High,343,Bank 343,0.79,6969.96,2024-09-06,South Adrian,0,1,1,0,1,2,3,High,1
+295,484,Jason Young,East,Medium,533,Bank 533,0.52,6888.92,2024-08-24,Lake Jorgefurt,0,0,1,1,1,2,3,High,1
+200,224,Jonathan Collins,North,High,854,Bank 854,0.52,6821.33,2024-03-05,Port Michele,0,0,1,1,1,2,3,High,1
+6,252,Sarah Odom,West,Medium,740,Bank 740,0.82,6815.88,2024-04-15,Valerieton,0,1,1,0,1,2,3,High,1
+96,611,Sharon Crawford,East,Low,812,Bank 812,0.94,6738.35,2024-10-28,Julianbury,0,1,1,0,1,2,3,High,1
+337,343,Christopher Anderson,North,Medium,189,Bank 189,0.86,6413.72,2023-12-28,Lake Davidhaven,0,1,1,0,1,2,3,High,1
+75,268,Ryan Fox,South,High,316,Bank 316,0.57,6210.56,2023-12-14,Port Shane,0,1,0,1,1,2,3,High,1
+916,187,Linda Robinson,West,High,18,Bank 18,0.57,6137.93,2024-01-19,Lake Johnmouth,0,0,1,1,1,2,3,High,1
+95,252,Sarah Odom,West,Medium,519,Bank 519,0.82,5938.74,2024-01-23,North Kristen,0,1,1,0,1,2,3,High,1
+136,549,Stacy Parker,North,Medium,74,Bank 74,0.55,5899.61,2024-04-09,New Yeseniaville,0,0,1,1,1,2,3,High,1
+593,769,Mary Ross,East,Medium,122,Bank 122,0.55,5868.06,2024-04-06,Stevensonstad,0,0,1,1,1,2,3,High,1
+83,9,James Lopez,East,Medium,537,Bank 537,0.55,5831.24,2024-08-02,Baileyport,0,0,1,1,1,2,3,High,1
+738,771,Jennifer Jimenez,West,Medium,121,Bank 121,0.9,5734.31,2024-10-03,East Jared,0,1,1,0,1,2,3,High,1
+508,555,Nathan Garza,North,Low,858,Bank 858,0.56,5600.47,2024-02-02,Denisestad,0,0,1,1,1,2,3,High,1
+569,771,Jennifer Jimenez,West,Medium,649,Bank 649,0.65,5545.83,2024-04-21,South Jonathan,0,1,1,0,1,2,3,High,1
+304,965,Margaret Gomez,West,High,278,Bank 278,0.57,5483.55,2024-06-19,Taylorberg,0,0,1,1,1,2,3,High,1
+694,196,Cristina Goodwin,North,High,72,Bank 72,0.55,5463.56,2024-09-15,Dianestad,0,0,1,1,1,2,3,High,1
+292,126,Justin Bryant,West,Low,395,Bank 395,0.55,5438.63,2024-09-30,Williamsborough,0,0,1,1,1,2,3,High,1
+563,594,Samantha Morgan,South,Medium,288,Bank 288,0.55,5050.63,2023-12-15,North Brittany,0,0,1,1,1,2,3,High,1
+747,64,Tina Farmer,West,Medium,42,Bank 42,0.51,4907.27,2023-12-24,Lake Amy,0,0,1,1,1,2,3,High,1
+743,153,Karen Yang,West,Low,330,Bank 330,0.54,4897.25,2024-09-08,Timothystad,0,0,1,1,1,2,3,High,1
+59,323,John Crane,South,Medium,147,Bank 147,0.59,4873.85,2024-10-08,South Charles,0,0,1,1,1,2,3,High,1
+243,639,Matthew Martinez,East,Low,508,Bank 508,0.54,4805.8,2024-08-05,Joeshire,0,0,1,1,1,2,3,High,1
+510,347,Sandra Douglas,South,Medium,342,Bank 342,0.55,4713.35,2024-10-10,Guerrerotown,0,0,1,1,1,2,3,High,1
+798,286,Kevin Martin,West,Low,278,Bank 278,0.57,4247.92,2024-07-09,Zacharyport,0,0,1,1,1,2,3,High,1
+50,830,Christopher Brown,South,Medium,232,Bank 232,0.53,4156.85,2024-10-03,West Hectorside,0,0,1,1,1,2,3,High,1
+412,611,Sharon Crawford,East,Low,699,Bank 699,0.66,4150.01,2024-07-10,Monroehaven,0,1,1,0,1,2,3,High,1
+168,626,Deborah Harris,East,Low,1003,Bank 1003,0.59,4136.61,2024-07-02,Port Johnmouth,0,0,1,1,1,2,3,High,1
+159,120,Melinda Rodriguez,East,Low,654,Bank 654,0.58,4025.26,2024-04-29,New Cristian,0,0,1,1,1,2,3,High,1
+486,692,Brittany Sanchez DDS,North,Low,790,Bank 790,0.57,3884.58,2024-06-08,Conwaymouth,0,0,1,1,1,2,3,High,1
+554,160,Sylvia Hess DVM,East,Low,700,Bank 700,0.59,3828.55,2024-10-26,Port Mariochester,0,0,1,1,1,2,3,High,1
+102,85,Randy Campbell,East,Low,950,Bank 950,0.52,3786.84,2024-05-01,Port Clinton,0,0,1,1,1,2,3,High,1
+907,231,Lauren Miller,West,High,97,Bank 97,0.59,3729.47,2024-09-14,Jacksonport,0,0,1,1,1,2,3,High,1
+464,19,Rebekah Alexander,West,Low,527,Bank 527,0.59,3668.41,2023-12-05,South Jose,0,0,1,1,1,2,3,High,1
+478,68,Anthony Nunez,West,Medium,918,Bank 918,0.52,3637.41,2023-12-16,Chadland,0,0,1,1,1,2,3,High,1
+1000,247,Rachel Sims,North,Low,313,Bank 313,0.75,3488.39,2024-01-18,East Robertburgh,0,1,1,0,1,2,3,High,1
+832,246,Stephen Vega,West,Medium,72,Bank 72,0.55,3371.53,2024-11-05,Lake Caitlin,0,0,1,1,1,2,3,High,1
+863,561,Stacy Smith,East,High,614,Bank 614,0.53,3337.21,2024-06-17,Tamaramouth,0,0,1,1,1,2,3,High,1
+93,955,Rachel Bell,South,Low,201,Bank 201,0.95,3331.77,2024-11-19,Garzafurt,0,1,1,0,1,2,3,High,1
+174,457,Amanda Smith,South,Low,546,Bank 546,0.54,3302.83,2024-10-08,Hillside,0,0,1,1,1,2,3,High,1
+396,119,Joanna Johns,South,Medium,518,Bank 518,0.58,3114.5,2024-02-25,Lake Crystal,0,0,1,1,1,2,3,High,1
+139,671,Alyssa Quinn,East,High,309,Bank 309,0.51,2862.95,2024-09-02,New Michael,0,0,1,1,1,2,3,High,1
+774,621,David Williamson,North,High,776,Bank 776,0.54,2861.55,2024-03-21,Lake Abigail,0,0,1,1,1,2,3,High,1
+813,857,Jeffrey Anderson,West,Medium,238,Bank 238,0.5,2708.88,2024-06-19,Wesleystad,0,0,1,1,1,2,3,High,1
+795,252,Sarah Odom,West,Medium,681,Bank 681,0.86,2658.78,2024-09-06,North Timothyshire,0,1,1,0,1,2,3,High,1
+967,404,Richard Cordova,East,High,746,Bank 746,0.53,2618.9,2024-02-18,North John,0,0,1,1,1,2,3,High,1
+301,439,Laura Fisher,South,Low,790,Bank 790,0.57,2480.82,2024-11-02,Nathanport,0,0,1,1,1,2,3,High,1
+680,784,Jessica Rubio,East,High,978,Bank 978,0.97,2383.42,2023-12-20,West Ryantown,0,1,1,0,1,2,3,High,1
+751,145,Dylan Simpson,North,High,910,Bank 910,0.52,2280.84,2023-12-16,East Jeffreyport,0,0,1,1,1,2,3,High,1
+830,467,Stanley Rowe,South,Medium,822,Bank 822,0.53,2126.21,2024-05-24,Reyesfort,0,0,1,1,1,2,3,High,1
+55,786,Deborah Reyes,East,High,885,Bank 885,0.7,2108.26,2024-10-25,Hillland,0,1,1,0,1,2,3,High,1
+675,817,Evan Campbell,West,Low,18,Bank 18,0.57,2078.07,2024-07-12,New Carolbury,0,0,1,1,1,2,3,High,1
+62,79,Linda Simpson,North,Medium,537,Bank 537,0.55,1885.15,2024-08-16,New Jack,0,0,1,1,1,2,3,High,1
+152,174,Anthony Taylor,South,Medium,134,Bank 134,0.59,1884.82,2024-11-18,Kimton,0,0,1,1,1,2,3,High,1
+895,755,Debbie Parrish DDS,South,Medium,546,Bank 546,0.54,1825.81,2024-05-19,Armstrongfurt,0,0,1,1,1,2,3,High,1
+251,707,Sarah Walker,West,Low,196,Bank 196,0.58,1822.57,2024-01-27,South Breannafurt,0,0,1,1,1,2,3,High,1
+988,211,Maria Fowler,East,High,584,Bank 584,0.5,1816.67,2024-08-05,Lake Kevin,0,0,1,1,1,2,3,High,1
+342,424,Bobby Franklin,West,High,555,Bank 555,0.53,1810.19,2024-08-19,Billyland,0,0,1,1,1,2,3,High,1
+220,268,Ryan Fox,South,High,554,Bank 554,0.67,1806.41,2024-04-11,Haleyville,0,1,1,0,1,2,3,High,1
+298,747,Karen Hernandez,East,High,787,Bank 787,0.54,1804.21,2024-07-09,West Ryan,0,0,1,1,1,2,3,High,1
+689,551,Carol Berg,West,Medium,351,Bank 351,0.5,1633.7,2024-02-09,North Kevin,0,0,1,1,1,2,3,High,1
+362,75,David Lopez,East,Low,546,Bank 546,0.54,1225.22,2024-02-23,East Shaneberg,0,0,1,1,1,2,3,High,1
+558,185,Ashley Bauer,North,High,108,Bank 108,0.5,1211.27,2024-10-09,New Joseph,0,0,1,1,1,2,3,High,1
+494,307,Diana Alvarez,North,Medium,669,Bank 669,0.58,1105.99,2024-09-02,Lake Steven,0,0,1,1,1,2,3,High,1
+702,888,Shaun Howard,East,Medium,639,Bank 639,0.58,1081.23,2023-12-22,East Sonia,0,0,1,1,1,2,3,High,1
+39,987,Denise Maldonado,West,Medium,98,Bank 98,0.51,972.24,2024-02-29,Rodgersport,0,0,1,1,1,2,3,High,1
+121,343,Christopher Anderson,North,Medium,1003,Bank 1003,0.59,903.03,2024-11-07,Mariamouth,0,1,0,1,1,2,3,High,1
+854,988,James Johnson,East,Medium,848,Bank 848,0.58,694.14,2024-11-09,Port Mirandaside,0,0,1,1,1,2,3,High,1
+439,407,Steven Griffith,West,High,671,Bank 671,0.54,578.19,2024-08-11,Andrewsfort,0,0,1,1,1,2,3,High,1
+160,822,William Thompson,South,Medium,955,Bank 955,0.54,251.09,2024-11-07,Matthewville,0,0,1,1,1,2,3,High,1
+938,9,James Lopez,East,Medium,508,Bank 508,0.54,40.42,2024-11-18,Livingstonburgh,0,0,1,1,1,2,3,High,1
+332,369,Lauren Johnson,West,Low,17,Bank 17,0.93,9988.13,2024-06-17,Carlosmouth,1,0,0,0,1,1,2,Medium,0
+319,222,John Ware,East,Low,697,Bank 697,0.61,9964.43,2024-04-10,South Wesleyberg,1,0,0,0,1,1,2,Medium,0
+843,209,Alejandra Butler,East,Low,182,Bank 182,0.55,9954.31,2024-05-08,New Katietown,1,0,0,1,0,2,2,Medium,0
+962,785,Curtis Davis,North,Low,501,Bank 501,0.95,9921.79,2024-09-09,East Brendashire,1,0,0,0,1,1,2,Medium,0
+881,658,Jordan Carr,South,High,308,Bank 308,0.99,9912.62,2024-08-20,Darrenborough,1,0,0,0,1,1,2,Medium,0
+913,801,Sara Hines,West,High,1009,Bank 1009,0.71,9880.61,2024-09-08,Smithfort,1,0,0,0,1,1,2,Medium,0
+821,95,Amy Bates,East,Medium,930,Bank 930,0.74,9856.99,2024-02-07,Manningchester,1,0,0,0,1,1,2,Medium,0
+271,961,Christopher Miller,East,High,944,Bank 944,0.76,9821.71,2024-03-12,Jacksontown,1,0,0,0,1,1,2,Medium,0
+603,421,Jessica Hart,West,Medium,383,Bank 383,0.77,9815.7,2024-11-17,Devinfurt,1,0,0,0,1,1,2,Medium,0
+100,552,Jerry Martinez,East,High,697,Bank 697,0.61,9805.83,2023-12-04,Harrisontown,1,0,0,0,1,1,2,Medium,0
+958,507,Craig Wilkins,East,High,622,Bank 622,0.92,9798.69,2024-05-31,West Rayport,1,0,0,0,1,1,2,Medium,0
+802,391,Jonathan Spencer,North,High,434,Bank 434,0.65,9763.79,2024-09-10,North Robertfort,1,0,1,0,0,2,2,Medium,0
+106,173,Debbie Clay,North,High,750,Bank 750,0.63,9735.81,2023-11-23,Solischester,1,0,0,0,1,1,2,Medium,0
+530,391,Jonathan Spencer,North,High,1000,Bank 1000,0.96,9679.24,2024-04-01,Blackburgh,1,0,1,0,0,2,2,Medium,0
+456,843,Pedro Schwartz,West,High,195,Bank 195,0.81,9673.62,2024-08-26,West Christy,1,0,0,0,1,1,2,Medium,0
+996,580,Jeff Munoz,West,Low,270,Bank 270,0.64,9657.76,2023-12-25,Port Nicoleville,1,0,0,0,1,1,2,Medium,0
+428,707,Sarah Walker,West,Low,132,Bank 132,0.85,9652.95,2023-12-22,Rebeccamouth,1,0,0,0,1,1,2,Medium,0
+537,501,Travis Galloway,South,Medium,867,Bank 867,0.57,9636.4,2024-10-09,South Anthonyhaven,1,0,0,1,0,2,2,Medium,0
+149,93,Jeff Thomas,West,Low,680,Bank 680,0.95,9593.95,2024-11-05,Jamesshire,1,0,0,0,1,1,2,Medium,0
+944,311,James King,West,Medium,973,Bank 973,0.8,9571.68,2024-09-04,East Ryan,1,0,0,0,1,1,2,Medium,0
+933,953,John Mcdaniel,West,Medium,760,Bank 760,0.71,9532.44,2024-09-29,Allenmouth,1,0,0,0,1,1,2,Medium,0
+335,344,Sylvia Perez,North,Low,685,Bank 685,0.96,9525.79,2024-08-13,Johnnyville,1,0,0,0,1,1,2,Medium,0
+737,729,Marcia Bruce,South,Medium,25,Bank 25,0.63,9501.07,2024-04-10,Adamfurt,1,0,0,0,1,1,2,Medium,0
+546,492,April Ray,North,Medium,233,Bank 233,0.78,9482.81,2024-03-28,New Teresatown,1,0,0,0,1,1,2,Medium,0
+284,525,Brittany Wagner,South,High,235,Bank 235,0.79,9476.66,2024-02-18,Robinsonland,1,0,0,0,1,1,2,Medium,0
+545,780,Tanner Weaver,North,Low,808,Bank 808,0.92,9452.52,2024-08-28,South Thomasstad,1,0,0,0,1,1,2,Medium,0
+469,849,Sarah Mccarty,West,Low,93,Bank 93,0.79,9442.85,2024-01-10,Katherinetown,1,0,0,0,1,1,2,Medium,0
+520,394,Dawn Lopez,East,Medium,173,Bank 173,0.78,9432.86,2024-02-15,North Philip,1,0,0,0,1,1,2,Medium,0
+542,999,Katelyn Vasquez,North,High,408,Bank 408,0.73,9429.64,2024-09-11,Schultzbury,1,0,1,0,0,2,2,Medium,0
+131,616,Charles Martinez,East,High,843,Bank 843,0.95,9411.5,2024-01-30,Walkerstad,1,0,0,0,1,1,2,Medium,0
+965,649,Ashley Wise,South,Medium,590,Bank 590,0.78,9411.22,2024-02-04,New Kyleberg,1,0,0,0,1,1,2,Medium,0
+219,881,Alyssa Roberts,South,Medium,324,Bank 324,0.71,9397.79,2024-05-18,Freemanhaven,1,0,0,0,1,1,2,Medium,0
+570,94,David Baker,West,Low,215,Bank 215,0.94,9394.08,2024-05-28,Oscarstad,1,0,1,0,0,2,2,Medium,0
+735,108,Robert Bryant,North,High,457,Bank 457,0.98,9337.53,2024-09-22,Lake David,1,0,1,0,0,2,2,Medium,0
+143,356,Dakota Burton,South,High,58,Bank 58,0.66,9319.83,2024-10-25,Fosterville,1,0,0,0,1,1,2,Medium,0
+814,718,Christopher Baxter,North,Medium,608,Bank 608,0.76,9300.06,2024-04-19,Scottview,1,0,0,0,1,1,2,Medium,0
+899,326,Maria Martin,South,Low,725,Bank 725,0.83,9293.79,2024-05-16,New John,1,0,0,0,1,1,2,Medium,0
+390,523,Thomas Hernandez,North,High,180,Bank 180,0.72,9261.44,2024-05-16,North Joshuastad,1,0,0,0,1,1,2,Medium,0
+837,164,Scott Fernandez,West,Low,903,Bank 903,0.76,9203.33,2024-11-05,Danielton,1,0,0,0,1,1,2,Medium,0
+197,394,Dawn Lopez,East,Medium,107,Bank 107,0.6,9172.74,2024-04-11,Nicholasland,1,0,0,0,1,1,2,Medium,0
+588,153,Karen Yang,West,Low,992,Bank 992,0.91,9016.89,2024-07-31,Samanthabury,1,0,0,0,1,1,2,Medium,0
+674,100,Christopher Holt,West,Low,441,Bank 441,0.57,8986.67,2024-02-17,Lake Ethanstad,0,0,1,1,0,2,2,Medium,0
+822,597,Michael Dunn,East,High,433,Bank 433,0.84,8986.3,2024-04-26,Joshuabury,0,0,1,0,1,1,2,Medium,0
+966,174,Anthony Taylor,South,Medium,682,Bank 682,0.82,8957.62,2024-08-19,Pamelafort,0,0,1,0,1,1,2,Medium,0
+642,454,Alexis Conway,West,High,925,Bank 925,0.87,8919.97,2024-08-31,Jenniferfurt,0,0,1,0,1,1,2,Medium,0
+622,82,Christine Lopez,North,Medium,9,"Brown, Lawrence and Chaney",0.62,8910.06,2024-06-18,Loriburgh,0,0,1,0,1,1,2,Medium,0
+926,296,Stacy Mccoy,North,Medium,753,Bank 753,0.81,8881.09,2024-06-29,Danielhaven,0,0,1,0,1,1,2,Medium,0
+365,517,Timothy Murphy,West,Medium,627,Bank 627,0.59,8868.4,2024-05-12,Carterland,0,0,0,1,1,1,2,Medium,0
+213,956,Samantha Stanton,South,Medium,939,Bank 939,0.55,8857.61,2024-10-22,Patriciaport,0,0,0,1,1,1,2,Medium,0
+992,474,Alyssa Black,East,High,536,Bank 536,0.99,8795.33,2023-12-20,Quinnshire,0,0,1,0,1,1,2,Medium,0
+211,980,Taylor Gaines,West,Low,111,Bank 111,0.68,8721.51,2023-12-11,West Faith,0,0,1,0,1,1,2,Medium,0
+179,294,Jill Lynch,North,High,49,Bank 49,0.89,8710.94,2024-09-21,Scottbury,0,0,1,0,1,1,2,Medium,0
+805,153,Karen Yang,West,Low,379,Bank 379,0.84,8706.3,2024-05-20,New James,0,0,1,0,1,1,2,Medium,0
+602,162,Bryan Galloway,East,Medium,278,Bank 278,0.57,8705.3,2024-11-12,Parkermouth,0,0,0,1,1,1,2,Medium,0
+585,663,Anthony Johnston,East,High,613,Bank 613,0.74,8685.31,2024-11-18,New Amyshire,0,0,1,0,1,1,2,Medium,0
+124,268,Ryan Fox,South,High,254,Bank 254,0.75,8579.15,2024-08-25,West Amandaborough,0,1,0,0,1,1,2,Medium,0
+275,429,Matthew Patel,South,Medium,433,Bank 433,0.84,8542.36,2024-08-02,East Barbaramouth,0,0,1,0,1,1,2,Medium,0
+979,907,Jeremiah Russell,West,Medium,874,Bank 874,0.77,8529.58,2024-03-08,West Justinchester,0,0,1,0,1,1,2,Medium,0
+300,216,Charles Martinez,North,Medium,848,Bank 848,0.58,8480.02,2024-02-24,North Carlosport,0,0,0,1,1,1,2,Medium,0
+504,343,Christopher Anderson,North,Medium,401,Bank 401,0.78,8419.59,2024-02-29,Garciabury,0,1,0,0,1,1,2,Medium,0
+151,585,Wesley Wallace,North,High,871,Bank 871,0.7,8389.31,2024-04-19,Michaelhaven,0,0,1,0,1,1,2,Medium,0
+466,199,Michelle Stafford,South,Low,969,Bank 969,0.97,8385.43,2024-06-04,Port Dana,0,0,1,0,1,1,2,Medium,0
+297,351,Jeremy Blake,South,Low,776,Bank 776,0.54,8329.63,2024-07-20,Brendaport,0,0,0,1,1,1,2,Medium,0
+88,966,Christopher Palmer,North,Low,52,Bank 52,0.79,8320.39,2024-01-15,North Sheila,0,0,1,0,1,1,2,Medium,0
+483,511,Rebecca Murray,East,Medium,264,Bank 264,0.86,8287.55,2024-02-08,Watsonmouth,0,0,1,0,1,1,2,Medium,0
+223,534,Dwayne Mcdonald,West,Medium,666,Bank 666,0.79,8269.02,2023-11-23,East Laurie,0,0,1,0,1,1,2,Medium,0
+772,786,Deborah Reyes,East,High,199,Bank 199,0.63,8266.1,2024-04-09,Lake Rodney,0,1,0,0,1,1,2,Medium,0
+447,812,Barbara Williams,North,High,719,Bank 719,0.72,8165.41,2023-11-26,Davidton,0,0,1,0,1,1,2,Medium,0
+572,693,Austin Perkins,South,High,235,Bank 235,0.79,8122.23,2024-04-22,North Julie,0,0,1,0,1,1,2,Medium,0
+228,268,Ryan Fox,South,High,314,Bank 314,1.0,8119.76,2024-03-09,Port Jonathan,0,1,0,0,1,1,2,Medium,0
+263,299,Mark Ritter,East,Low,627,Bank 627,0.59,8088.19,2024-02-14,Danielsside,0,0,0,1,1,1,2,Medium,0
+547,712,Jaime Shepard,North,Medium,146,Bank 146,0.6,8086.58,2024-06-30,Daniellemouth,0,0,1,0,1,1,2,Medium,0
+392,483,Chad Green,West,High,691,Bank 691,0.89,8077.89,2024-11-13,New Manuelside,0,0,1,0,1,1,2,Medium,0
+270,593,Erica Marquez,East,Low,414,Bank 414,0.69,8046.96,2024-11-10,Jonesville,0,0,1,0,1,1,2,Medium,0
+800,120,Melinda Rodriguez,East,Low,171,Bank 171,0.75,8034.61,2024-03-30,Michaelfort,0,0,1,0,1,1,2,Medium,0
+880,717,Albert Freeman,North,Medium,157,Bank 157,0.62,8022.0,2024-03-30,Port Jeanette,0,0,1,0,1,1,2,Medium,0
+156,559,Kathryn Rice,North,High,49,Bank 49,0.89,8011.53,2024-04-12,Josephton,0,0,1,0,1,1,2,Medium,0
+232,176,Julie Walker,West,High,123,Bank 123,0.8,7954.56,2024-02-05,Briannahaven,0,0,1,0,1,1,2,Medium,0
+317,714,Alexis Wilson,West,Medium,202,Bank 202,0.83,7879.18,2024-06-07,Mariastad,0,1,0,0,1,1,2,Medium,0
+612,795,Crystal Schultz,West,High,148,Bank 148,0.88,7837.58,2024-09-17,Port Shannonhaven,0,0,1,0,1,1,2,Medium,0
+541,721,John Flynn,West,High,233,Bank 233,0.78,7831.37,2024-09-28,North Randystad,0,0,1,0,1,1,2,Medium,0
+141,199,Michelle Stafford,South,Low,547,Bank 547,0.92,7797.02,2024-05-08,Smithshire,0,0,1,0,1,1,2,Medium,0
+57,169,Nathan Velasquez,East,Medium,629,Bank 629,0.64,7767.43,2024-11-19,West John,0,0,1,0,1,1,2,Medium,0
+516,18,Frank Myers,West,Medium,617,Bank 617,0.75,7750.07,2024-07-26,West Natalie,0,0,1,0,1,1,2,Medium,0
+482,478,Carol Ward,East,High,313,Bank 313,0.75,7721.13,2024-11-05,East Belindatown,0,0,1,0,1,1,2,Medium,0
+26,308,Cynthia Phillips,East,Low,243,Bank 243,0.55,7711.75,2024-11-18,West Philipstad,0,0,0,1,1,1,2,Medium,0
+973,387,Ashley Dean,West,Medium,793,Bank 793,0.82,7653.14,2024-02-16,New Angelicafurt,0,0,1,0,1,1,2,Medium,0
+760,753,Thomas Haney,North,Medium,646,Bank 646,0.95,7646.19,2024-09-20,Donaldhaven,0,0,1,0,1,1,2,Medium,0
+344,929,Roger Larson,East,Low,845,Bank 845,0.53,7643.69,2024-08-29,North Clarence,0,0,0,1,1,1,2,Medium,0
+736,230,Gabriela Clark,North,Low,496,Bank 496,0.59,7635.07,2024-05-12,Ariasmouth,0,0,0,1,1,1,2,Medium,0
+971,623,Michael Maldonado,South,High,470,Bank 470,0.56,7631.71,2024-10-10,Mcleanville,0,0,0,1,1,1,2,Medium,0
+21,25,Laura Smith,South,Low,434,Bank 434,0.65,7610.93,2024-04-19,Port Robertstad,0,0,1,0,1,1,2,Medium,0
+864,609,Rachel Townsend,North,High,493,Bank 493,0.97,7579.24,2023-12-28,Terristad,0,0,1,0,1,1,2,Medium,0
+471,416,Nicholas Sloan,North,Medium,308,Bank 308,0.99,7531.77,2024-02-24,Richardchester,0,0,1,0,1,1,2,Medium,0
+206,887,Justin Davies,South,Medium,499,Bank 499,0.54,7506.58,2024-05-14,Port Nicholasshire,0,0,1,1,0,2,2,Medium,0
+409,626,Deborah Harris,East,Low,941,Bank 941,0.78,7486.47,2023-12-13,Atkinschester,0,0,1,0,1,1,2,Medium,0
+70,387,Ashley Dean,West,Medium,243,Bank 243,0.55,7462.16,2024-09-09,Leborough,0,0,0,1,1,1,2,Medium,0
+182,798,Gene Perry,South,Low,393,Bank 393,0.82,7436.33,2024-07-07,West Travis,0,0,1,0,1,1,2,Medium,0
+742,481,Jenna Payne,North,Low,733,Bank 733,0.58,7374.96,2023-12-02,New Natalie,0,0,0,1,1,1,2,Medium,0
+556,275,Linda Lee,West,Low,566,Bank 566,0.89,7354.65,2024-09-16,East Todd,0,0,1,0,1,1,2,Medium,0
+930,498,Brian Thompson,South,Low,804,Bank 804,0.67,7340.07,2023-12-27,Lynchland,0,0,1,0,1,1,2,Medium,0
+42,876,April Reed,East,High,744,Bank 744,0.75,7334.72,2023-12-16,Lake Kennethland,0,0,1,0,1,1,2,Medium,0
+293,400,Mary Brewer,South,Low,985,Bank 985,0.91,7321.32,2024-02-20,Roytown,0,1,0,0,1,1,2,Medium,0
+713,996,Chad Lambert,West,Medium,906,Bank 906,0.72,7318.22,2024-04-27,Port David,0,0,1,0,1,1,2,Medium,0
+683,859,Darren Bernard,West,High,612,Bank 612,0.9,7303.01,2024-08-25,Marvinchester,0,0,1,0,1,1,2,Medium,0
+582,285,Daniel Smith,South,Low,686,Bank 686,0.67,7300.91,2024-09-29,Phillipsview,0,0,1,0,1,1,2,Medium,0
+514,671,Alyssa Quinn,East,High,999,Bank 999,0.76,7195.54,2023-12-29,Port Gregory,0,0,1,0,1,1,2,Medium,0
+289,72,Bradley Lewis,North,Low,405,Bank 405,0.82,7190.82,2024-03-17,North Shannon,0,0,1,0,1,1,2,Medium,0
+302,475,Isaac Hutchinson,North,Low,610,Bank 610,0.97,7181.1,2024-07-16,Stephanieshire,0,0,1,0,1,1,2,Medium,0
+426,351,Jeremy Blake,South,Low,88,Bank 88,0.52,7167.22,2024-07-06,Velasquezport,0,0,0,1,1,1,2,Medium,0
+472,423,Joshua Ortiz,South,Medium,965,Bank 965,0.95,7153.5,2024-08-26,Aaronborough,0,0,1,0,1,1,2,Medium,0
+620,407,Steven Griffith,West,High,442,Bank 442,0.66,7128.07,2024-05-30,Deborahside,0,0,1,0,1,1,2,Medium,0
+847,728,Andrew Bell,West,Medium,147,Bank 147,0.59,7081.95,2024-11-13,New Lisastad,0,0,0,1,1,1,2,Medium,0
+529,160,Sylvia Hess DVM,East,Low,616,Bank 616,0.66,7065.13,2024-02-11,Andrealand,0,0,1,0,1,1,2,Medium,0
+114,645,Kristen Sanchez,West,Low,924,Bank 924,0.59,7054.76,2023-11-26,Salazarfort,0,0,0,1,1,1,2,Medium,0
+894,251,Christopher Moore,West,High,1001,Bank 1001,0.66,7046.31,2024-07-06,West Susanburgh,0,0,1,0,1,1,2,Medium,0
+970,52,Briana Johnson,East,Low,696,Bank 696,0.95,7025.51,2024-01-30,Nancybury,0,0,1,0,1,1,2,Medium,0
+89,161,Timothy Moore,South,Medium,381,Bank 381,0.66,7020.76,2024-08-02,Port Brent,0,0,1,0,1,1,2,Medium,0
+373,284,Jennifer Coleman,East,Low,906,Bank 906,0.72,6981.48,2023-12-06,Kristinfort,0,0,1,0,1,1,2,Medium,0
+196,553,Erika Stewart MD,East,Medium,789,Bank 789,0.61,6954.15,2023-12-18,Barrettmouth,0,0,1,0,1,1,2,Medium,0
+502,541,Scott Watson,North,High,694,Bank 694,0.56,6935.92,2024-09-20,Townsendport,0,0,0,1,1,1,2,Medium,0
+915,670,Jennifer Johnson,North,High,482,Bank 482,0.71,6929.89,2024-07-05,Douglasfurt,0,0,1,0,1,1,2,Medium,0
+266,924,Shelby Howell,North,Low,176,Bank 176,0.54,6913.32,2024-05-20,North Douglas,0,0,0,1,1,1,2,Medium,0
+233,614,James Schmidt,North,High,386,Bank 386,0.56,6886.38,2024-08-06,Lake Michael,0,0,0,1,1,1,2,Medium,0
+959,13,Sarah Harper,East,Low,925,Bank 925,0.87,6884.99,2024-05-15,West Jessicaton,0,0,1,0,1,1,2,Medium,0
+113,503,Charles Willis,South,High,849,Bank 849,0.8,6850.81,2024-06-16,Danielmouth,0,0,1,0,1,1,2,Medium,0
+455,788,Michael Soto,North,High,838,Bank 838,0.51,6827.54,2024-11-07,Port Kathyfort,0,0,0,1,1,1,2,Medium,0
+374,24,Carolyn Gilmore,West,Low,480,Bank 480,0.77,6825.12,2024-08-20,South Gary,0,0,1,0,1,1,2,Medium,0
+730,140,Kevin Larson,West,Low,257,Bank 257,0.5,6809.58,2024-06-12,East Matthew,0,0,0,1,1,1,2,Medium,0
+384,706,Diana Torres,South,Low,481,Bank 481,0.77,6808.62,2024-01-27,Lake Thomas,0,0,1,0,1,1,2,Medium,0
+708,77,Elizabeth Davidson,South,Low,441,Bank 441,0.57,6801.69,2024-10-24,South Alexandria,0,0,0,1,1,1,2,Medium,0
+68,292,Richard Lewis,West,High,240,Bank 240,0.73,6766.39,2024-08-11,Port Stephenland,0,0,1,0,1,1,2,Medium,0
+470,926,Judith Kennedy,South,High,212,Bank 212,0.92,6761.3,2024-03-10,Shanebury,0,0,1,0,1,1,2,Medium,0
+400,892,Oscar Greene DVM,South,Low,323,Bank 323,0.72,6753.55,2024-06-09,Sarahland,0,0,1,0,1,1,2,Medium,0
+739,460,Tina Taylor,East,Low,101,Bank 101,1.0,6739.74,2024-08-05,South Madisonside,0,0,1,0,1,1,2,Medium,0
+752,838,Christine Ramirez,North,Medium,743,Bank 743,0.53,6738.57,2024-04-24,Port Lauren,0,0,1,1,0,2,2,Medium,0
+873,960,Matthew Taylor,East,High,646,Bank 646,0.95,6711.31,2024-11-07,North Laurenmouth,0,0,1,0,1,1,2,Medium,0
+656,578,Melinda Alvarado,West,Low,61,Bank 61,0.52,6709.07,2023-12-30,South Stevenside,0,0,0,1,1,1,2,Medium,0
+16,659,James Juarez,South,Low,673,Bank 673,0.54,6688.2,2024-08-24,Jenniferton,0,0,0,1,1,1,2,Medium,0
+148,431,Sandra Mathis,South,Medium,525,Bank 525,0.67,6655.74,2024-05-28,Lake Amandaside,0,0,1,0,1,1,2,Medium,0
+404,742,Thomas Wright,West,High,467,Bank 467,0.5,6655.1,2024-09-02,Mindyfort,0,0,0,1,1,1,2,Medium,0
+280,223,Dawn Wilson,North,High,552,Bank 552,0.78,6647.48,2024-03-15,Taylorville,0,0,1,0,1,1,2,Medium,0
+840,512,Erica Rogers,West,High,1010,Bank 1010,0.8,6572.08,2024-08-25,Griffithville,0,0,1,0,1,1,2,Medium,0
+592,855,Michael Hunt,North,Low,313,Bank 313,0.75,6540.42,2024-11-04,Brewermouth,0,0,1,0,1,1,2,Medium,0
+836,661,Carlos Salas,East,Medium,935,Bank 935,0.86,6536.11,2024-08-28,South Dianehaven,0,0,1,0,1,1,2,Medium,0
+440,319,Shelia Carroll,North,High,18,Bank 18,0.57,6503.59,2024-03-14,Cooperborough,0,0,0,1,1,1,2,Medium,0
+176,72,Bradley Lewis,North,Low,995,Bank 995,0.94,6493.33,2024-03-29,Perryhaven,0,0,1,0,1,1,2,Medium,0
+444,177,Kimberly Martin,South,Low,475,Bank 475,0.53,6463.99,2024-07-09,Baldwinport,0,0,0,1,1,1,2,Medium,0
+453,21,Michelle Hart,West,Medium,806,Bank 806,0.54,6445.35,2024-05-28,Port Bonnie,0,0,0,1,1,1,2,Medium,0
+902,29,Becky Hughes DVM,South,High,43,Bank 43,0.85,6418.22,2024-06-07,New Spencer,0,0,1,0,1,1,2,Medium,0
+216,989,Ashley Herrera,West,Low,879,Bank 879,0.67,6409.55,2024-06-18,West Lisaborough,0,0,1,0,1,1,2,Medium,0
+679,162,Bryan Galloway,East,Medium,488,Bank 488,0.81,6408.91,2024-07-29,Kristenside,0,0,1,0,1,1,2,Medium,0
+385,822,William Thompson,South,Medium,469,Bank 469,0.85,6405.71,2024-08-20,South Kyleburgh,0,0,1,0,1,1,2,Medium,0
+695,909,Christie Johnson,West,Medium,133,Bank 133,0.85,6395.74,2024-08-09,South Sharon,0,0,1,0,1,1,2,Medium,0
+698,537,Alexa Shelton,South,Low,800,Bank 800,0.88,6392.35,2024-03-09,Turnerfort,0,0,1,0,1,1,2,Medium,0
+41,255,Cody Baker,West,Low,153,Bank 153,0.65,6382.82,2024-03-01,Lake Dianaton,0,0,1,0,1,1,2,Medium,0
+279,309,Eric Howell,South,High,202,Bank 202,0.83,6343.65,2023-12-24,Port Robert,0,0,1,0,1,1,2,Medium,0
+896,766,Robert Davidson,East,Low,835,Bank 835,0.83,6338.1,2024-04-25,West Jeffreyhaven,0,0,1,0,1,1,2,Medium,0
+672,965,Margaret Gomez,West,High,33,Bank 33,0.61,6296.23,2024-03-14,Michaelport,0,0,1,0,1,1,2,Medium,0
+573,753,Thomas Haney,North,Medium,704,Bank 704,0.92,6290.98,2024-08-13,Vanessastad,0,0,1,0,1,1,2,Medium,0
+859,33,Tammy Lopez,North,Medium,130,Bank 130,0.6,6234.57,2024-07-04,North William,0,0,1,0,1,1,2,Medium,0
+960,732,Frank Harris,West,Low,511,Bank 511,0.53,6209.58,2024-01-05,Stonehaven,0,0,0,1,1,1,2,Medium,0
+305,802,Sarah Roberts,North,Low,947,Bank 947,0.66,6191.57,2024-01-03,Ryanton,0,0,1,0,1,1,2,Medium,0
+227,4,James Campbell,South,Low,873,Bank 873,0.68,6185.55,2024-11-19,West Elizabethchester,0,1,0,0,1,1,2,Medium,0
+714,910,Gabriella Rivera,South,High,181,Bank 181,0.69,6176.08,2024-08-14,Kathyborough,0,0,1,0,1,1,2,Medium,0
+994,472,Brett Morrison,East,High,519,Bank 519,0.82,6168.77,2024-09-24,Jordanland,0,0,1,0,1,1,2,Medium,0
+914,749,Laura Wright,South,High,225,Bank 225,0.73,6155.52,2024-09-30,New Ethan,0,0,1,0,1,1,2,Medium,0
+724,911,Gary Whitaker,East,High,996,Bank 996,0.77,6140.46,2023-12-12,West Christopher,0,0,1,0,1,1,2,Medium,0
+449,867,Eric White,West,Medium,776,Bank 776,0.54,6112.06,2024-06-17,West Michaelside,0,0,0,1,1,1,2,Medium,0
+359,957,Lisa Olson,North,High,988,Bank 988,0.97,6103.91,2024-05-24,New Angelaburgh,0,0,1,0,1,1,2,Medium,0
+351,210,Alexis Holt,North,Low,879,Bank 879,0.67,6094.4,2024-10-22,Sampsonland,0,0,1,0,1,1,2,Medium,0
+538,167,Joshua Wolf,North,Low,888,Bank 888,0.87,6089.18,2024-01-30,West Courtney,0,0,1,0,1,1,2,Medium,0
+226,834,Kimberly Thompson,East,High,199,Bank 199,0.63,6060.93,2024-11-01,South Tyler,0,0,1,0,1,1,2,Medium,0
+715,249,Janet Anderson DDS,North,Low,98,Bank 98,0.51,6058.5,2023-12-09,Austinview,0,0,0,1,1,1,2,Medium,0
+398,364,Jennifer Hawkins,West,High,408,Bank 408,0.73,6032.56,2024-05-31,Petersonhaven,0,0,1,0,1,1,2,Medium,0
+990,909,Christie Johnson,West,Medium,311,Bank 311,0.92,6013.79,2024-06-19,Tinaside,0,0,1,0,1,1,2,Medium,0
+833,59,Rachel Avila,West,High,885,Bank 885,0.7,6010.86,2024-01-01,Watsonside,0,0,1,0,1,1,2,Medium,0
+204,800,Benjamin Reyes,East,Medium,164,Bank 164,0.64,6004.44,2024-05-18,New Jenniferbury,0,0,1,0,1,1,2,Medium,0
+172,350,Linda Taylor,North,Low,600,Bank 600,0.66,6001.63,2024-11-08,Larryside,0,0,1,0,1,1,2,Medium,0
+49,817,Evan Campbell,West,Low,869,Bank 869,0.82,5989.25,2024-08-05,Port Dawnmouth,0,0,1,0,1,1,2,Medium,0
+644,784,Jessica Rubio,East,High,413,Bank 413,0.87,5950.8,2024-11-06,Floreston,0,1,0,0,1,1,2,Medium,0
+659,564,Alicia Gonzalez,East,Low,191,Bank 191,0.89,5939.31,2024-09-02,Boothport,0,0,1,0,1,1,2,Medium,0
+313,680,Monica Cook DDS,West,High,612,Bank 612,0.9,5933.81,2024-03-14,Scottshire,0,0,1,0,1,1,2,Medium,0
+920,579,Tony Stokes,South,High,733,Bank 733,0.58,5929.0,2024-08-22,North Felicia,0,0,1,1,0,2,2,Medium,0
+506,299,Mark Ritter,East,Low,515,Bank 515,0.81,5916.62,2024-10-03,South Mollybury,0,0,1,0,1,1,2,Medium,0
+395,555,Nathan Garza,North,Low,656,Bank 656,0.81,5857.3,2024-03-23,Whiteborough,0,0,1,0,1,1,2,Medium,0
+341,364,Jennifer Hawkins,West,High,884,Bank 884,0.56,5852.85,2024-08-02,Jordanchester,0,0,0,1,1,1,2,Medium,0
+129,849,Sarah Mccarty,West,Low,788,Bank 788,0.91,5801.69,2024-10-30,New Christy,0,0,1,0,1,1,2,Medium,0
+377,506,Destiny Montgomery,North,Low,148,Bank 148,0.88,5776.99,2024-01-30,Terriland,0,0,1,0,1,1,2,Medium,0
+725,23,Stephanie Cummings,South,Low,759,Bank 759,0.58,5772.74,2024-08-03,North Sergiohaven,0,0,0,1,1,1,2,Medium,0
+397,957,Lisa Olson,North,High,720,Bank 720,0.89,5760.31,2024-08-24,New Courtneyborough,0,0,1,0,1,1,2,Medium,0
+905,878,John Fisher,North,Medium,54,Bank 54,0.81,5750.59,2024-06-04,Lake Joseph,0,0,1,0,1,1,2,Medium,0
+272,732,Frank Harris,West,Low,557,Bank 557,0.58,5719.44,2024-11-19,Lake James,0,0,0,1,1,1,2,Medium,0
+363,735,Jamie Morgan,East,Medium,608,Bank 608,0.76,5704.01,2024-01-04,Christophertown,0,0,1,0,1,1,2,Medium,0
+119,978,Jeremy Hays,North,Medium,675,Bank 675,0.97,5689.5,2024-05-06,West Christine,0,0,1,0,1,1,2,Medium,0
+589,963,Debbie Clark,East,Low,896,Bank 896,0.69,5682.56,2024-01-28,Joannfurt,0,0,1,0,1,1,2,Medium,0
+519,374,Matthew Foster,North,High,740,Bank 740,0.82,5678.63,2024-06-30,West Lisa,0,0,1,0,1,1,2,Medium,0
+688,787,Max Lloyd,East,Low,455,Bank 455,0.86,5671.71,2023-12-31,Lake Erik,0,0,1,0,1,1,2,Medium,0
+291,247,Rachel Sims,North,Low,285,Bank 285,0.54,5667.24,2024-05-01,New Luishaven,0,1,0,1,0,2,2,Medium,0
+434,721,John Flynn,West,High,993,Bank 993,0.97,5626.44,2024-11-06,Markmouth,0,0,1,0,1,1,2,Medium,0
+608,934,Spencer Woods,West,Low,399,Bank 399,0.58,5625.84,2023-11-30,North Shari,0,0,0,1,1,1,2,Medium,0
+577,160,Sylvia Hess DVM,East,Low,524,Bank 524,0.66,5624.12,2024-01-30,Ronnieville,0,0,1,0,1,1,2,Medium,0
+399,259,Christopher Moore,West,High,630,Bank 630,0.74,5586.2,2024-08-03,New Markstad,0,0,1,0,1,1,2,Medium,0
+786,494,Steven Ochoa,South,Medium,580,Bank 580,0.52,5585.25,2023-12-09,Moorefort,0,0,0,1,1,1,2,Medium,0
+625,471,William Cook,West,High,838,Bank 838,0.51,5555.32,2024-05-01,Grimesburgh,0,0,0,1,1,1,2,Medium,0
+503,113,Steven Hansen PhD,East,Low,262,Bank 262,0.69,5553.1,2023-11-28,Eugeneville,0,0,1,0,1,1,2,Medium,0
+939,846,Travis Reyes,North,Low,103,Bank 103,0.97,5547.11,2024-04-17,Williamsfort,0,0,1,0,1,1,2,Medium,0
+548,412,Sandra Cervantes,West,Low,647,Bank 647,0.74,5494.18,2024-05-15,Cassandrahaven,0,0,1,0,1,1,2,Medium,0
+286,838,Christine Ramirez,North,Medium,511,Bank 511,0.53,5490.4,2024-03-08,Jamesborough,0,0,1,1,0,2,2,Medium,0
+325,714,Alexis Wilson,West,Medium,602,Bank 602,0.9,5466.56,2023-11-26,Hendersonbury,0,1,0,0,1,1,2,Medium,0
+308,187,Linda Robinson,West,High,927,Bank 927,0.71,5439.16,2024-10-21,Kochville,0,0,1,0,1,1,2,Medium,0
+474,217,Andrew Golden,East,High,755,Bank 755,0.84,5426.31,2024-10-17,Lake Anthonyshire,0,0,1,0,1,1,2,Medium,0
+928,191,Mr. Justin Taylor,South,High,530,Bank 530,0.5,5402.23,2024-04-26,South Debra,0,0,0,1,1,1,2,Medium,0
+866,859,Darren Bernard,West,High,82,Bank 82,0.63,5390.74,2023-12-09,West Matthew,0,0,1,0,1,1,2,Medium,0
+568,955,Rachel Bell,South,Low,128,Bank 128,0.75,5367.5,2024-11-02,Reidmouth,0,1,0,0,1,1,2,Medium,0
+918,778,Mark Rogers,East,Low,184,Bank 184,1.0,5358.12,2024-11-04,East Kristin,0,0,1,0,1,1,2,Medium,0
+462,158,Shannon Allen,North,Low,535,Bank 535,0.55,5251.13,2024-06-06,Samanthaport,0,0,0,1,1,1,2,Medium,0
+448,155,Christopher Anderson,North,Low,768,Bank 768,0.77,5205.17,2024-06-26,Mckinneyside,0,0,1,0,1,1,2,Medium,0
+246,687,Anna Patterson,East,High,250,Bank 250,0.83,5164.46,2024-05-22,New Andrew,0,0,1,0,1,1,2,Medium,0
+934,244,Jack Barnes,South,High,121,Bank 121,0.9,5153.8,2024-04-27,North Jaredhaven,0,0,1,0,1,1,2,Medium,0
+976,723,Jeffrey Garrett,South,Low,455,Bank 455,0.86,5130.16,2023-12-13,East Jeffreystad,0,0,1,0,1,1,2,Medium,0
+883,371,Tonya Lane,East,Low,867,Bank 867,0.57,5123.12,2024-03-17,Port Brittany,0,0,0,1,1,1,2,Medium,0
+623,76,Chelsea Bradley,West,Medium,801,Bank 801,0.92,5108.84,2024-11-04,Susantown,0,0,1,0,1,1,2,Medium,0
+489,524,Michelle Bennett MD,North,Low,23,Bank 23,0.79,5085.23,2024-11-18,Lake Marissa,0,0,1,0,1,1,2,Medium,0
+921,568,Annette Adams,South,Medium,876,Bank 876,0.55,5059.83,2024-06-03,Lake Taylorside,0,0,0,1,1,1,2,Medium,0
+422,519,James Osborne,North,Low,50,Bank 50,0.84,5045.59,2023-12-23,Wolfemouth,0,0,1,0,1,1,2,Medium,0
+945,987,Denise Maldonado,West,Medium,440,Bank 440,0.88,5040.11,2024-03-21,New Cynthiafort,0,0,1,0,1,1,2,Medium,0
+924,213,Cameron Stafford,West,Medium,698,Bank 698,0.88,5013.57,2024-01-07,New Brian,0,0,1,0,1,1,2,Medium,0
+615,449,Jeffery Thomas,West,Medium,616,Bank 616,0.66,4974.08,2024-05-26,Lake Paul,0,0,1,0,1,1,2,Medium,0
+463,246,Stephen Vega,West,Medium,1001,Bank 1001,0.66,4942.58,2024-08-06,South Adamton,0,0,1,0,1,1,2,Medium,0
+234,348,Kathleen Collins,South,Medium,44,Bank 44,0.95,4915.54,2024-10-15,West Diane,0,0,1,0,1,1,2,Medium,0
+950,89,Christina Cross,South,Low,567,Bank 567,0.98,4909.12,2024-05-07,North Natasha,0,0,1,0,1,1,2,Medium,0
+322,249,Janet Anderson DDS,North,Low,147,Bank 147,0.59,4906.96,2023-11-28,South Sarahton,0,0,0,1,1,1,2,Medium,0
+224,464,Joshua Richard,North,Low,123,Bank 123,0.8,4875.58,2024-09-18,Lake Patrickside,0,0,1,0,1,1,2,Medium,0
+43,706,Diana Torres,South,Low,51,Bank 51,0.76,4871.09,2024-06-30,Littleview,0,0,1,0,1,1,2,Medium,0
+475,95,Amy Bates,East,Medium,963,Bank 963,0.84,4851.24,2024-01-19,Lake Stacy,0,0,1,0,1,1,2,Medium,0
+82,643,Shannon Ramirez,South,Medium,781,Bank 781,0.79,4822.18,2024-09-18,Port Nancy,0,0,1,0,1,1,2,Medium,0
+740,15,Johnny Wilson,South,Low,465,Bank 465,0.64,4809.83,2024-09-30,Port Joshuamouth,0,0,1,0,1,1,2,Medium,0
+33,460,Tina Taylor,East,Low,471,Bank 471,0.97,4787.91,2024-06-21,North Lisabury,0,0,1,0,1,1,2,Medium,0
+407,475,Isaac Hutchinson,North,Low,52,Bank 52,0.79,4782.78,2024-08-22,Kimview,0,0,1,0,1,1,2,Medium,0
+869,831,Samantha Thompson,North,Low,290,Bank 290,0.87,4776.3,2024-01-04,Suefurt,0,0,1,0,1,1,2,Medium,0
+770,377,Joseph Lowe,North,Low,996,Bank 996,0.77,4709.74,2024-11-04,Gilmoreburgh,0,0,1,0,1,1,2,Medium,0
+632,779,Daniel Hawkins,West,Medium,517,Bank 517,0.91,4705.28,2024-06-29,New Angelafurt,0,0,1,0,1,1,2,Medium,0
+817,408,Sherry Wells,East,Low,952,Bank 952,0.63,4705.23,2024-07-09,Port Christopherville,0,0,1,0,1,1,2,Medium,0
+408,797,Nicole Medina,East,High,652,Bank 652,0.84,4704.76,2024-08-20,West Sharonburgh,0,0,1,0,1,1,2,Medium,0
+671,674,Aaron Rivera,West,High,605,Bank 605,0.74,4700.21,2024-02-22,Ramosborough,0,0,1,0,1,1,2,Medium,0
+596,548,Daniel Anderson,East,Low,589,Bank 589,0.68,4662.69,2024-03-13,East Teresabury,0,0,1,0,1,1,2,Medium,0
+853,127,Gina Rios,North,Medium,313,Bank 313,0.75,4648.43,2024-02-25,East Victoriafort,0,0,1,0,1,1,2,Medium,0
+645,780,Tanner Weaver,North,Low,928,Bank 928,0.66,4610.14,2024-03-16,Veronicaton,0,0,1,0,1,1,2,Medium,0
+609,784,Jessica Rubio,East,High,709,Bank 709,0.94,4580.7,2024-05-22,New Angieton,0,1,0,0,1,1,2,Medium,0
+791,119,Joanna Johns,South,Medium,128,Bank 128,0.75,4576.08,2024-09-30,Hernandezside,0,0,1,0,1,1,2,Medium,0
+809,881,Alyssa Roberts,South,Medium,638,Bank 638,0.87,4560.93,2024-02-24,Lake Nicolemouth,0,0,1,0,1,1,2,Medium,0
+451,378,Jennifer Rodriguez,East,Medium,154,Bank 154,0.79,4558.89,2024-07-20,Johnport,0,0,1,0,1,1,2,Medium,0
+844,175,Anthony Gonzales,South,Low,502,Bank 502,0.66,4553.08,2024-10-13,Lake Keithview,0,0,1,0,1,1,2,Medium,0
+943,498,Brian Thompson,South,Low,497,Bank 497,0.65,4512.23,2024-10-17,Kingtown,0,0,1,0,1,1,2,Medium,0
+28,742,Thomas Wright,West,High,686,Bank 686,0.67,4510.92,2024-02-26,Shawland,0,0,1,0,1,1,2,Medium,0
+264,263,Travis Taylor,North,Medium,960,Bank 960,0.75,4503.43,2024-05-29,East Richardville,0,0,1,0,1,1,2,Medium,0
+803,524,Michelle Bennett MD,North,Low,622,Bank 622,0.92,4490.24,2024-03-19,Kevintown,0,0,1,0,1,1,2,Medium,0
+834,423,Joshua Ortiz,South,Medium,433,Bank 433,0.84,4461.35,2024-10-30,West Henryshire,0,0,1,0,1,1,2,Medium,0
+788,621,David Williamson,North,High,15,Bank 15,0.59,4419.37,2024-10-28,Cohenside,0,0,0,1,1,1,2,Medium,0
+56,878,John Fisher,North,Medium,530,Bank 530,0.5,4374.64,2024-10-08,South Troyview,0,0,0,1,1,1,2,Medium,0
+942,532,Stephanie Hudson,South,Low,875,Bank 875,0.58,4365.61,2024-10-14,Port Kimberly,0,0,0,1,1,1,2,Medium,0
+535,829,Susan Gibson,South,High,143,Bank 143,0.71,4336.54,2024-08-13,North Stephenmouth,0,0,1,0,1,1,2,Medium,0
+497,343,Christopher Anderson,North,Medium,606,Bank 606,0.62,4332.86,2023-11-23,Ortizhaven,0,1,0,0,1,1,2,Medium,0
+812,505,Lori Olson,East,Medium,924,Bank 924,0.59,4331.55,2024-04-30,New Vanessamouth,0,0,0,1,1,1,2,Medium,0
+155,785,Curtis Davis,North,Low,167,Bank 167,0.87,4329.02,2024-07-17,Josephfurt,0,0,1,0,1,1,2,Medium,0
+908,966,Christopher Palmer,North,Low,286,Bank 286,0.76,4274.36,2024-10-25,Jacobchester,0,0,1,0,1,1,2,Medium,0
+2,962,Vanessa Mckenzie,South,Medium,234,Bank 234,0.75,4228.66,2024-07-22,West Jasonberg,0,0,1,0,1,1,2,Medium,0
+382,4,James Campbell,South,Low,322,Bank 322,0.91,4173.66,2024-01-13,Louisland,0,1,0,0,1,1,2,Medium,0
+861,48,Nicole Bowers,East,High,502,Bank 502,0.66,4148.39,2024-04-21,Garciamouth,0,0,1,0,1,1,2,Medium,0
+476,751,Tyler Gibbs II,North,High,73,Bank 73,0.62,4145.44,2024-10-19,Powellland,0,0,1,0,1,1,2,Medium,0
+138,7,Chris Wong,East,Low,968,Bank 968,0.83,4133.14,2024-06-10,East Nicoleland,0,0,1,0,1,1,2,Medium,0
+527,88,Denise Pierce,North,Low,1006,Bank 1006,0.5,4131.0,2024-04-23,Thompsonborough,0,0,0,1,1,1,2,Medium,0
+718,301,Timothy Contreras,North,Medium,77,Bank 77,0.86,4104.49,2024-09-02,Andersonland,0,1,1,0,0,2,2,Medium,0
+613,832,Susan Watkins,East,Medium,396,Bank 396,0.59,4102.58,2024-07-29,North Scott,0,0,0,1,1,1,2,Medium,0
+140,899,Robin Cox,East,High,1007,Bank 1007,0.92,4093.14,2024-04-21,South Colton,0,0,1,0,1,1,2,Medium,0
+845,448,Seth Reyes,North,Medium,442,Bank 442,0.66,4091.36,2024-03-07,Orrville,0,0,1,0,1,1,2,Medium,0
+353,141,Mary Jordan,West,Low,620,Bank 620,0.95,4063.65,2024-10-14,Trevorton,0,0,1,0,1,1,2,Medium,0
+940,318,Andrea Tanner,West,High,20,Bank 20,0.71,4020.19,2024-05-04,Lake Nicholas,0,0,1,0,1,1,2,Medium,0
+331,519,James Osborne,North,Low,422,Bank 422,0.61,4016.15,2024-02-16,Taylorfort,0,0,1,0,1,1,2,Medium,0
+31,142,Billy Lee,North,Medium,330,Bank 330,0.54,3992.58,2024-04-02,Lake Rebecca,0,0,0,1,1,1,2,Medium,0
+249,911,Gary Whitaker,East,High,997,Bank 997,0.7,3963.45,2024-09-02,New Danielle,0,0,1,0,1,1,2,Medium,0
+828,79,Linda Simpson,North,Medium,548,Bank 548,0.88,3956.41,2024-02-18,Jesseshire,0,0,1,0,1,1,2,Medium,0
+984,824,Melissa White,East,Low,263,Bank 263,0.91,3953.74,2024-03-03,Hamptonfort,0,0,1,0,1,1,2,Medium,0
+749,466,Angela Young,South,High,673,Bank 673,0.54,3927.74,2024-07-04,Walkerside,0,0,1,1,0,2,2,Medium,0
+634,470,Tonya Parsons,South,High,1006,Bank 1006,0.5,3914.0,2024-06-18,Michaelhaven,0,0,0,1,1,1,2,Medium,0
+18,47,Sarah Lewis,East,High,934,Bank 934,0.58,3910.84,2023-12-26,South Ashley,0,0,0,1,1,1,2,Medium,0
+72,107,Anna Sutton,East,Low,794,Bank 794,0.79,3894.03,2024-01-07,Silvaside,0,0,1,0,1,1,2,Medium,0
+452,655,Diana Smith,East,High,797,Bank 797,0.64,3891.31,2024-06-28,Shepherdland,0,0,1,0,1,1,2,Medium,0
+446,710,Dr. Jason Ortega,South,High,12,Bank 12,0.54,3854.41,2024-06-28,West Samanthaview,0,0,0,1,1,1,2,Medium,0
+636,382,Elizabeth Taylor,East,Low,440,Bank 440,0.88,3820.24,2024-08-13,Stevenburgh,0,0,1,0,1,1,2,Medium,0
+591,573,David Cochran,South,High,65,Bank 65,0.88,3792.94,2024-08-08,Lake Bonnie,0,0,1,0,1,1,2,Medium,0
+981,240,Jill Harding,East,Medium,539,Bank 539,0.99,3740.71,2024-03-26,Mirandaville,0,0,1,0,1,1,2,Medium,0
+638,974,Thomas Miranda,North,Medium,980,Bank 980,0.72,3735.99,2024-10-13,East Elizabeth,0,0,1,0,1,1,2,Medium,0
+704,911,Gary Whitaker,East,High,336,Bank 336,0.93,3654.79,2024-07-27,North Chrisport,0,0,1,0,1,1,2,Medium,0
+825,784,Jessica Rubio,East,High,251,Bank 251,0.72,3601.2,2024-11-22,Rogershaven,0,1,0,0,1,1,2,Medium,0
+831,171,Alice Whitney,North,Low,32,Bank 32,0.57,3579.57,2024-07-22,Rosariostad,0,0,0,1,1,1,2,Medium,0
+761,995,Kimberly Sanders,North,Low,821,Bank 821,0.89,3571.16,2024-02-19,West Mark,0,0,1,0,1,1,2,Medium,0
+796,57,Dr. Natalie Hernandez,East,Low,830,Bank 830,0.93,3548.93,2024-04-20,Port Davidborough,0,0,1,0,1,1,2,Medium,0
+467,142,Billy Lee,North,Medium,872,Bank 872,0.93,3546.9,2024-06-19,Lake Edwardbury,0,0,1,0,1,1,2,Medium,0
+655,565,Mr. Adam Johnson,East,Low,212,Bank 212,0.92,3433.1,2024-03-08,Shafferville,0,0,1,0,1,1,2,Medium,0
+974,349,Lindsey Tran,East,Medium,17,Bank 17,0.93,3433.03,2024-10-02,Salazarmouth,0,0,1,0,1,1,2,Medium,0
+388,650,Joseph Andrews,North,Low,227,Bank 227,0.7,3432.85,2024-09-01,North Danielville,0,0,1,0,1,1,2,Medium,0
+794,768,Susan Nelson,East,Low,881,Bank 881,1.0,3383.69,2024-09-15,Peterstad,0,0,1,0,1,1,2,Medium,0
+175,19,Rebekah Alexander,West,Low,399,Bank 399,0.58,3355.63,2024-02-16,Francesstad,0,0,1,1,0,2,2,Medium,0
+818,310,Diane Owen,East,Medium,415,Bank 415,0.96,3349.29,2023-12-01,South Larryview,0,0,1,0,1,1,2,Medium,0
+709,513,Dawn Stevens,North,Medium,342,Bank 342,0.55,3349.05,2024-06-04,Cortezborough,0,0,0,1,1,1,2,Medium,0
+205,941,Gabriela Davis,South,High,147,Bank 147,0.59,3343.46,2024-09-02,New Christine,0,0,0,1,1,1,2,Medium,0
+759,375,Juan Cruz DDS,North,Low,265,Bank 265,0.53,3321.99,2024-10-19,Christianville,0,0,0,1,1,1,2,Medium,0
+239,10,Jared Harmon,North,High,500,Bank 500,0.88,3298.52,2024-08-30,East Scott,0,0,1,0,1,1,2,Medium,0
+986,656,Scott Young,North,High,318,Bank 318,0.93,3289.64,2024-01-26,South Charlesberg,0,0,1,0,1,1,2,Medium,0
+733,189,Donna Hicks,East,High,588,Bank 588,0.85,3272.73,2024-05-05,Phillipsside,0,0,1,0,1,1,2,Medium,0
+827,630,Logan Mendez,South,Low,380,Bank 380,0.52,3262.58,2023-11-28,Sawyerberg,0,0,0,1,1,1,2,Medium,0
+509,469,Beth Maxwell,East,Medium,557,Bank 557,0.58,3176.45,2024-05-21,Murphyview,0,0,0,1,1,1,2,Medium,0
+897,631,Robert Nunez,North,Medium,766,Bank 766,0.67,3153.81,2024-05-09,Hernandezberg,0,0,1,0,1,1,2,Medium,0
+766,3,Edwin Soto,North,High,586,Bank 586,0.6,3151.21,2023-12-25,Taylorbury,0,0,1,0,1,1,2,Medium,0
+108,669,Sheri Schwartz,South,Low,113,Bank 113,0.73,3150.06,2024-11-14,New Timothy,0,0,1,0,1,1,2,Medium,0
+181,537,Alexa Shelton,South,Low,982,Bank 982,0.88,3131.17,2024-02-18,East Sarafurt,0,0,1,0,1,1,2,Medium,0
+288,4,James Campbell,South,Low,450,Bank 450,0.62,3109.66,2024-08-21,Russellland,0,1,0,0,1,1,2,Medium,0
+982,182,Vickie Scott,North,Low,667,Bank 667,0.99,3084.57,2024-07-24,Derekbury,0,0,1,0,1,1,2,Medium,0
+797,2,Brenda Johnson,South,Low,50,Bank 50,0.84,3078.17,2024-07-15,Watsonmouth,0,0,1,0,1,1,2,Medium,0
+312,267,Kenneth King,North,Medium,255,Bank 255,0.99,3068.13,2024-07-11,Terriberg,0,0,1,0,1,1,2,Medium,0
+997,906,Juan Cherry,North,Medium,532,Bank 532,0.6,3062.71,2024-04-12,Brownfurt,0,0,1,0,1,1,2,Medium,0
+22,256,Ariana Prince,East,Medium,360,Bank 360,0.81,3059.82,2024-05-27,West Christopher,0,0,1,0,1,1,2,Medium,0
+650,415,Jennifer Murillo,West,Medium,988,Bank 988,0.97,3022.37,2024-10-28,Kristinastad,0,0,1,0,1,1,2,Medium,0
+191,169,Nathan Velasquez,East,Medium,1007,Bank 1007,0.92,3017.12,2024-04-04,South Brianland,0,0,1,0,1,1,2,Medium,0
+660,411,Michelle Harding,West,Medium,375,Bank 375,0.77,2965.41,2024-05-11,New Rebeccaburgh,0,0,1,0,1,1,2,Medium,0
+875,130,Jesse Mckinney,East,High,685,Bank 685,0.96,2965.15,2024-05-03,West Kellyfurt,0,0,1,0,1,1,2,Medium,0
+646,4,James Campbell,South,Low,402,Bank 402,0.95,2899.69,2024-07-21,Cunninghamfurt,0,1,0,0,1,1,2,Medium,0
+898,475,Isaac Hutchinson,North,Low,836,Bank 836,0.98,2886.41,2024-08-16,Taylorport,0,0,1,0,1,1,2,Medium,0
+932,225,Robert Ware,West,Medium,723,Bank 723,0.75,2861.53,2024-04-09,Port Derrick,0,0,1,0,1,1,2,Medium,0
+52,513,Dawn Stevens,North,Medium,363,Bank 363,0.63,2767.09,2024-03-17,Port Lisa,0,0,1,0,1,1,2,Medium,0
+874,714,Alexis Wilson,West,Medium,27,Bank 27,0.97,2764.94,2024-03-06,Port Bradleyview,0,1,0,0,1,1,2,Medium,0
+525,99,Bradley Scott,East,Medium,260,Bank 260,0.8,2723.7,2024-04-15,Danielburgh,0,0,1,0,1,1,2,Medium,0
+763,50,Michelle Gallagher,South,Medium,937,Bank 937,0.54,2723.36,2024-08-10,Meyersfurt,0,0,1,1,0,2,2,Medium,0
+203,47,Sarah Lewis,East,High,765,Bank 765,0.79,2714.18,2024-02-15,Sharontown,0,0,1,0,1,1,2,Medium,0
+911,379,Brian Gonzalez,South,Low,34,Bank 34,0.64,2697.21,2024-08-19,Campbellland,0,0,1,0,1,1,2,Medium,0
+222,536,Matthew Cook,East,Low,739,Bank 739,0.77,2692.99,2024-09-06,Hardyborough,0,0,1,0,1,1,2,Medium,0
+282,691,Ruth Lewis,East,High,621,Bank 621,0.89,2657.98,2023-12-02,Dianebury,0,0,1,0,1,1,2,Medium,0
+98,239,Karen Rice,West,Medium,760,Bank 760,0.71,2630.61,2024-05-26,Lawrencemouth,0,0,1,0,1,1,2,Medium,0
+857,493,Michelle Rivera,South,Medium,926,Bank 926,0.77,2612.29,2024-06-03,Port Emily,0,0,1,0,1,1,2,Medium,0
+972,813,Aimee Wright,West,Medium,859,Bank 859,0.9,2592.12,2024-03-28,Kristenborough,0,0,1,0,1,1,2,Medium,0
+745,910,Gabriella Rivera,South,High,930,Bank 930,0.74,2575.72,2024-10-10,East Miguel,0,0,1,0,1,1,2,Medium,0
+245,249,Janet Anderson DDS,North,Low,30,Bank 30,0.92,2555.26,2024-10-22,New Jonathan,0,0,1,0,1,1,2,Medium,0
+311,46,Jennifer Saunders,South,Medium,247,Bank 247,0.95,2503.9,2024-10-28,West Aaronmouth,0,0,1,0,1,1,2,Medium,0
+248,670,Jennifer Johnson,North,High,223,Bank 223,0.51,2428.46,2024-05-16,Lake Andrewton,0,0,0,1,1,1,2,Medium,0
+727,262,Amanda Mcmillan,North,Medium,397,Bank 397,0.91,2398.96,2024-03-21,Baileyburgh,0,0,1,0,1,1,2,Medium,0
+826,196,Cristina Goodwin,North,High,840,Bank 840,0.93,2377.28,2024-04-03,New Nicholas,0,0,1,0,1,1,2,Medium,0
+454,772,Lonnie Brooks Jr.,South,Low,65,Bank 65,0.88,2349.21,2024-04-17,Lake Henry,0,0,1,0,1,1,2,Medium,0
+45,719,Lawrence Warner,West,Low,308,Bank 308,0.99,2346.95,2023-11-24,Sawyerhaven,0,0,1,0,1,1,2,Medium,0
+69,423,Joshua Ortiz,South,Medium,582,Bank 582,0.68,2330.49,2024-08-08,Coxshire,0,0,1,0,1,1,2,Medium,0
+687,531,Jennifer Thomas,South,Low,273,Bank 273,0.79,2330.47,2024-03-15,New Jonathanbury,0,0,1,0,1,1,2,Medium,0
+105,115,Amanda Webb,West,High,356,Bank 356,0.9,2313.52,2024-04-05,East Marcborough,0,0,1,0,1,1,2,Medium,0
+491,768,Susan Nelson,East,Low,696,Bank 696,0.95,2312.17,2024-03-10,Michellebury,0,0,1,0,1,1,2,Medium,0
+579,973,Douglas Schroeder,East,High,619,Bank 619,0.89,2296.82,2024-11-01,Laurenton,0,0,1,0,1,1,2,Medium,0
+109,545,Kimberly Moore,East,Low,388,Bank 388,0.95,2273.83,2024-07-09,Christopherhaven,0,0,1,0,1,1,2,Medium,0
+364,484,Jason Young,East,Medium,450,Bank 450,0.62,2261.85,2024-07-28,North Edwardstad,0,0,1,0,1,1,2,Medium,0
+375,771,Jennifer Jimenez,West,Medium,655,Bank 655,0.84,2252.73,2024-10-18,South Carl,0,1,0,0,1,1,2,Medium,0
+690,137,Christopher Jackson,West,High,164,Bank 164,0.64,2230.82,2024-08-09,Moorefurt,0,0,1,0,1,1,2,Medium,0
+338,242,Patricia Carter,East,Medium,64,Bank 64,0.87,2209.98,2024-10-30,Lake Daniel,0,0,1,0,1,1,2,Medium,0
+987,638,Patricia Bird,North,Low,210,Bank 210,0.56,2198.71,2024-03-10,Sethton,0,0,0,1,1,1,2,Medium,0
+429,496,Christopher Calhoun,North,Low,262,Bank 262,0.69,2188.08,2023-12-29,Lake Lisaview,0,0,1,0,1,1,2,Medium,0
+995,247,Rachel Sims,North,Low,438,Bank 438,0.86,2185.82,2024-07-05,Charlesmouth,0,1,1,0,0,2,2,Medium,0
+269,190,Gina Lopez,West,High,766,Bank 766,0.67,2147.56,2024-09-21,Lake Andrewborough,0,0,1,0,1,1,2,Medium,0
+137,60,Heather Parrish,West,Low,614,Bank 614,0.53,2136.09,2024-05-12,East Douglasshire,0,0,0,1,1,1,2,Medium,0
+810,252,Sarah Odom,West,Medium,752,Bank 752,0.75,2115.49,2024-05-08,Kaylabury,0,1,0,0,1,1,2,Medium,0
+157,201,Sheena Sullivan,East,Medium,87,Bank 87,0.72,2103.3,2024-08-23,Steelemouth,0,0,1,0,1,1,2,Medium,0
+1,734,Marcia Cox,West,Low,20,Bank 20,0.71,2059.49,2024-07-01,Helentown,0,0,1,0,1,1,2,Medium,0
+346,273,Adam Caldwell,South,Low,870,Bank 870,0.58,2024.4,2024-10-10,Melindaland,0,0,0,1,1,1,2,Medium,0
+773,387,Ashley Dean,West,Medium,698,Bank 698,0.88,2009.84,2023-12-23,Tylerport,0,0,1,0,1,1,2,Medium,0
+850,646,Clayton Newman DDS,West,High,321,Bank 321,0.73,2005.85,2024-06-10,Juliestad,0,0,1,0,1,1,2,Medium,0
+326,527,Michelle Thomas,East,High,463,Bank 463,0.93,1976.69,2024-01-08,West Margaret,0,0,1,0,1,1,2,Medium,0
+199,431,Sandra Mathis,South,Medium,54,Bank 54,0.81,1932.25,2024-08-30,Evanstown,0,0,1,0,1,1,2,Medium,0
+781,825,Dr. Michelle Warner,South,Low,573,Bank 573,0.71,1914.77,2024-09-08,Lake Jamesside,0,0,1,0,1,1,2,Medium,0
+605,228,Andrew Krause,South,High,950,Bank 950,0.52,1910.4,2024-05-04,Knightland,0,0,0,1,1,1,2,Medium,0
+432,681,Sharon Perkins MD,West,High,688,Bank 688,0.81,1896.96,2024-10-04,South Brandonshire,0,0,1,0,1,1,2,Medium,0
+435,37,Jonathan Collins,East,High,958,Bank 958,0.84,1887.27,2024-02-12,Lake Jeffreyfort,0,0,1,0,1,1,2,Medium,0
+768,924,Shelby Howell,North,Low,486,Bank 486,0.58,1861.01,2024-02-15,East Nicholasmouth,0,0,0,1,1,1,2,Medium,0
+496,793,Nathan Hernandez,East,Low,442,Bank 442,0.66,1836.22,2024-05-24,South Kimberlystad,0,0,1,0,1,1,2,Medium,0
+419,401,Sabrina Williams,South,Medium,827,Bank 827,0.9,1815.27,2023-12-29,East Juanberg,0,0,1,0,1,1,2,Medium,0
+310,780,Tanner Weaver,North,Low,844,Bank 844,0.75,1773.87,2024-07-26,East Robert,0,0,1,0,1,1,2,Medium,0
+575,912,Jeremy Brown,South,High,365,Bank 365,0.76,1732.45,2024-01-07,North Ryan,0,0,1,0,1,1,2,Medium,0
+24,355,Katie Campbell,North,Low,18,Bank 18,0.57,1707.44,2024-01-28,Port Julie,0,0,0,1,1,1,2,Medium,0
+61,806,Brandon Schultz,North,High,866,Bank 866,0.64,1686.19,2024-10-08,Karenshire,0,0,1,0,1,1,2,Medium,0
+517,331,Melissa Rojas,West,Low,32,Bank 32,0.57,1625.93,2024-03-23,Hodgechester,0,0,0,1,1,1,2,Medium,0
+720,247,Rachel Sims,North,Low,895,Bank 895,0.91,1603.76,2024-08-09,North Dustinstad,0,1,0,0,1,1,2,Medium,0
+187,488,Travis Murray,South,Medium,58,Bank 58,0.66,1585.55,2024-04-14,Emilyfort,0,0,1,0,1,1,2,Medium,0
+257,146,Kaitlyn Adams,South,Medium,748,Bank 748,0.8,1571.33,2024-09-21,North John,0,0,1,0,1,1,2,Medium,0
+544,786,Deborah Reyes,East,High,544,Bank 544,0.71,1561.0,2024-04-10,New Christina,0,1,0,0,1,1,2,Medium,0
+169,748,Susan Zuniga,West,High,39,Bank 39,0.65,1556.59,2024-01-15,New Sarah,0,0,1,0,1,1,2,Medium,0
+36,556,Theresa Curry,North,Medium,974,Bank 974,0.72,1536.46,2024-10-06,Jamesshire,0,0,1,0,1,1,2,Medium,0
+754,542,Linda Phillips,South,Low,882,Bank 882,0.65,1534.08,2024-02-07,Karichester,0,0,1,0,1,1,2,Medium,0
+30,87,Ann Mccann,South,High,50,Bank 50,0.84,1529.63,2024-06-21,Port Anthony,0,0,1,0,1,1,2,Medium,0
+231,117,Yolanda Hardy,West,High,162,Bank 162,0.91,1472.6,2024-10-05,Lopezshire,0,0,1,0,1,1,2,Medium,0
+522,955,Rachel Bell,South,Low,678,Bank 678,0.89,1472.49,2024-01-07,North Victoria,0,1,1,0,0,2,2,Medium,0
+345,844,Angela Buck,South,Low,775,Bank 775,0.93,1439.14,2024-06-20,Katrinamouth,0,0,1,0,1,1,2,Medium,0
+334,402,Cynthia Browning,South,Low,42,Bank 42,0.51,1423.22,2024-10-31,Ellisonborough,0,0,0,1,1,1,2,Medium,0
+801,786,Deborah Reyes,East,High,459,Bank 459,1.0,1412.78,2024-04-27,Ramirezborough,0,1,0,0,1,1,2,Medium,0
+493,541,Scott Watson,North,High,450,Bank 450,0.62,1330.59,2024-06-21,Gregorybury,0,0,1,0,1,1,2,Medium,0
+849,67,Jessica Moyer,South,Medium,968,Bank 968,0.83,1313.72,2024-05-11,Frazierfurt,0,0,1,0,1,1,2,Medium,0
+968,149,Timothy Fox,South,Low,312,Bank 312,0.8,1300.78,2024-07-08,West Danielhaven,0,0,1,0,1,1,2,Medium,0
+700,566,Scott Wilcox,North,High,248,Bank 248,0.97,1295.05,2024-01-07,Jodyborough,0,0,1,0,1,1,2,Medium,0
+130,536,Matthew Cook,East,Low,244,Bank 244,0.73,1289.07,2024-11-04,New Mollyland,0,0,1,0,1,1,2,Medium,0
+262,199,Michelle Stafford,South,Low,767,Bank 767,0.87,1280.33,2024-08-27,Brucefort,0,0,1,0,1,1,2,Medium,0
+590,190,Gina Lopez,West,High,567,Bank 567,0.98,1250.17,2024-03-24,Port Terri,0,0,1,0,1,1,2,Medium,0
+600,585,Wesley Wallace,North,High,282,Bank 282,0.82,1247.33,2024-06-15,Andersonborough,0,0,1,0,1,1,2,Medium,0
+629,660,Scott Davis,East,Medium,349,Bank 349,0.79,1246.47,2024-08-12,Brandonberg,0,0,1,0,1,1,2,Medium,0
+871,955,Rachel Bell,South,Low,406,Bank 406,0.97,1191.51,2023-12-30,Cookshire,0,1,0,0,1,1,2,Medium,0
+207,806,Brandon Schultz,North,High,666,Bank 666,0.79,1190.01,2024-04-15,Lake Stacey,0,0,1,0,1,1,2,Medium,0
+324,594,Samantha Morgan,South,Medium,992,Bank 992,0.91,1170.48,2024-11-11,Port Crystalberg,0,0,1,0,1,1,2,Medium,0
+498,841,Hailey Miller,North,High,640,Bank 640,0.96,1120.76,2024-09-04,Jonathanview,0,0,1,0,1,1,2,Medium,0
+710,609,Rachel Townsend,North,High,412,Bank 412,0.51,1115.69,2024-05-20,East Cindy,0,0,0,1,1,1,2,Medium,0
+221,400,Mary Brewer,South,Low,962,Bank 962,0.9,1070.63,2024-10-28,Lake Nicoleburgh,0,1,0,0,1,1,2,Medium,0
+597,674,Aaron Rivera,West,High,325,Bank 325,0.86,1017.29,2024-09-23,East Jamesshire,0,0,1,0,1,1,2,Medium,0
+170,816,Terri Garcia,West,Medium,999,Bank 999,0.76,1015.55,2024-04-30,North Michael,0,0,1,0,1,1,2,Medium,0
+767,288,Emily Aguilar,North,Low,527,Bank 527,0.59,1006.21,2024-05-20,East Matthew,0,0,0,1,1,1,2,Medium,0
+744,30,Rebekah Rivers,East,Medium,571,Bank 571,0.83,980.92,2024-03-10,West Donnaberg,0,0,1,0,1,1,2,Medium,0
+922,860,Rodney Campbell,South,High,71,Bank 71,0.78,977.82,2024-01-15,Lake Lindseyland,0,0,1,0,1,1,2,Medium,0
+27,958,Marcus Little,North,Low,465,Bank 465,0.64,875.61,2024-02-18,East Ashley,0,0,1,0,1,1,2,Medium,0
+80,857,Jeffrey Anderson,West,Medium,578,Bank 578,0.53,862.82,2024-06-07,Jeffreyburgh,0,0,0,1,1,1,2,Medium,0
+192,608,Kristy Stephens,North,High,933,Bank 933,0.53,831.12,2023-12-30,North Kaitlynhaven,0,0,1,1,0,2,2,Medium,0
+889,505,Lori Olson,East,Medium,852,Bank 852,0.53,826.94,2024-03-20,North Gregoryport,0,0,0,1,1,1,2,Medium,0
+202,53,Brandon Maynard,East,Medium,410,Bank 410,0.95,823.07,2024-04-08,North Matthewchester,0,0,1,0,1,1,2,Medium,0
+610,381,Amanda Newman,East,Low,930,Bank 930,0.74,732.28,2023-12-13,North Johnland,0,0,1,0,1,1,2,Medium,0
+793,250,Ashley Gardner,West,High,198,Bank 198,0.86,684.09,2024-09-12,New Marioton,0,0,1,0,1,1,2,Medium,0
+201,429,Matthew Patel,South,Medium,294,Bank 294,0.54,682.06,2024-09-18,West Denise,0,0,0,1,1,1,2,Medium,0
+477,176,Julie Walker,West,High,332,Bank 332,0.73,663.62,2024-07-15,Port Matthewhaven,0,0,1,0,1,1,2,Medium,0
+125,952,Michael Velez,North,Low,605,Bank 605,0.74,663.35,2024-03-15,West Benjaminside,0,0,1,0,1,1,2,Medium,0
+951,316,Paul Harmon,East,High,46,Bank 46,0.97,604.57,2023-12-20,East Mariahbury,0,0,1,0,1,1,2,Medium,0
+366,178,Tamara Castro,North,High,408,Bank 408,0.73,602.48,2024-05-15,Triciaville,0,0,1,0,1,1,2,Medium,0
+555,491,Mr. Vincent Cook PhD,South,Low,947,Bank 947,0.66,594.82,2024-08-17,North Teresaton,0,0,1,0,1,1,2,Medium,0
+195,831,Samantha Thompson,North,Low,138,Bank 138,0.6,592.82,2024-01-22,North Thomas,0,0,1,0,1,1,2,Medium,0
+790,611,Sharon Crawford,East,Low,670,Bank 670,0.72,567.52,2023-11-25,Edwardchester,0,1,0,0,1,1,2,Medium,0
+980,130,Jesse Mckinney,East,High,783,Bank 783,0.88,564.79,2024-04-16,Monicaburgh,0,0,1,0,1,1,2,Medium,0
+856,587,Ashley Williams,West,Low,286,Bank 286,0.76,529.14,2024-03-30,Brianmouth,0,0,1,0,1,1,2,Medium,0
+107,939,Kevin Hudson,East,Low,622,Bank 622,0.92,520.42,2024-11-19,Morganville,0,0,1,0,1,1,2,Medium,0
+723,470,Tonya Parsons,South,High,425,Bank 425,0.87,479.04,2024-10-15,Melissaland,0,0,1,0,1,1,2,Medium,0
+732,605,Danielle Yang MD,North,High,688,Bank 688,0.81,440.31,2024-05-09,Tylerborough,0,0,1,0,1,1,2,Medium,0
+54,28,Steven Pineda,West,Low,707,Bank 707,0.81,375.34,2024-03-11,Crossside,0,0,1,0,1,1,2,Medium,0
+876,136,Raven Rogers,East,Medium,548,Bank 548,0.88,360.92,2023-12-12,Michelleshire,0,0,1,0,1,1,2,Medium,0
+685,624,Paul Mcdonald,West,Medium,267,Bank 267,0.8,328.74,2024-09-22,Pooleville,0,0,1,0,1,1,2,Medium,0
+912,151,Cory Collins,East,High,843,Bank 843,0.95,302.19,2024-09-15,Port Matthewbury,0,0,1,0,1,1,2,Medium,0
+58,853,Stephanie Coleman,South,Low,487,Bank 487,0.8,297.33,2024-03-19,North Brian,0,0,1,0,1,1,2,Medium,0
+998,640,Brittany Huber,South,High,422,Bank 422,0.61,280.01,2024-03-17,South Kimberlybury,0,0,1,0,1,1,2,Medium,0
+267,815,Andrew Strickland,South,Medium,615,Bank 615,0.52,231.34,2024-04-22,Lake Danielfort,0,0,1,1,0,2,2,Medium,0
+512,583,Victoria Lee,West,Medium,630,Bank 630,0.74,211.71,2024-10-09,East Josephtown,0,0,1,0,1,1,2,Medium,0
+746,67,Jessica Moyer,South,Medium,598,Bank 598,0.57,157.37,2024-06-28,East Alexandra,0,0,0,1,1,1,2,Medium,0
+354,667,John Williams,East,Low,415,Bank 415,0.96,154.93,2023-12-04,New Ashleymouth,0,0,1,0,1,1,2,Medium,0
+703,95,Amy Bates,East,Medium,381,Bank 381,0.66,151.38,2024-08-31,East Pamelaville,0,0,1,0,1,1,2,Medium,0
+557,514,Daisy Melton,North,High,108,Bank 108,0.5,136.69,2024-05-19,Amandaport,0,0,0,1,1,1,2,Medium,0
+619,301,Timothy Contreras,North,Medium,834,Bank 834,0.71,135.47,2024-11-20,South James,0,1,1,0,0,2,2,Medium,0
+952,831,Samantha Thompson,North,Low,862,Bank 862,0.77,89.41,2024-09-25,Careymouth,0,0,1,0,1,1,2,Medium,0
+711,675,Danielle Myers,East,Medium,615,Bank 615,0.52,58.63,2024-01-20,Susanton,0,0,1,1,0,2,2,Medium,0
+210,156,Steven Hunt,North,Medium,218,Bank 218,0.81,14.37,2024-05-30,South Gabriela,0,0,1,0,1,1,2,Medium,0

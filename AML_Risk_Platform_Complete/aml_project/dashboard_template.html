@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AML Risk Platform — Unified Monitoring</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script>__CHARTJS_LIB__</script>
+<style>
+  :root{
+    --bg:#0B0F14;
+    --panel:#121821;
+    --panel-alt:#1A222C;
+    --border:#26313D;
+    --text:#E7ECF2;
+    --text-dim:#8A96A3;
+    --accent:#2DD4BF;
+    --accent-dim:#134E48;
+    --critical:#E0483E;
+    --high:#E8873B;
+    --medium:#E0B93D;
+    --good:#34C77B;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:"IBM Plex Sans", -apple-system, sans-serif;
+    font-size:14px;
+    line-height:1.5;
+  }
+  .num, .mono{ font-family:"IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; }
+  h1,h2,h3{ font-family:"Space Grotesk", "IBM Plex Sans", sans-serif; font-weight:600; margin:0; }
+
+  .app{ display:flex; min-height:100vh; }
+
+  /* ---------- Sidebar ---------- */
+  .sidebar{
+    width:236px; flex:none;
+    background:var(--panel);
+    border-right:1px solid var(--border);
+    display:flex; flex-direction:column;
+    padding:22px 0;
+    position:sticky; top:0; height:100vh;
+  }
+  .brand{ padding:0 20px 22px 20px; border-bottom:1px solid var(--border); margin-bottom:14px;}
+  .brand .mark{ display:flex; align-items:center; gap:9px; }
+  .brand .dot{ width:9px; height:9px; background:var(--accent); border-radius:50%; box-shadow:0 0 8px var(--accent); }
+  .brand h1{ font-size:16.5px; letter-spacing:0.2px; }
+  .brand p{ margin:6px 0 0; color:var(--text-dim); font-size:11.5px; }
+
+  nav{ flex:1; }
+  .navitem{
+    display:flex; align-items:center; gap:10px;
+    padding:10px 20px; margin:1px 10px; border-radius:6px;
+    color:var(--text-dim); cursor:pointer; font-size:13.5px; font-weight:500;
+    border-left:2px solid transparent;
+    transition:background .12s ease, color .12s ease;
+  }
+  .navitem .n{ font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--text-dim); opacity:.7; width:16px;}
+  .navitem:hover{ background:var(--panel-alt); color:var(--text); }
+  .navitem.active{ background:var(--panel-alt); color:var(--text); border-left:2px solid var(--accent); }
+  .navitem.active .n{ color:var(--accent); opacity:1; }
+
+  .sidebar-foot{ padding:14px 20px 4px; border-top:1px solid var(--border); color:var(--text-dim); font-size:11px; }
+  .sidebar-foot .row{ display:flex; justify-content:space-between; margin-top:4px; }
+
+  /* ---------- Main ---------- */
+  main{ flex:1; min-width:0; padding:26px 34px 60px; }
+  .topbar{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:22px; flex-wrap:wrap; gap:8px;}
+  .topbar h2{ font-size:21px; }
+  .topbar .sub{ color:var(--text-dim); font-size:12.5px; }
+
+  .kpirow{ display:grid; grid-template-columns:repeat(auto-fit, minmax(160px,1fr)); gap:12px; margin-bottom:22px; }
+  .kpi{ background:var(--panel); border:1px solid var(--border); border-radius:4px; padding:14px 16px; }
+  .kpi .label{ color:var(--text-dim); font-size:11px; text-transform:none; letter-spacing:.2px; }
+  .kpi .value{ font-size:24px; font-weight:600; margin-top:6px; font-family:"IBM Plex Mono",monospace; }
+  .kpi .delta{ font-size:11px; margin-top:4px; color:var(--text-dim); }
+  .kpi.crit .value{ color:var(--critical); }
+  .kpi.warn .value{ color:var(--high); }
+  .kpi.good .value{ color:var(--good); }
+  .kpi.accent .value{ color:var(--accent); }
+
+  .grid2{ display:grid; grid-template-columns:1.3fr 1fr; gap:16px; }
+  .grid3{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+  @media (max-width: 980px){ .grid2, .grid3{ grid-template-columns:1fr; } }
+
+  .panel{ background:var(--panel); border:1px solid var(--border); border-radius:4px; padding:18px 18px 14px; margin-bottom:16px; }
+  .panel h3{ font-size:13.5px; font-weight:600; margin-bottom:2px; }
+  .panel .hint{ color:var(--text-dim); font-size:11.5px; margin-bottom:12px; }
+  .panel canvas{ max-height:280px; }
+
+  table{ width:100%; border-collapse:collapse; font-size:12.5px; }
+  th{ text-align:left; color:var(--text-dim); font-weight:500; font-size:11px; padding:7px 10px; border-bottom:1px solid var(--border); position:sticky; top:0; background:var(--panel); cursor:pointer; user-select:none; }
+  th:hover{ color:var(--text); }
+  td{ padding:7px 10px; border-bottom:1px solid var(--panel-alt); }
+  td.num{ text-align:right; }
+  tr:hover td{ background:var(--panel-alt); }
+  .tablewrap{ max-height:420px; overflow:auto; border:1px solid var(--border); border-radius:3px; }
+
+  .pill{ display:inline-block; padding:2px 9px; border-radius:99px; font-size:11px; font-weight:600; letter-spacing:.2px; }
+  .pill.Critical{ background:rgba(224,72,62,.15); color:var(--critical); }
+  .pill.High{ background:rgba(232,135,59,.15); color:var(--high); }
+  .pill.Medium{ background:rgba(224,185,61,.15); color:var(--medium); }
+  .pill.Low, .pill.High-risk-off{ background:rgba(52,199,123,.15); color:var(--good); }
+  .pill.Adequate{ background:rgba(52,199,123,.15); color:var(--good); }
+  .pill.Watch{ background:rgba(224,185,61,.15); color:var(--medium); }
+  .pill.BelowThreshold, .pill.Below-Threshold{ background:rgba(224,72,62,.15); color:var(--critical); }
+
+  .toolbar{ display:flex; gap:8px; margin-bottom:12px; flex-wrap:wrap; align-items:center; }
+  .toolbar input[type=text], .toolbar select{
+    background:var(--panel-alt); border:1px solid var(--border); color:var(--text);
+    padding:7px 10px; border-radius:4px; font-size:12.5px; font-family:inherit;
+  }
+  .toolbar input[type=text]{ min-width:200px; }
+  .toolbar .spacer{ flex:1; }
+  .toolbar .count{ color:var(--text-dim); font-size:11.5px; }
+
+  .quadwrap{ display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; gap:10px; aspect-ratio:1/1; max-width:340px; }
+  .quad{ border-radius:4px; padding:14px; display:flex; flex-direction:column; justify-content:space-between; border:1px solid var(--border); }
+  .quad .rname{ font-size:11px; color:rgba(255,255,255,.75); text-transform:uppercase; letter-spacing:.4px;}
+  .quad .rpct{ font-family:"IBM Plex Mono",monospace; font-size:26px; font-weight:600; color:#fff; }
+  .quad .rsub{ font-size:10.5px; color:rgba(255,255,255,.65); }
+
+  .alertbox{ display:flex; gap:10px; align-items:flex-start; padding:10px 12px; border-radius:4px; background:var(--panel-alt); border-left:3px solid var(--critical); margin-bottom:8px; font-size:12.5px; }
+  .alertbox .a-type{ font-weight:600; font-size:11.5px; letter-spacing:.2px; color:var(--critical); }
+  .alertbox p{ margin:2px 0 0; color:var(--text-dim); }
+
+  .legend-row{ display:flex; gap:14px; flex-wrap:wrap; margin-top:6px; font-size:11px; color:var(--text-dim); }
+  .legend-row span{ display:inline-flex; align-items:center; gap:5px; }
+  .legend-row i{ width:8px; height:8px; border-radius:2px; display:inline-block; }
+
+  .note{ font-size:11.5px; color:var(--text-dim); border-top:1px dashed var(--border); margin-top:12px; padding-top:10px; }
+
+  .section{ display:none; }
+  .section.active{ display:block; }
+
+  ::-webkit-scrollbar{ width:10px; height:10px; }
+  ::-webkit-scrollbar-thumb{ background:var(--border); border-radius:5px; }
+  ::-webkit-scrollbar-track{ background:transparent; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="mark"><span class="dot"></span><h1>AML RISK PLATFORM</h1></div>
+      <p>Integrated Transaction Risk &amp; Compliance</p>
+    </div>
+    <nav id="nav">
+      <div class="navitem active" data-section="overview"><span class="n">01</span>Overview</div>
+      <div class="navitem" data-section="monitoring"><span class="n">02</span>Risk Monitoring</div>
+      <div class="navitem" data-section="fraud"><span class="n">03</span>Fraud Detection</div>
+      <div class="navitem" data-section="customers"><span class="n">04</span>Customer Profiling</div>
+      <div class="navitem" data-section="compliance"><span class="n">05</span>Compliance &amp; Sanctions</div>
+      <div class="navitem" data-section="banks"><span class="n">06</span>Bank Comparison</div>
+    </nav>
+    <div class="sidebar-foot">
+      <div class="row"><span>Data completeness</span><span class="mono" id="foot-completeness">—</span></div>
+      <div class="row"><span>Generated</span><span class="mono" id="foot-generated">—</span></div>
+    </div>
+  </aside>
+
+  <main>
+
+    <!-- ============ OVERVIEW ============ -->
+    <section class="section active" id="sec-overview">
+      <div class="topbar">
+        <h2>Platform Overview</h2>
+        <span class="sub">Unified KPIs across all six modules — refreshed each pipeline run</span>
+      </div>
+
+      <div class="kpirow" id="ov-kpis"></div>
+
+      <div class="grid2">
+        <div class="panel">
+          <h3>Active Alerts</h3>
+          <p class="hint">Threshold breaches raised by the Step 7 alerting rules</p>
+          <div id="ov-alerts"></div>
+        </div>
+        <div class="panel">
+          <h3>Module Status</h3>
+          <p class="hint">Pipeline coverage by step</p>
+          <table>
+            <tbody id="ov-modules"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Transactions by Region &amp; Risk Share</h3>
+        <p class="hint">Volume vs. the share flagged high-risk at source, by customer region</p>
+        <canvas id="chart-overview-region" height="90"></canvas>
+      </div>
+    </section>
+
+    <!-- ============ RISK MONITORING (Step 2) ============ -->
+    <section class="section" id="sec-monitoring">
+      <div class="topbar">
+        <h2>Real-Time Transaction Risk Monitoring</h2>
+        <span class="sub">Regional risk heatmap — replaces the geo map (no lat/long in source data; regions used as proxy)</span>
+      </div>
+
+      <div class="grid2">
+        <div class="panel">
+          <h3>Regional Risk Heatmap</h3>
+          <p class="hint">Tile intensity = share of transactions flagged high-risk in that region</p>
+          <div id="quad" class="quadwrap"></div>
+          <div class="legend-row">
+            <span><i style="background:var(--good)"></i>Lower risk share</span>
+            <span><i style="background:var(--medium)"></i>Elevated</span>
+            <span><i style="background:var(--critical)"></i>Highest risk share</span>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>Avg. Transaction Amount by Region</h3>
+          <p class="hint">USD, high-risk transactions vs. all transactions</p>
+          <canvas id="chart-region-amount" height="220"></canvas>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Region Detail</h3>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>Region</th><th class="num">Txn Count</th><th class="num">Avg Amount</th><th class="num">High-Risk Count</th><th class="num">High-Risk %</th></tr></thead>
+            <tbody id="mon-table"></tbody>
+          </table>
+        </div>
+        <p class="note">KPIs tracked here: High-Risk Regions Count, Average Transaction Amount by Region, Alert Timeliness (requires an incident-response timestamp not present in source data — captured going forward via the alerts log in reports/alerts_log.csv).</p>
+      </div>
+    </section>
+
+    <!-- ============ FRAUD DETECTION (Step 3) ============ -->
+    <section class="section" id="sec-fraud">
+      <div class="topbar">
+        <h2>Rule-Based Fraud Detection</h2>
+        <span class="sub">fraud_score = behavioural score (0-4) + sanctions flag (0-1)</span>
+      </div>
+
+      <div class="kpirow" id="fraud-kpis"></div>
+
+      <div class="grid2">
+        <div class="panel">
+          <h3>Flagged by Severity</h3>
+          <canvas id="chart-severity"></canvas>
+        </div>
+        <div class="panel">
+          <h3>Flagged by Fraud Score</h3>
+          <canvas id="chart-fraudscore"></canvas>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Flagged Transactions</h3>
+        <p class="hint">All transactions with fraud_score ≥ 2. Sort any column; filter by severity or region.</p>
+        <div class="toolbar">
+          <input type="text" id="fraud-search" placeholder="Search customer or bank…">
+          <select id="fraud-severity"><option value="">All severities</option><option>Critical</option><option>High</option><option>Medium</option></select>
+          <select id="fraud-region"></select>
+          <span class="spacer"></span>
+          <span class="count" id="fraud-count"></span>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr>
+              <th data-k="transaction_id">Txn ID</th><th data-k="customer_name">Customer</th><th data-k="bank_name">Bank</th>
+              <th data-k="customer_region">Region</th><th data-k="amount" class="num">Amount</th>
+              <th data-k="txn_date">Date</th><th data-k="fraud_score" class="num">Score</th><th data-k="severity">Severity</th>
+            </tr></thead>
+            <tbody id="fraud-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CUSTOMER PROFILING (Step 4) ============ -->
+    <section class="section" id="sec-customers">
+      <div class="topbar">
+        <h2>Customer Risk Profiling &amp; Segmentation</h2>
+        <span class="sub">Composite score blends transaction behaviour with stated risk_level</span>
+      </div>
+
+      <div class="kpirow" id="cust-kpis"></div>
+
+      <div class="grid2">
+        <div class="panel">
+          <h3>Stated vs. Computed Segment</h3>
+          <p class="hint">Where the behavioural score agrees — or disagrees — with the customer's on-file risk_level</p>
+          <canvas id="chart-segment"></canvas>
+        </div>
+        <div class="panel">
+          <h3>Frequency vs. Avg. Amount</h3>
+          <p class="hint">Each point is one customer with ≥1 transaction, colored by computed segment</p>
+          <canvas id="chart-scatter"></canvas>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Customers</h3>
+        <div class="toolbar">
+          <input type="text" id="cust-search" placeholder="Search customer…">
+          <select id="cust-segment"><option value="">All segments</option><option>High</option><option>Medium</option><option>Low</option></select>
+          <select id="cust-region"></select>
+          <span class="spacer"></span>
+          <span class="count" id="cust-count"></span>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr>
+              <th data-k="customer_id">ID</th><th data-k="name">Name</th><th data-k="region">Region</th>
+              <th data-k="stated_risk_level">Stated</th><th data-k="computed_segment">Computed</th>
+              <th data-k="composite_risk_score" class="num">Score</th><th data-k="txn_frequency" class="num">Txns</th>
+              <th data-k="avg_txn_amount" class="num">Avg Amount</th>
+            </tr></thead>
+            <tbody id="cust-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPLIANCE & SANCTIONS (Step 5) ============ -->
+    <section class="section" id="sec-compliance">
+      <div class="topbar">
+        <h2>Compliance &amp; Sanctions Monitoring</h2>
+        <span class="sub">Bank-level compliance scores and sanctions history</span>
+      </div>
+
+      <div class="kpirow" id="comp-kpis"></div>
+
+      <div class="grid2">
+        <div class="panel">
+          <h3>Avg. Compliance Score by Region</h3>
+          <canvas id="chart-comp-region"></canvas>
+        </div>
+        <div class="panel">
+          <h3>Sanction Reasons</h3>
+          <p class="hint">Across all sanctioned bank accounts</p>
+          <canvas id="chart-sanction-reason"></canvas>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Banks Below Compliance Threshold (&lt; 0.60)</h3>
+        <div class="toolbar">
+          <input type="text" id="comp-search" placeholder="Search bank…">
+          <span class="spacer"></span>
+          <span class="count" id="comp-count"></span>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr>
+              <th data-k="bank_id">ID</th><th data-k="name">Bank</th><th data-k="region">Region</th>
+              <th data-k="compliance_score" class="num">Score</th><th data-k="sanctioned_account_count" class="num">Sanctions</th>
+              <th data-k="compliance_status">Status</th>
+            </tr></thead>
+            <tbody id="comp-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BANK COMPARISON (Step 6) ============ -->
+    <section class="section" id="sec-banks">
+      <div class="topbar">
+        <h2>Bank Risk Comparison</h2>
+        <span class="sub">bank_risk_score blends inverse compliance, sanctions count, and high-risk transaction share</span>
+      </div>
+
+      <div class="kpirow" id="bank-kpis"></div>
+
+      <div class="grid2">
+        <div class="panel">
+          <h3>Top 10 Riskiest Banks</h3>
+          <canvas id="chart-top-banks"></canvas>
+        </div>
+        <div class="panel">
+          <h3>Compliance Score vs. Bank Risk Score</h3>
+          <p class="hint">Bubble size = sanctioned account count</p>
+          <canvas id="chart-bubble"></canvas>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>All Banks</h3>
+        <div class="toolbar">
+          <input type="text" id="bank-search" placeholder="Search bank…">
+          <select id="bank-region"></select>
+          <span class="spacer"></span>
+          <span class="count" id="bank-count"></span>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr>
+              <th data-k="risk_rank" class="num">Rank</th><th data-k="bank_id">ID</th><th data-k="name">Bank</th><th data-k="region">Region</th>
+              <th data-k="compliance_score" class="num">Compliance</th><th data-k="txn_frequency" class="num">Txns</th>
+              <th data-k="sanctioned_account_count" class="num">Sanctions</th><th data-k="high_risk_txn_pct" class="num">High-Risk %</th>
+              <th data-k="bank_risk_score" class="num">Risk Score</th>
+            </tr></thead>
+            <tbody id="bank-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script id="dashboard-data" type="application/json">__DASHBOARD_DATA__</script>
+<script>
+__DASHBOARD_JS__
+</script>
+</body>
+</html>
